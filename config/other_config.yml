@@ -1,0 +1,21 @@
+# Додаткові налаштування
+
+# Налаштування для парсингу Books to Scrape
+sites:
+  books_to_scrape:
+    base_url: "http://books.toscrape.com"
+    catalogue_url: "http://books.toscrape.com/catalogue"
+    pages:
+      - "/"
+      - "/catalogue/page-{page}.html"
+    
+    # CSS-селектори для парсингу
+    selectors:
+      book_container: "article.product_pod"
+      title: "h3 a"
+      price: ".price_color"
+      rating: ".star-rating"
+      availability: ".availability"
+      next_page: ".pager .next a"
+      categories: ".side_categories ul li a"
+

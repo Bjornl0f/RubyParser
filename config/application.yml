@@ -1,0 +1,18 @@
+# Основний файл налаштувань програми
+
+# Налаштування парсингу
+parser:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  timeout: 30
+  retry_count: 3
+
+# Налаштування виводу
+output:
+  format: "json"  # json або csv
+  directory: "output"
+
+# Налаштування логування
+logging:
+  level: "info"
+  file: "logs/application.log"
+

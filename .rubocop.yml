@@ -1,0 +1,27 @@
+# Конфігурація RuboCop для проекту
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+  Exclude:
+    - "vendor/**/*"
+    - "output/**/*"
+
+# Налаштування стилю
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+# Налаштування метрик
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/BlockLength:
+  Exclude:
+    - "lib/tasks/*.rake"
+
+Layout/LineLength:
+  Max: 120
+
