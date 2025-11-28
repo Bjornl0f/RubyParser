@@ -1,0 +1,11 @@
+---
+book:
+  title: Far From the Madding Crowd
+  price: 17.15
+  rating: 2
+  availability: In stock
+  category: Childrens
+  url: http://books.toscrape.com/catalogue/far_from_the_madding_crowd/index.html
+  image_path: products/childrens/far_from_the_madding_crowd.jpg
+  description: Laboriosam et voluptas. Qui ut voluptatibus. Unde dolore voluptas.
+  exported_at: '2025-11-28T09:42:04+02:00'

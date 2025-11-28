@@ -13,6 +13,7 @@ require_relative "logger_manager"
 require_relative "item"
 require_relative "item_collection"
 require_relative "configurator"
+require_relative "simple_website_parser"
 
 puts "=" * 60
 puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
@@ -272,6 +273,49 @@ configurator.configure(unknown_key: 1)
 puts "\n23. Скидання конфігурації:"
 configurator.reset!
 puts "  run_website_parser після скидання: #{configurator.get(:run_website_parser)}"
+
+# Крок 24: Тестування класу SimpleWebsiteParser
+puts "\n--- Тестування класу SimpleWebsiteParser ---"
+
+# Створення парсера з конфігурацією
+parser_config = config_loader.config_data
+parser = MyApplicationKostyk::SimpleWebsiteParser.new(parser_config)
+
+puts "\n24. Ініціалізація парсера:"
+puts "  Стартова сторінка: #{parser_config['web_scraping']['start_page']}"
+puts "  Затримка між запитами: #{parser_config['web_scraping']['request_delay']}с"
+
+# Тестовий парсинг (лише 1 сторінка для демонстрації)
+puts "\n25. Тестовий парсинг (1 сторінка, без потоків для стабільності):"
+puts "  Запуск парсингу..."
+
+begin
+  parser.start_parse(max_pages: 1, use_threads: false)
+  
+  puts "\n26. Результати парсингу:"
+  stats = parser.stats
+  puts "  Зібрано книг: #{stats[:total_books]}"
+  puts "  Загальна вартість: £#{stats[:total_price]}"
+  puts "  Середня ціна: £#{stats[:average_price]}"
+  puts "  Категорії: #{stats[:categories].keys.first(5).join(', ')}..."
+  
+  # Виведення перших 3 книг
+  puts "\n27. Перші 3 спарсені книги:"
+  parser.item_collection.first(3).each_with_index do |book, i|
+    puts "  #{i + 1}. #{book.title}"
+    puts "     Ціна: £#{book.price}, Рейтинг: #{book.rating}/5"
+    puts "     Категорія: #{book.category}"
+  end
+  
+  # Збереження результатів
+  puts "\n28. Збереження результатів парсингу:"
+  parser.item_collection.save_to_json("output/parsed_books.json")
+  puts "  ✓ Збережено у JSON: output/parsed_books.json"
+  
+rescue StandardError => e
+  puts "  Помилка парсингу: #{e.message}"
+  MyApplicationKostyk::LoggerManager.log_error("Помилка тестового парсингу", e)
+end
 
 puts "\n" + "=" * 60
 puts "Ініціалізація завершена успішно!"

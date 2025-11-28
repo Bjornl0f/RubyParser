@@ -1,11 +1,11 @@
 ---
 book:
   title: The Wind's Twelve Quarters
-  price: 47.91
-  rating: 4
-  availability: In stock
-  category: Young Adult
+  price: 15.06
+  rating: 2
+  availability: Out of stock
+  category: Philosophy
   url: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
-  image_path: products/young_adult/the_wind_s_twelve_quarters.jpg
-  description: Vel nemo culpa. Ut libero ea. Et tempora impedit.
-  exported_at: '2025-11-28T09:32:23+02:00'
+  image_path: products/philosophy/the_wind_s_twelve_quarters.jpg
+  description: Laudantium dolorem autem. Quasi dolore inventore. Eos culpa aut.
+  exported_at: '2025-11-28T09:47:39+02:00'

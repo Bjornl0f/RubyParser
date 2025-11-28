@@ -1,78 +1,78 @@
 ============================================================
 КОЛЕКЦІЯ КНИГ - Books to Scrape
-Дата: 2025-11-28 09:32:23
+Дата: 2025-11-28 09:47:39
 Кількість книг: 10
-Загальна вартість: £320.98
-Середня ціна: £32.1
+Загальна вартість: £354.15
+Середня ціна: £35.42
 ============================================================
 
-1. Waiting for the Barbarians
-   Ціна: £22.54
+1. Everything is Illuminated
+   Ціна: £55.86
    Рейтинг: 3/5
-   Категорія: Poetry
-   Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/waiting_for_the_barbarians/index.html
-
-2. A Time of Gifts
-   Ціна: £28.49
-   Рейтинг: 3/5
-   Категорія: Religion
+   Категорія: Nonfiction
    Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/a_time_of_gifts/index.html
+   URL: http://books.toscrape.com/catalogue/everything_is_illuminated/index.html
 
-3. Blood's a Rover
-   Ціна: £46.45
-   Рейтинг: 1/5
-   Категорія: Poetry
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/blood_s_a_rover/index.html
-
-4. The Wind's Twelve Quarters
-   Ціна: £47.91
+2. The Cricket on the Hearth
+   Ціна: £34.39
    Рейтинг: 4/5
-   Категорія: Young Adult
+   Категорія: Fiction
    Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_cricket_on_the_hearth/index.html
+
+3. The Wind's Twelve Quarters
+   Ціна: £15.06
+   Рейтинг: 2/5
+   Категорія: Philosophy
+   Наявність: Out of stock
    URL: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
 
-5. The Last Enemy
-   Ціна: £11.74
-   Рейтинг: 4/5
-   Категорія: Music
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_last_enemy/index.html
-
-6. No Country for Old Men
-   Ціна: £42.23
-   Рейтинг: 2/5
-   Категорія: Young Adult
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/no_country_for_old_men/index.html
-
-7. Antic Hay
-   Ціна: £16.45
+4. The Violent Bear It Away
+   Ціна: £48.89
    Рейтинг: 5/5
-   Категорія: Crime
+   Категорія: Travel
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/antic_hay/index.html
+   URL: http://books.toscrape.com/catalogue/the_violent_bear_it_away/index.html
 
-8. The Wealth of Nations
-   Ціна: £18.24
+5. The Golden Apples of the Sun
+   Ціна: £10.74
+   Рейтинг: 5/5
+   Категорія: Nonfiction
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/the_golden_apples_of_the_sun/index.html
+
+6. If Not Now, When?
+   Ціна: £28.52
    Рейтинг: 1/5
-   Категорія: Horror
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_wealth_of_nations/index.html
+   Категорія: Music
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/if_not_now_when/index.html
 
-9. A Time of Gifts
-   Ціна: £46.28
-   Рейтинг: 4/5
-   Категорія: History
+7. Many Waters
+   Ціна: £44.56
+   Рейтинг: 1/5
+   Категорія: Childrens
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/many_waters/index.html
+
+8. That Good Night
+   Ціна: £22.52
+   Рейтинг: 5/5
+   Категорія: Philosophy
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/a_time_of_gifts/index.html
+   URL: http://books.toscrape.com/catalogue/that_good_night/index.html
 
-10. The House of Mirth
-   Ціна: £40.65
-   Рейтинг: 2/5
-   Категорія: Sequential Art
+9. In a Dry Season
+   Ціна: £58.76
+   Рейтинг: 3/5
+   Категорія: Childrens
    Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_house_of_mirth/index.html
+   URL: http://books.toscrape.com/catalogue/in_a_dry_season/index.html
+
+10. The Millstone
+   Ціна: £34.85
+   Рейтинг: 2/5
+   Категорія: Classics
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_millstone/index.html
 

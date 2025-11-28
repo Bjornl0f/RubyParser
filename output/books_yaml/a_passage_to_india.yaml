@@ -1,0 +1,11 @@
+---
+book:
+  title: A Passage to India
+  price: 25.99
+  rating: 3
+  availability: Low stock
+  category: Sequential Art
+  url: http://books.toscrape.com/catalogue/a_passage_to_india/index.html
+  image_path: products/sequential_art/a_passage_to_india.jpg
+  description: Laborum sed fuga. Neque eos iste. Impedit molestiae est.
+  exported_at: '2025-11-28T09:42:04+02:00'

@@ -87,6 +87,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  concurrent-ruby (~> 1.2)
   faker (~> 3.2)
   httparty (~> 0.21)
   mechanize (~> 2.9)

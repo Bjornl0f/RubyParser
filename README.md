@@ -23,6 +23,7 @@ RubyParser/
 │   ├── app_config_loader.rb     # Клас для завантаження конфігурацій
 │   ├── logger_manager.rb        # Клас для управління логуванням
 │   ├── configurator.rb          # Клас Configurator для налаштувань
+│   ├── simple_website_parser.rb # Клас для парсингу сайту
 │   ├── item.rb                  # Клас Item для представлення книги
 │   ├── item_collection.rb       # Клас ItemCollection для колекції книг
 │   ├── item_container.rb        # Модуль ItemContainer
@@ -30,6 +31,11 @@ RubyParser/
 │   └── tasks/                   # Папка для Rake-задач
 │       ├── task1.rake           # Задача для парсингу
 │       └── task2.rake           # Задача для експорту даних
+│
+├── media_dir/                   # Папка для збережених зображень
+│   ├── poetry/                  # Зображення книг категорії Poetry
+│   ├── fiction/                 # Зображення книг категорії Fiction
+│   └── .../                     # Інші категорії
 │
 ├── config/                      # Папка для налаштувань
 │   ├── default_config.yaml      # Основний конфігураційний файл
@@ -93,10 +99,13 @@ RubyParser/
 - [x] Модуль Enumerable (map, select, find, reduce, тощо)
 - [x] Методи статистики (total_price, average_price, average_rating)
 - [x] Клас Configurator для налаштування параметрів
+- [x] Клас SimpleWebsiteParser для парсингу сайту
 
-### Етап 4: Розробка парсера (ПЛАНУЄТЬСЯ)
-- [ ] Реалізація логіки парсингу
-- [ ] Обробка пагінації
+### Етап 4: Розробка парсера (ВИКОНАНО)
+- [x] Реалізація логіки парсингу (SimpleWebsiteParser)
+- [x] Обробка пагінації
+- [x] Збереження зображень в media_dir
+- [x] Багатопоточність (concurrent-ruby)
 
 ### Етап 5: Збереження даних (ПЛАНУЄТЬСЯ)
 - [ ] Експорт у CSV формат
@@ -257,6 +266,31 @@ collection.save_to_json("output/books.json")
 - `add_item`, `remove_item`, `delete_items`
 - `method_missing` для `show_all_items`
 
+### SimpleWebsiteParser
+Клас для парсингу сайту [Books to Scrape](http://books.toscrape.com/).
+
+**Атрибути:**
+- `config` - конфігурація з YAML
+- `agent` - Mechanize агент
+- `item_collection` - колекція зібраних книг
+
+**Методи:**
+- `start_parse(max_pages:, use_threads:)` - запуск парсингу
+- `extract_products_links(page)` - витяг посилань на книги
+- `parse_product_page(url)` - парсинг сторінки книги
+- `save_product_image(url, title, category)` - збереження зображення
+- `check_url_response(url)` - перевірка доступності URL
+- `stats` - статистика парсингу
+
+**Приклад:**
+```ruby
+parser = MyApplicationKostyk::SimpleWebsiteParser.new(config)
+parser.start_parse(max_pages: 2, use_threads: true)
+
+puts parser.stats[:total_books]
+parser.item_collection.save_to_json("output/books.json")
+```
+
 ### Configurator
 Клас для управління конфігураційними параметрами парсингу.
 
@@ -293,12 +327,13 @@ end
 
 Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-**Поточна версія: 0.8.0**
+**Поточна версія: 0.9.0**
 
 Останні зміни:
-- Клас `Configurator` для управління конфігураційними параметрами
-- Методи: `configure`, `enabled?`, `get`, `set`, `reset!`
-- Класовий метод `available_methods` для списку ключів
+- Клас `SimpleWebsiteParser` для парсингу сайту Books to Scrape
+- Багатопоточність з concurrent-ruby
+- Збереження зображень в media_dir по категоріях
+- Повне логування всіх операцій парсингу
 
 ## Автор
 

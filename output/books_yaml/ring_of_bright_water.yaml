@@ -1,0 +1,11 @@
+---
+book:
+  title: Ring of Bright Water
+  price: 23.43
+  rating: 3
+  availability: Low stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/ring_of_bright_water/index.html
+  image_path: products/philosophy/ring_of_bright_water.jpg
+  description: Quisquam ut totam. Blanditiis deserunt dolores. Quia aut quidem.
+  exported_at: '2025-11-28T09:42:04+02:00'

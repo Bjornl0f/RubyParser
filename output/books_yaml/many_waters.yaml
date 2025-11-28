@@ -1,0 +1,11 @@
+---
+book:
+  title: Many Waters
+  price: 44.56
+  rating: 1
+  availability: In stock
+  category: Childrens
+  url: http://books.toscrape.com/catalogue/many_waters/index.html
+  image_path: products/childrens/many_waters.jpg
+  description: Nihil exercitationem dolores. Aut est et. Eum quam repellat.
+  exported_at: '2025-11-28T09:47:39+02:00'

@@ -4,6 +4,20 @@
 
 Формат базується на [Keep a Changelog](https://keepachangelog.com/uk/1.0.0/).
 
+## [0.9.0] - 2025-11-28
+
+### Додано
+- Клас `SimpleWebsiteParser` для парсингу сайту Books to Scrape
+- Атрибути: `config`, `agent`, `item_collection`
+- Метод `start_parse(max_pages:, use_threads:)` для запуску парсингу
+- Методи витягу даних: `extract_product_name`, `extract_product_price`, `extract_product_rating`, `extract_product_description`, `extract_product_image`, `extract_product_category`
+- Метод `save_product_image` для збереження зображень в `media_dir` по категоріях
+- Багатопоточність з бібліотекою `concurrent-ruby`
+- Метод `check_url_response` для перевірки доступності URL
+- Обробка пагінації через `find_next_page`
+- Метод `stats` для статистики парсингу
+- Бібліотека `concurrent-ruby` до Gemfile
+
 ## [0.8.0] - 2025-11-28
 
 ### Додано

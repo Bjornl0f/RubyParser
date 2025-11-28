@@ -1,0 +1,11 @@
+---
+book:
+  title: As I Lay Dying
+  price: 35.45
+  rating: 4
+  availability: In stock
+  category: Travel
+  url: http://books.toscrape.com/catalogue/as_i_lay_dying/index.html
+  image_path: products/travel/as_i_lay_dying.jpg
+  description: Et vitae suscipit. Sed soluta optio. Non expedita atque.
+  exported_at: '2025-11-28T09:42:04+02:00'

@@ -1,11 +1,12 @@
 ---
 book:
   title: That Good Night
-  price: 30.36
-  rating: 2
-  availability: In stock
-  category: Crime
+  price: 22.52
+  rating: 5
+  availability: Out of stock
+  category: Philosophy
   url: http://books.toscrape.com/catalogue/that_good_night/index.html
-  image_path: products/crime/that_good_night.jpg
-  description: Alias fuga sint. Molestias odio repellendus. Qui quo minima.
-  exported_at: '2025-11-28T09:20:50+02:00'
+  image_path: products/philosophy/that_good_night.jpg
+  description: Tenetur voluptatem consequuntur. Amet doloribus dolor. Labore molestiae
+    illo.
+  exported_at: '2025-11-28T09:47:39+02:00'

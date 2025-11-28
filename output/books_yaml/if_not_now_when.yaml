@@ -1,0 +1,12 @@
+---
+book:
+  title: If Not Now, When?
+  price: 28.52
+  rating: 1
+  availability: Low stock
+  category: Music
+  url: http://books.toscrape.com/catalogue/if_not_now_when/index.html
+  image_path: products/music/if_not_now_when.jpg
+  description: Praesentium aut voluptatem. Laborum doloremque consequuntur. Corrupti
+    aliquam sed.
+  exported_at: '2025-11-28T09:47:39+02:00'
