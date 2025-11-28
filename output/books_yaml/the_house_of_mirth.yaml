@@ -1,12 +1,11 @@
 ---
 book:
   title: The House of Mirth
-  price: 32.97
+  price: 11.58
   rating: 5
-  availability: Out of stock
-  category: Religion
+  availability: In stock
+  category: Crime
   url: http://books.toscrape.com/catalogue/the_house_of_mirth/index.html
-  image_path: products/religion/the_house_of_mirth.jpg
-  description: Autem dolores voluptas. Consequatur consectetur vitae. Tempora consequuntur
-    qui.
-  exported_at: '2025-11-28T09:42:04+02:00'
+  image_path: products/crime/the_house_of_mirth.jpg
+  description: Libero numquam nobis. Doloremque sint natus. Quod sit aut.
+  exported_at: '2025-11-28T11:02:41+02:00'

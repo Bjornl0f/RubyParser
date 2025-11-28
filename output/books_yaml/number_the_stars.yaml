@@ -1,0 +1,11 @@
+---
+book:
+  title: Number the Stars
+  price: 19.88
+  rating: 4
+  availability: In stock
+  category: Science Fiction
+  url: http://books.toscrape.com/catalogue/number_the_stars/index.html
+  image_path: products/science_fiction/number_the_stars.jpg
+  description: Quibusdam temporibus et. Repellat autem voluptatem. Et aliquid ad.
+  exported_at: '2025-11-28T11:02:41+02:00'

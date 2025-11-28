@@ -1,78 +1,78 @@
 ============================================================
 КОЛЕКЦІЯ КНИГ - Books to Scrape
-Дата: 2025-11-28 10:47:37
+Дата: 2025-11-28 11:02:41
 Кількість книг: 10
-Загальна вартість: £293.08
-Середня ціна: £29.31
+Загальна вартість: £374.11
+Середня ціна: £37.41
 ============================================================
 
-1. The Moon by Night
-   Ціна: £20.64
-   Рейтинг: 1/5
-   Категорія: Science Fiction
+1. No Highway
+   Ціна: £41.29
+   Рейтинг: 3/5
+   Категорія: Fantasy
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/the_moon_by_night/index.html
+   URL: http://books.toscrape.com/catalogue/no_highway/index.html
 
-2. I Know Why the Caged Bird Sings
-   Ціна: £10.52
-   Рейтинг: 2/5
-   Категорія: Travel
+2. The Waste Land
+   Ціна: £27.16
+   Рейтинг: 1/5
+   Категорія: Young Adult
    Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/i_know_why_the_caged_bird_sings/index.html
+   URL: http://books.toscrape.com/catalogue/the_waste_land/index.html
 
-3. Surprised by Joy
-   Ціна: £44.81
-   Рейтинг: 1/5
-   Категорія: Science Fiction
-   Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/surprised_by_joy/index.html
-
-4. The Golden Bowl
-   Ціна: £29.15
-   Рейтинг: 5/5
-   Категорія: Romance
-   Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/the_golden_bowl/index.html
-
-5. If I Forget Thee Jerusalem
-   Ціна: £26.35
+3. Ah, Wilderness!
+   Ціна: £32.13
    Рейтинг: 4/5
-   Категорія: Poetry
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/if_i_forget_thee_jerusalem/index.html
-
-6. His Dark Materials
-   Ціна: £26.35
-   Рейтинг: 1/5
-   Категорія: Philosophy
+   Категорія: Biography
    Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/his_dark_materials/index.html
+   URL: http://books.toscrape.com/catalogue/ah_wilderness/index.html
 
-7. In Dubious Battle
-   Ціна: £50.92
+4. The Far-Distant Oxus
+   Ціна: £58.5
    Рейтинг: 5/5
-   Категорія: History
+   Категорія: Nonfiction
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/in_dubious_battle/index.html
+   URL: http://books.toscrape.com/catalogue/the_far_distant_oxus/index.html
 
-8. Mother Night
-   Ціна: £14.3
+5. Look Homeward, Angel
+   Ціна: £57.05
+   Рейтинг: 5/5
+   Категорія: Thriller
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/look_homeward_angel/index.html
+
+6. The House of Mirth
+   Ціна: £11.58
+   Рейтинг: 5/5
+   Категорія: Crime
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_house_of_mirth/index.html
+
+7. Blue Remembered Earth
+   Ціна: £39.51
+   Рейтинг: 3/5
+   Категорія: Science
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/blue_remembered_earth/index.html
+
+8. Many Waters
+   Ціна: £33.22
    Рейтинг: 4/5
    Категорія: Childrens
    Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/mother_night/index.html
+   URL: http://books.toscrape.com/catalogue/many_waters/index.html
 
-9. The Needle's Eye
-   Ціна: £43.31
-   Рейтинг: 2/5
-   Категорія: Science
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_needle_s_eye/index.html
+9. Cabbages and Kings
+   Ціна: £53.79
+   Рейтинг: 5/5
+   Категорія: Mystery
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/cabbages_and_kings/index.html
 
-10. I Will Fear No Evil
-   Ціна: £26.73
+10. Number the Stars
+   Ціна: £19.88
    Рейтинг: 4/5
-   Категорія: Biography
-   Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/i_will_fear_no_evil/index.html
+   Категорія: Science Fiction
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/number_the_stars/index.html
 

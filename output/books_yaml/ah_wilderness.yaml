@@ -1,11 +1,11 @@
 ---
 book:
   title: Ah, Wilderness!
-  price: 25.06
-  rating: 2
-  availability: In stock
-  category: Fantasy
+  price: 32.13
+  rating: 4
+  availability: Low stock
+  category: Biography
   url: http://books.toscrape.com/catalogue/ah_wilderness/index.html
-  image_path: products/fantasy/ah_wilderness.jpg
-  description: Est et sunt. Facere saepe et. Molestias nam laudantium.
-  exported_at: '2025-11-28T09:20:50+02:00'
+  image_path: products/biography/ah_wilderness.jpg
+  description: Molestiae placeat nemo. Placeat velit et. Ipsam error neque.
+  exported_at: '2025-11-28T11:02:41+02:00'

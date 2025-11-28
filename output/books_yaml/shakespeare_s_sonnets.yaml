@@ -1,0 +1,21 @@
+---
+book:
+  title: Shakespeare's Sonnets
+  price: 20.66
+  rating: 4
+  availability: In stock (19 available)
+  category: Poetry
+  url: http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+  image_path: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+  description: This book is an important and complete collection of the Sonnets of
+    William Shakespeare. Most readers are aware of the great plays and manuscripts
+    written for the stage, but are unaware of the magnificent Sonnets which were written
+    around the same period. This is an excellent, complete collection of the Sonnets
+    and poetry of William Shakespeare and should not be missed by This book is an
+    important and complete collection of the Sonnets of William Shakespeare. Most
+    readers are aware of the great plays and manuscripts written for the stage, but
+    are unaware of the magnificent Sonnets which were written around the same period.
+    This is an excellent, complete collection of the Sonnets and poetry of William
+    Shakespeare and should not be missed by those interested in the completion of
+    a collection of his writings and those interested in early poetic works. ...more
+  exported_at: '2025-11-28T11:02:58+02:00'

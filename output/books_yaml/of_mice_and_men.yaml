@@ -1,11 +1,11 @@
 ---
 book:
   title: Of Mice and Men
-  price: 52.6
-  rating: 2
-  availability: Low stock
-  category: Romance
+  price: 44.36
+  rating: 4
+  availability: In stock
+  category: Young Adult
   url: http://books.toscrape.com/catalogue/of_mice_and_men/index.html
-  image_path: products/romance/of_mice_and_men.jpg
-  description: Sunt quaerat mollitia. Fugit id autem. Esse alias tenetur.
-  exported_at: '2025-11-28T09:29:55+02:00'
+  image_path: products/young_adult/of_mice_and_men.jpg
+  description: Facilis qui veritatis. Eum qui blanditiis. Vel dolorem a.
+  exported_at: '2025-11-28T11:01:31+02:00'

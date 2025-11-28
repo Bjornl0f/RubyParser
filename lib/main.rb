@@ -397,6 +397,33 @@ rescue StandardError => e
   puts "  (Це нормально, якщо MongoDB сервер не запущений)"
 end
 
+# Крок 35: Тестування класу Engine
+puts "\n--- Тестування класу Engine ---"
+require_relative "engine"
+
+puts "\n35. Ініціалізація Engine:"
+engine = MyApplicationKostyk::Engine.new
+puts "  ✓ Engine створено"
+
+puts "\n36. Запуск Engine з параметрами:"
+puts "  Параметри: парсинг 1 сторінки, збереження в CSV, JSON, SQLite"
+
+begin
+  engine.run(
+    run_website_parser: 1,
+    run_save_to_csv: 1,
+    run_save_to_json: 1,
+    run_save_to_yaml: 1,
+    run_save_to_sqlite: 1,
+    run_save_to_mongodb: 0, # Вимкнено, бо MongoDB може бути недоступний
+    parser_max_pages: 1,
+    use_threads: 1
+  )
+rescue StandardError => e
+  puts "  ❌ Помилка Engine: #{e.message}"
+  MyApplicationKostyk::LoggerManager.log_error("Помилка тестування Engine", e)
+end
+
 puts "\n" + "=" * 60
 puts "Ініціалізація завершена успішно!"
 puts "Перевірте файли логів у директорії: #{MyApplicationKostyk.logs_path}"

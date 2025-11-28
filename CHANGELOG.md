@@ -4,6 +4,22 @@
 
 Формат базується на [Keep a Changelog](https://keepachangelog.com/uk/1.0.0/).
 
+## [0.11.0] - 2025-11-28
+
+### Додано
+- Клас `Engine` для централізованого управління виконанням програми
+- Атрибути: `config`, `config_loader`, `configurator`, `parser`, `db_connector`, `item_collection`
+- Метод `load_config` для завантаження конфігурації з YAML
+- Метод `run(config_params)` для запуску програми
+- Метод `run_methods(config_params)` для виконання методів за конфігурацією
+- Методи виконання: `run_website_parser`, `run_save_to_csv`, `run_save_to_json`, `run_save_to_yaml`, `run_save_to_sqlite`, `run_save_to_mongodb`
+- Метод `archive_output_files` для архівації вихідних файлів у ZIP
+- Клас `ArchiveSenderWorker` для Sidekiq - фонова відправка архівів по email
+- Інтеграція з Pony для відправки email
+- Бібліотеки `rubyzip`, `sidekiq`, `pony`, `redis` до Gemfile
+- Приватні методи: `initialize_logging`, `connect_to_database`, `disconnect_from_database`
+- Обробка виключень для всіх операцій
+
 ## [0.10.0] - 2025-11-28
 
 ### Додано

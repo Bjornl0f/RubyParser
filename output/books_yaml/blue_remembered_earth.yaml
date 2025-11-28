@@ -1,0 +1,11 @@
+---
+book:
+  title: Blue Remembered Earth
+  price: 39.51
+  rating: 3
+  availability: In stock
+  category: Science
+  url: http://books.toscrape.com/catalogue/blue_remembered_earth/index.html
+  image_path: products/science/blue_remembered_earth.jpg
+  description: Quasi libero animi. Nulla est perspiciatis. Autem perferendis porro.
+  exported_at: '2025-11-28T11:02:41+02:00'

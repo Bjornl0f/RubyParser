@@ -1,0 +1,20 @@
+---
+book:
+  title: Set Me Free
+  price: 17.46
+  rating: 5
+  availability: In stock (19 available)
+  category: Young Adult
+  url: http://books.toscrape.com/catalogue/set-me-free_988/index.html
+  image_path: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+  description: Aaron Ledbetter’s future had been planned out for him since before
+    he was born. Each year, the Ledbetter family vacation on Tybee Island gave Aaron
+    a chance to briefly free himself from his family’s expectations. When he meets
+    Jonas “Lucky” Luckett, a caricature artist in town with the traveling carnival,
+    he must choose between the life that’s been mapped out for him, and Aaron Ledbetter’s
+    future had been planned out for him since before he was born. Each year, the Ledbetter
+    family vacation on Tybee Island gave Aaron a chance to briefly free himself from
+    his family’s expectations. When he meets Jonas “Lucky” Luckett, a caricature artist
+    in town with the traveling carnival, he must choose between the life that’s been
+    mapped out for him, and the chance at true love. ...more
+  exported_at: '2025-11-28T11:02:58+02:00'

@@ -1,0 +1,11 @@
+---
+book:
+  title: Bury My Heart at Wounded Knee
+  price: 22.59
+  rating: 4
+  availability: Out of stock
+  category: Travel
+  url: http://books.toscrape.com/catalogue/bury_my_heart_at_wounded_knee/index.html
+  image_path: products/travel/bury_my_heart_at_wounded_knee.jpg
+  description: Repudiandae aut beatae. Aut rerum quo. Quidem quisquam suscipit.
+  exported_at: '2025-11-28T11:01:31+02:00'

@@ -1,11 +1,11 @@
 ---
 book:
   title: The Heart Is a Lonely Hunter
-  price: 51.74
-  rating: 2
-  availability: Low stock
-  category: Philosophy
+  price: 30.76
+  rating: 4
+  availability: In stock
+  category: Fantasy
   url: http://books.toscrape.com/catalogue/the_heart_is_a_lonely_hunter/index.html
-  image_path: products/philosophy/the_heart_is_a_lonely_hunter.jpg
-  description: Qui aut qui. Sunt eum repellendus. Perferendis at id.
-  exported_at: '2025-11-28T10:06:10+02:00'
+  image_path: products/fantasy/the_heart_is_a_lonely_hunter.jpg
+  description: Ut doloremque maiores. Fugiat cum quas. Placeat laboriosam magni.
+  exported_at: '2025-11-28T11:01:31+02:00'

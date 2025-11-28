@@ -1,0 +1,11 @@
+---
+book:
+  title: Let Us Now Praise Famous Men
+  price: 18.27
+  rating: 5
+  availability: In stock
+  category: Young Adult
+  url: http://books.toscrape.com/catalogue/let_us_now_praise_famous_men/index.html
+  image_path: products/young_adult/let_us_now_praise_famous_men.jpg
+  description: Iure molestiae culpa. Enim vel non. Delectus aut quidem.
+  exported_at: '2025-11-28T11:01:31+02:00'

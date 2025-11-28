@@ -1,0 +1,11 @@
+---
+book:
+  title: Arms and the Man
+  price: 33.77
+  rating: 5
+  availability: In stock
+  category: Fantasy
+  url: http://books.toscrape.com/catalogue/arms_and_the_man/index.html
+  image_path: products/fantasy/arms_and_the_man.jpg
+  description: Sapiente voluptate doloremque. Adipisci qui ex. Culpa et qui.
+  exported_at: '2025-11-28T11:01:31+02:00'

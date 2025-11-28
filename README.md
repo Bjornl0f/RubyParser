@@ -25,6 +25,8 @@ RubyParser/
 │   ├── configurator.rb          # Клас Configurator для налаштувань
 │   ├── simple_website_parser.rb # Клас для парсингу сайту
 │   ├── database_connector.rb    # Клас для підключення до БД
+│   ├── engine.rb                # Клас Engine для управління програмою
+│   ├── archive_sender_worker.rb # Sidekiq worker для відправки архівів
 │   ├── item.rb                  # Клас Item для представлення книги
 │   ├── item_collection.rb       # Клас ItemCollection для колекції книг
 │   ├── item_container.rb        # Модуль ItemContainer
@@ -114,9 +116,17 @@ RubyParser/
 - [x] Збереження та отримання книг з БД
 - [x] Створення таблиць за схемою
 
-### Етап 6: Збереження даних (ПЛАНУЄТЬСЯ)
-- [ ] Експорт у CSV формат
-- [ ] Експорт у JSON формат
+### Етап 6: Клас Engine (ВИКОНАНО)
+- [x] Клас Engine для управління виконанням програми
+- [x] Методи run_website_parser, run_save_to_csv, run_save_to_json, run_save_to_yaml
+- [x] Методи run_save_to_sqlite, run_save_to_mongodb
+- [x] Архівація вихідних файлів у ZIP
+- [x] Клас ArchiveSenderWorker для Sidekiq
+- [x] Відправка архіву по email через Pony
+
+### Етап 7: Фінальний етап (ПЛАНУЄТЬСЯ)
+- [ ] Rake-задачі для автоматизації
+- [ ] Документація API
 
 ## Сайт для парсингу
 
@@ -364,17 +374,70 @@ items = db.get_all_items
 db.close_connection
 ```
 
+### Engine
+Головний клас для управління виконанням програми. Координує всі операції: завантаження конфігурації, парсинг, збереження даних.
+
+**Атрибути:**
+- `config` - конфігурація з YAML-файлів
+- `config_loader` - завантажувач конфігурацій
+- `configurator` - конфігуратор параметрів
+- `parser` - парсер веб-сайту
+- `db_connector` - з'єднання з БД
+- `item_collection` - колекція книг
+
+**Методи:**
+- `load_config` - завантаження конфігурації з YAML
+- `run(config_params)` - головний метод запуску
+- `run_methods(config_params)` - виконання методів за конфігурацією
+- `run_website_parser` - запуск парсингу сайту
+- `run_save_to_csv` - збереження у CSV
+- `run_save_to_json` - збереження у JSON
+- `run_save_to_yaml` - збереження у YAML
+- `run_save_to_sqlite` - збереження у SQLite
+- `run_save_to_mongodb` - збереження у MongoDB
+- `archive_output_files` - архівація файлів у ZIP
+
+**Приклад:**
+```ruby
+engine = MyApplicationKostyk::Engine.new
+engine.run(
+  run_website_parser: 1,
+  run_save_to_csv: 1,
+  run_save_to_json: 1,
+  run_save_to_sqlite: 1,
+  parser_max_pages: 5
+)
+```
+
+### ArchiveSenderWorker
+Sidekiq worker для фонової відправки архівів по email.
+
+**Приклад:**
+```ruby
+# Запуск фонового завдання
+ArchiveSenderWorker.perform_async(archive_path, "email@example.com")
+```
+
+**Налаштування SMTP (через ENV):**
+- `SMTP_ADDRESS` - адреса SMTP сервера
+- `SMTP_PORT` - порт SMTP
+- `SMTP_USER` - ім'я користувача
+- `SMTP_PASSWORD` - пароль
+- `SMTP_FROM` - email відправника
+
 ## Історія змін
 
 Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-**Поточна версія: 0.10.0**
+**Поточна версія: 0.11.0**
 
 Останні зміни:
-- Клас `DatabaseConnector` для підключення до SQLite та MongoDB
-- Методи збереження та отримання книг з бази даних
-- Створення таблиць за схемою з конфігурації
-- Бібліотеки `sqlite3` та `mongo` до Gemfile
+- Клас `Engine` для управління виконанням програми
+- Методи збереження у різних форматах (CSV, JSON, YAML, SQLite, MongoDB)
+- Архівація вихідних файлів у ZIP (rubyzip)
+- Клас `ArchiveSenderWorker` для Sidekiq
+- Відправка email через Pony
+- Бібліотеки `rubyzip`, `sidekiq`, `pony`, `redis` до Gemfile
 
 ## Автор
 

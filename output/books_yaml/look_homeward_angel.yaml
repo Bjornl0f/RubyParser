@@ -1,0 +1,11 @@
+---
+book:
+  title: Look Homeward, Angel
+  price: 57.05
+  rating: 5
+  availability: Low stock
+  category: Thriller
+  url: http://books.toscrape.com/catalogue/look_homeward_angel/index.html
+  image_path: products/thriller/look_homeward_angel.jpg
+  description: Fuga voluptas praesentium. Voluptatem iure et. Vitae assumenda ratione.
+  exported_at: '2025-11-28T11:02:41+02:00'

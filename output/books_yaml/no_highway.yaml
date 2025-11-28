@@ -1,0 +1,11 @@
+---
+book:
+  title: No Highway
+  price: 41.29
+  rating: 3
+  availability: Out of stock
+  category: Fantasy
+  url: http://books.toscrape.com/catalogue/no_highway/index.html
+  image_path: products/fantasy/no_highway.jpg
+  description: Repellat culpa ducimus. Numquam optio qui. Dolore tempore repellendus.
+  exported_at: '2025-11-28T11:02:41+02:00'

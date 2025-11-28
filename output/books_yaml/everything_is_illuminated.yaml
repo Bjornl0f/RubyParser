@@ -1,12 +1,11 @@
 ---
 book:
   title: Everything is Illuminated
-  price: 55.86
-  rating: 3
+  price: 26.34
+  rating: 1
   availability: Low stock
-  category: Nonfiction
+  category: Poetry
   url: http://books.toscrape.com/catalogue/everything_is_illuminated/index.html
-  image_path: products/nonfiction/everything_is_illuminated.jpg
-  description: Ipsum mollitia vero. Architecto excepturi molestiae. Cupiditate quia
-    et.
-  exported_at: '2025-11-28T09:47:39+02:00'
+  image_path: products/poetry/everything_is_illuminated.jpg
+  description: Nemo ea atque. Ratione quos qui. Quia saepe autem.
+  exported_at: '2025-11-28T11:01:31+02:00'

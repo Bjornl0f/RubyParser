@@ -16,3 +16,9 @@ gem "concurrent-ruby", "~> 1.2" # Багатопоточність
 # Бази даних
 gem "sqlite3", "~> 1.6"        # SQLite база даних
 gem "mongo", "~> 2.19"         # MongoDB база даних
+
+# Архівація та фонові завдання
+gem "rubyzip", "~> 2.3"        # Створення ZIP архівів
+gem "sidekiq", "~> 7.2"        # Фонові завдання
+gem "pony", "~> 1.13"          # Відправка email
+gem "redis", "~> 5.0"          # Redis для Sidekiq

@@ -1,0 +1,11 @@
+---
+book:
+  title: Fame Is the Spur
+  price: 43.94
+  rating: 2
+  availability: In stock
+  category: History
+  url: http://books.toscrape.com/catalogue/fame_is_the_spur/index.html
+  image_path: products/history/fame_is_the_spur.jpg
+  description: Et quae ex. Et iusto et. Aperiam illum nam.
+  exported_at: '2025-11-28T11:01:31+02:00'

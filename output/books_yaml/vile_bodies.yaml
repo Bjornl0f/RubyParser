@@ -1,0 +1,11 @@
+---
+book:
+  title: Vile Bodies
+  price: 20.47
+  rating: 5
+  availability: Out of stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/vile_bodies/index.html
+  image_path: products/philosophy/vile_bodies.jpg
+  description: Enim delectus esse. Architecto commodi aspernatur. In tenetur voluptatem.
+  exported_at: '2025-11-28T11:01:31+02:00'

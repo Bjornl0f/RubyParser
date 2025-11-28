@@ -1,0 +1,11 @@
+---
+book:
+  title: Cabbages and Kings
+  price: 53.79
+  rating: 5
+  availability: Low stock
+  category: Mystery
+  url: http://books.toscrape.com/catalogue/cabbages_and_kings/index.html
+  image_path: products/mystery/cabbages_and_kings.jpg
+  description: Qui asperiores pariatur. Dicta et officiis. Aut pariatur fugiat.
+  exported_at: '2025-11-28T11:02:41+02:00'
