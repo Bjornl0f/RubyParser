@@ -23,6 +23,8 @@ RubyParser/
 │   ├── app_config_loader.rb     # Клас для завантаження конфігурацій
 │   ├── logger_manager.rb        # Клас для управління логуванням
 │   ├── item.rb                  # Клас Item для представлення книги
+│   ├── item_collection.rb       # Клас ItemCollection для колекції книг
+│   ├── item_container.rb        # Модуль ItemContainer
 │   ├── another_file.rb          # Інший файл з кодом
 │   └── tasks/                   # Папка для Rake-задач
 │       ├── task1.rake           # Задача для парсингу
@@ -77,13 +79,18 @@ RubyParser/
 - [x] Створення класу LoggerManager для логування
 - [x] Перевірка функціоналу в main.rb
 
-### Етап 3: Реалізація основних класів (В ПРОЦЕСІ)
+### Етап 3: Реалізація основних класів (ВИКОНАНО)
 - [x] Клас Item для представлення книги (8 атрибутів)
 - [x] Метод update для зміни через блок
 - [x] Alias info для to_s
 - [x] Метод generate_fake з Faker
 - [x] Модуль Comparable (порівняння за ціною)
-- [ ] Клас ItemCollection для колекції книг
+- [x] Модуль ItemContainer (ClassMethods, InstanceMethods)
+- [x] Клас ItemCollection для колекції книг
+- [x] Збереження у форматах: TXT, JSON, CSV, YAML
+- [x] Метод generate_test_items для генерації тестових даних
+- [x] Модуль Enumerable (map, select, find, reduce, тощо)
+- [x] Методи статистики (total_price, average_price, average_rating)
 
 ### Етап 4: Розробка парсера (ПЛАНУЄТЬСЯ)
 - [ ] Реалізація логіки парсингу
@@ -197,42 +204,68 @@ books.sort  # сортує за ціною
 book1 < book2  # порівнює за ціною
 ```
 
+### ItemCollection
+Клас для управління колекцією книг. Використовує модулі `ItemContainer` та `Enumerable`.
+
+**Генерація тестових даних:**
+- `generate_test_items(count)` - генерує фіктивні книги
+
+**Enumerable методи:**
+- `map`, `select`, `reject`, `find`, `reduce`
+- `all?`, `any?`, `none?`, `count`, `sort`, `uniq`
+- `sort_by_attribute(attribute)` - сортування за атрибутом
+
+**Статистика:**
+- `total_price` - загальна вартість
+- `average_price` - середня ціна
+- `average_rating` - середній рейтинг
+- `categories_stats` - статистика по категоріях
+
+**Методи збереження:**
+- `save_to_file(path)` - TXT
+- `save_to_json(path)` - JSON
+- `save_to_csv(path)` - CSV
+- `save_to_yml(directory)` - YAML (кожна книга окремо)
+
+**Приклад:**
+```ruby
+collection = MyApplicationKostyk::ItemCollection.new
+collection.generate_test_items(10)
+
+# Enumerable
+expensive = collection.select { |book| book.price > 30 }
+total = collection.reduce(0) { |sum, book| sum + book.price }
+
+# Статистика
+puts collection.average_price
+puts collection.categories_stats
+
+# Збереження
+collection.save_to_json("output/books.json")
+```
+
+### ItemContainer (модуль)
+Модуль для розширення функціональності колекцій.
+
+**ClassMethods:**
+- `class_info` - інформація про клас
+- `instances_count` - кількість створених об'єктів
+
+**InstanceMethods:**
+- `add_item`, `remove_item`, `delete_items`
+- `method_missing` для `show_all_items`
+
 ## Історія змін
 
-### v0.5.0 (2025-11-28)
-- Клас Item: додано метод update для зміни через блок
-- Клас Item: додано alias info для методу to_s
-- Клас Item: додано метод generate_fake з бібліотекою Faker
-- Клас Item: реалізовано модуль Comparable (порівняння за ціною)
-- Додано бібліотеку Faker до проекту
+Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-### v0.4.0 (2025-11-28)
-- Додано метод load_libs в AppConfigLoader для автопідключення бібліотек
-- Створено клас LoggerManager для централізованого логування
-- Реалізовано методи: log_info, log_warn, log_error, log_processed_file
-- Оновлено main.rb для перевірки всього функціоналу
+**Поточна версія: 0.7.0**
 
-### v0.3.0 (2025-11-28)
-- Створено модуль MyApplicationKostyk (простір імен)
-- Додано YAML конфігураційні файли:
-  - default_config.yaml - основні параметри
-  - web_parser.yaml - налаштування веб-скрапінгу
-  - logging_config.yaml - налаштування логування
-  - database_config.yaml - налаштування SQLite
-- Створено каталог products з категоріями книг
-- Реалізовано клас AppConfigLoader для завантаження конфігурацій
-
-### v0.2.0 (2025-11-28)
-- Обрано сайт для парсингу: Books to Scrape
-- Визначено структуру даних для збору (title, price, rating, availability, url, category)
-- Розроблено план навігації по сторінках сайту
-
-### v0.1.0 (2025-11-28)
-- Ініціалізація проекту
-- Додано бібліотеки: nokogiri, httparty, mechanize
-- Створено базову структуру проекту
-- Налаштовано RuboCop для перевірки стилю коду
-- Створено Rake-задачі для автоматизації
+Останні зміни:
+- Додано модуль `Enumerable` до `ItemCollection`
+- Метод `generate_test_items(count)` для генерації тестових даних
+- Методи статистики: `total_price`, `average_price`, `average_rating`
+- Повне логування всіх операцій
 
 ## Автор
 

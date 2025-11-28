@@ -1,0 +1,11 @@
+---
+book:
+  title: In a Glass Darkly
+  price: 54.62
+  rating: 4
+  availability: In stock
+  category: Fantasy
+  url: http://books.toscrape.com/catalogue/in_a_glass_darkly/index.html
+  image_path: products/fantasy/in_a_glass_darkly.jpg
+  description: Nemo architecto esse. Dicta ut ullam. Omnis placeat necessitatibus.
+  exported_at: '2025-11-28T09:20:50+02:00'

@@ -1,0 +1,12 @@
+---
+book:
+  title: Beneath the Bleeding
+  price: 45.81
+  rating: 3
+  availability: Out of stock
+  category: Music
+  url: http://books.toscrape.com/catalogue/beneath_the_bleeding/index.html
+  image_path: products/music/beneath_the_bleeding.jpg
+  description: Consequuntur reprehenderit ad. Quos nihil quibusdam. Asperiores porro
+    aut.
+  exported_at: '2025-11-28T09:18:32+02:00'

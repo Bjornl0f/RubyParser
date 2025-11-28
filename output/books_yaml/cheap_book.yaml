@@ -1,0 +1,11 @@
+---
+book:
+  title: Cheap Book
+  price: 10.0
+  rating: 0
+  availability: Unknown
+  category: Uncategorized
+  url: ''
+  image_path: ''
+  description: ''
+  exported_at: '2025-11-28T09:08:53+02:00'

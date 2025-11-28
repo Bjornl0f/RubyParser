@@ -7,3 +7,9 @@ Backtrace: lib/main.rb:48:in `<main>'
 Backtrace: lib/main.rb:49:in `<main>'
 [2025-11-28 08:57:22] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
 Backtrace: lib/main.rb:49:in `<main>'
+[2025-11-28 09:08:46] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'
+[2025-11-28 09:18:25] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'
+[2025-11-28 09:20:46] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'

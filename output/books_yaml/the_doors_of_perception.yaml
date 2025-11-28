@@ -1,0 +1,11 @@
+---
+book:
+  title: The Doors of Perception
+  price: 30.9
+  rating: 5
+  availability: Out of stock
+  category: Fantasy
+  url: http://books.toscrape.com/catalogue/the_doors_of_perception/index.html
+  image_path: products/fantasy/the_doors_of_perception.jpg
+  description: Possimus alias ut. Sint dolor similique. Ad eos omnis.
+  exported_at: '2025-11-28T09:18:32+02:00'

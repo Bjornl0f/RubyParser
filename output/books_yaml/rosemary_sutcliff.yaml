@@ -1,0 +1,11 @@
+---
+book:
+  title: Rosemary Sutcliff
+  price: 57.71
+  rating: 2
+  availability: In stock
+  category: Sports
+  url: http://books.toscrape.com/catalogue/rosemary_sutcliff/index.html
+  image_path: products/sports/rosemary_sutcliff.jpg
+  description: Ipsum autem qui. Eos enim quaerat. Voluptatum voluptatem dolor.
+  exported_at: '2025-11-28T09:20:50+02:00'

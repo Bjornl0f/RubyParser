@@ -1,0 +1,11 @@
+---
+book:
+  title: To Sail Beyond the Sunset
+  price: 32.83
+  rating: 4
+  availability: In stock
+  category: Horror
+  url: http://books.toscrape.com/catalogue/to_sail_beyond_the_sunset/index.html
+  image_path: products/horror/to_sail_beyond_the_sunset.jpg
+  description: Quia maiores fugiat. Architecto sit nihil. Et expedita tempora.
+  exported_at: '2025-11-28T09:20:50+02:00'

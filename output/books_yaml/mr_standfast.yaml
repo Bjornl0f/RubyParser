@@ -1,0 +1,11 @@
+---
+book:
+  title: Mr Standfast
+  price: 41.85
+  rating: 1
+  availability: In stock
+  category: History
+  url: http://books.toscrape.com/catalogue/mr_standfast/index.html
+  image_path: products/history/mr_standfast.jpg
+  description: Accusantium sed rerum. Saepe itaque neque. Accusamus sint cumque.
+  exported_at: '2025-11-28T09:18:33+02:00'

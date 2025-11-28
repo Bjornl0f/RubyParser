@@ -1,0 +1,11 @@
+---
+book:
+  title: The Wind's Twelve Quarters
+  price: 39.19
+  rating: 2
+  availability: Out of stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
+  image_path: products/philosophy/the_wind_s_twelve_quarters.jpg
+  description: Cupiditate molestiae sit. Accusantium sit vero. Quibusdam rerum distinctio.
+  exported_at: '2025-11-28T09:08:53+02:00'

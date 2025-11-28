@@ -1,0 +1,11 @@
+---
+book:
+  title: Sharp Objects
+  price: 47.82
+  rating: 4
+  availability: In stock
+  category: Mystery
+  url: ''
+  image_path: products/mystery/sharp_objects.jpg
+  description: A psychological thriller by Gillian Flynn
+  exported_at: '2025-11-28T09:08:53+02:00'

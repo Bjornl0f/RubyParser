@@ -1,0 +1,11 @@
+---
+book:
+  title: In a Dry Season
+  price: 24.35
+  rating: 5
+  availability: In stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/in_a_dry_season/index.html
+  image_path: products/philosophy/in_a_dry_season.jpg
+  description: Molestias dolorem aliquam. Non dicta repellat. Molestiae qui velit.
+  exported_at: '2025-11-28T09:18:32+02:00'

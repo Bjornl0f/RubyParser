@@ -1,0 +1,12 @@
+---
+book:
+  title: Brandy of the Damned
+  price: 22.83
+  rating: 2
+  availability: Low stock
+  category: History
+  url: http://books.toscrape.com/catalogue/brandy_of_the_damned/index.html
+  image_path: products/history/brandy_of_the_damned.jpg
+  description: Corrupti iure praesentium. Necessitatibus libero ut. Magnam assumenda
+    et.
+  exported_at: '2025-11-28T09:18:32+02:00'

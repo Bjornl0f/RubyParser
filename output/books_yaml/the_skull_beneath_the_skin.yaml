@@ -1,0 +1,12 @@
+---
+book:
+  title: The Skull Beneath the Skin
+  price: 24.54
+  rating: 1
+  availability: Low stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/the_skull_beneath_the_skin/index.html
+  image_path: products/philosophy/the_skull_beneath_the_skin.jpg
+  description: Possimus earum reiciendis. Magnam omnis itaque. Consequatur maxime
+    repellendus.
+  exported_at: '2025-11-28T09:20:50+02:00'

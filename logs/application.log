@@ -43,3 +43,121 @@ Backtrace: lib/main.rb:49:in `<main>'
 [2025-11-28 08:57:28] INFO: Створено Item: Far From the Madding Crowd (Music) - £31.83
 [2025-11-28 08:57:28] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
 [2025-11-28 08:57:28] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:08:46] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 09:08:46] INFO: Рівень логування: info
+[2025-11-28 09:08:46] INFO: Директорія логів: logs
+[2025-11-28 09:08:46] INFO: Тестове інформаційне повідомлення
+[2025-11-28 09:08:46] WARN: Тестове попередження
+[2025-11-28 09:08:46] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 09:08:46] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'
+[2025-11-28 09:08:46] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 09:08:46] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 09:08:46] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 09:08:53] INFO: Створено Item: Mother Night (Thriller) - £20.51
+[2025-11-28 09:08:53] INFO: Створено Item: The Widening Gyre (Fiction) - £41.16
+[2025-11-28 09:08:53] INFO: Створено Item: The Monkey's Raincoat (Philosophy) - £15.39
+[2025-11-28 09:08:53] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 09:08:53] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:08:53] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 09:08:53] INFO: Додано книгу: A Light in the Attic (Updated)
+[2025-11-28 09:08:53] INFO: Додано книгу: Sharp Objects
+[2025-11-28 09:08:53] INFO: Додано книгу: Cheap Book
+[2025-11-28 09:08:53] INFO: Додано книгу: Expensive Book
+[2025-11-28 09:08:53] INFO: Створено Item: The Heart Is a Lonely Hunter (Science Fiction) - £41.4
+[2025-11-28 09:08:53] INFO: Додано книгу: The Heart Is a Lonely Hunter
+[2025-11-28 09:08:53] INFO: Створено Item: The Moon by Night (Horror) - £24.55
+[2025-11-28 09:08:53] INFO: Додано книгу: The Moon by Night
+[2025-11-28 09:08:53] INFO: Створено Item: The Wind's Twelve Quarters (Philosophy) - £39.19
+[2025-11-28 09:08:53] INFO: Додано книгу: The Wind's Twelve Quarters
+[2025-11-28 09:08:53] INFO: Оброблено файл: output/books_collection.txt | Збережено 7 книг у TXT
+[2025-11-28 09:08:53] INFO: Оброблено файл: output/books_collection.json | Збережено 7 книг у JSON
+[2025-11-28 09:08:53] INFO: Оброблено файл: output/books_collection.csv | Збережено 7 книг у CSV
+[2025-11-28 09:08:53] INFO: Оброблено файл: output/books_yaml | Збережено 7 книг у YAML файли
+[2025-11-28 09:08:53] INFO: Видалено книгу: A Light in the Attic (Updated)
+[2025-11-28 09:18:25] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 09:18:25] INFO: Рівень логування: info
+[2025-11-28 09:18:25] INFO: Директорія логів: logs
+[2025-11-28 09:18:25] INFO: Тестове інформаційне повідомлення
+[2025-11-28 09:18:25] WARN: Тестове попередження
+[2025-11-28 09:18:25] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 09:18:25] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'
+[2025-11-28 09:18:25] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 09:18:25] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 09:18:25] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 09:18:32] INFO: Створено Item: The Little Foxes (Historical Fiction) - £42.09
+[2025-11-28 09:18:32] INFO: Створено Item: The Lathe of Heaven (Biography) - £37.74
+[2025-11-28 09:18:32] INFO: Створено Item: Mr Standfast (Philosophy) - £46.94
+[2025-11-28 09:18:32] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 09:18:32] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:18:32] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 09:18:32] INFO: Генерація 10 тестових книг...
+[2025-11-28 09:18:32] INFO: Створено Item: The Doors of Perception (Fantasy) - £30.9
+[2025-11-28 09:18:32] INFO: Додано книгу: The Doors of Perception
+[2025-11-28 09:18:32] INFO: Створено Item: Ego Dominus Tuus (Mystery) - £12.51
+[2025-11-28 09:18:32] INFO: Додано книгу: Ego Dominus Tuus
+[2025-11-28 09:18:32] INFO: Створено Item: Terrible Swift Sword (Science) - £53.06
+[2025-11-28 09:18:32] INFO: Додано книгу: Terrible Swift Sword
+[2025-11-28 09:18:32] INFO: Створено Item: The Skull Beneath the Skin (Religion) - £21.51
+[2025-11-28 09:18:32] INFO: Додано книгу: The Skull Beneath the Skin
+[2025-11-28 09:18:32] INFO: Створено Item: In a Dry Season (Philosophy) - £24.35
+[2025-11-28 09:18:32] INFO: Додано книгу: In a Dry Season
+[2025-11-28 09:18:32] INFO: Створено Item: Brandy of the Damned (History) - £22.83
+[2025-11-28 09:18:32] INFO: Додано книгу: Brandy of the Damned
+[2025-11-28 09:18:32] INFO: Створено Item: Beneath the Bleeding (Music) - £45.81
+[2025-11-28 09:18:32] INFO: Додано книгу: Beneath the Bleeding
+[2025-11-28 09:18:32] INFO: Створено Item: Edna O'Brien (Nonfiction) - £49.89
+[2025-11-28 09:18:32] INFO: Додано книгу: Edna O'Brien
+[2025-11-28 09:18:32] INFO: Створено Item: Mr Standfast (History) - £41.85
+[2025-11-28 09:18:32] INFO: Додано книгу: Mr Standfast
+[2025-11-28 09:18:32] INFO: Створено Item: The Way Through the Woods (Music) - £44.34
+[2025-11-28 09:18:32] INFO: Додано книгу: The Way Through the Woods
+[2025-11-28 09:18:32] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 09:18:32] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 09:18:32] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 09:18:32] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 09:18:33] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 09:20:46] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 09:20:46] INFO: Рівень логування: info
+[2025-11-28 09:20:46] INFO: Директорія логів: logs
+[2025-11-28 09:20:46] INFO: Тестове інформаційне повідомлення
+[2025-11-28 09:20:46] WARN: Тестове попередження
+[2025-11-28 09:20:46] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 09:20:46] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:50:in `<main>'
+[2025-11-28 09:20:46] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 09:20:46] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 09:20:46] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 09:20:50] INFO: Створено Item: Paths of Glory (Mystery) - £29.85
+[2025-11-28 09:20:50] INFO: Створено Item: Brandy of the Damned (Horror) - £36.29
+[2025-11-28 09:20:50] INFO: Створено Item: Time of our Darkness (Religion) - £13.74
+[2025-11-28 09:20:50] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 09:20:50] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:20:50] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 09:20:50] INFO: Генерація 10 тестових книг...
+[2025-11-28 09:20:50] INFO: Створено Item: That Good Night (Crime) - £30.36
+[2025-11-28 09:20:50] INFO: Додано книгу: That Good Night
+[2025-11-28 09:20:50] INFO: Створено Item: Those Barren Leaves, Thrones, Dominations (Philosophy) - £59.85
+[2025-11-28 09:20:50] INFO: Додано книгу: Those Barren Leaves, Thrones, Dominations
+[2025-11-28 09:20:50] INFO: Створено Item: This Side of Paradise (Music) - £14.63
+[2025-11-28 09:20:50] INFO: Додано книгу: This Side of Paradise
+[2025-11-28 09:20:50] INFO: Створено Item: The Heart Is Deceitful Above All Things (Classics) - £51.74
+[2025-11-28 09:20:50] INFO: Додано книгу: The Heart Is Deceitful Above All Things
+[2025-11-28 09:20:50] INFO: Створено Item: In a Glass Darkly (Fantasy) - £54.62
+[2025-11-28 09:20:50] INFO: Додано книгу: In a Glass Darkly
+[2025-11-28 09:20:50] INFO: Створено Item: The Skull Beneath the Skin (Philosophy) - £24.54
+[2025-11-28 09:20:50] INFO: Додано книгу: The Skull Beneath the Skin
+[2025-11-28 09:20:50] INFO: Створено Item: Ah, Wilderness! (Fantasy) - £25.06
+[2025-11-28 09:20:50] INFO: Додано книгу: Ah, Wilderness!
+[2025-11-28 09:20:50] INFO: Створено Item: Rosemary Sutcliff (Sports) - £57.71
+[2025-11-28 09:20:50] INFO: Додано книгу: Rosemary Sutcliff
+[2025-11-28 09:20:50] INFO: Створено Item: Ego Dominus Tuus (Young Adult) - £10.69
+[2025-11-28 09:20:50] INFO: Додано книгу: Ego Dominus Tuus
+[2025-11-28 09:20:50] INFO: Створено Item: To Sail Beyond the Sunset (Horror) - £32.83
+[2025-11-28 09:20:50] INFO: Додано книгу: To Sail Beyond the Sunset
+[2025-11-28 09:20:50] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 09:20:50] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 09:20:50] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 09:20:50] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 09:20:50] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли

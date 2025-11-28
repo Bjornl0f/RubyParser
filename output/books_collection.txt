@@ -1,0 +1,78 @@
+============================================================
+КОЛЕКЦІЯ КНИГ - Books to Scrape
+Дата: 2025-11-28 09:20:50
+Кількість книг: 10
+Загальна вартість: £362.03
+Середня ціна: £36.2
+============================================================
+
+1. That Good Night
+   Ціна: £30.36
+   Рейтинг: 2/5
+   Категорія: Crime
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/that_good_night/index.html
+
+2. Those Barren Leaves, Thrones, Dominations
+   Ціна: £59.85
+   Рейтинг: 3/5
+   Категорія: Philosophy
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/those_barren_leaves_thrones_dominations/index.html
+
+3. This Side of Paradise
+   Ціна: £14.63
+   Рейтинг: 3/5
+   Категорія: Music
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/this_side_of_paradise/index.html
+
+4. The Heart Is Deceitful Above All Things
+   Ціна: £51.74
+   Рейтинг: 1/5
+   Категорія: Classics
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/the_heart_is_deceitful_above_all_things/index.html
+
+5. In a Glass Darkly
+   Ціна: £54.62
+   Рейтинг: 4/5
+   Категорія: Fantasy
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/in_a_glass_darkly/index.html
+
+6. The Skull Beneath the Skin
+   Ціна: £24.54
+   Рейтинг: 1/5
+   Категорія: Philosophy
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/the_skull_beneath_the_skin/index.html
+
+7. Ah, Wilderness!
+   Ціна: £25.06
+   Рейтинг: 2/5
+   Категорія: Fantasy
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/ah_wilderness/index.html
+
+8. Rosemary Sutcliff
+   Ціна: £57.71
+   Рейтинг: 2/5
+   Категорія: Sports
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/rosemary_sutcliff/index.html
+
+9. Ego Dominus Tuus
+   Ціна: £10.69
+   Рейтинг: 3/5
+   Категорія: Young Adult
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/ego_dominus_tuus/index.html
+
+10. To Sail Beyond the Sunset
+   Ціна: £32.83
+   Рейтинг: 4/5
+   Категорія: Horror
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/to_sail_beyond_the_sunset/index.html
+

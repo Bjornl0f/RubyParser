@@ -11,6 +11,7 @@ require_relative "my_application_kostyk"
 require_relative "app_config_loader"
 require_relative "logger_manager"
 require_relative "item"
+require_relative "item_collection"
 
 puts "=" * 60
 puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
@@ -125,6 +126,106 @@ sorted_books = books.sort
 sorted_books.each do |book|
   puts "  £#{book.price} - #{book.title}"
 end
+
+# Крок 11: Тестування класу ItemCollection
+puts "\n--- Тестування класу ItemCollection ---"
+
+# Створення колекції та генерація тестових даних
+collection = MyApplicationKostyk::ItemCollection.new
+
+puts "\n11. Генерація тестових книг (generate_test_items):"
+collection.generate_test_items(10)
+puts "  Згенеровано книг: #{collection.size}"
+
+# Виклик show_all_items через method_missing
+puts "\n12. Метод show_all_items (method_missing):"
+collection.show_all_items
+
+# Тестування Enumerable методів
+puts "\n13. Тестування Enumerable методів:"
+
+# map - отримати всі назви
+puts "\n  a) map - отримати всі назви:"
+titles = collection.map(&:title)
+puts "     Перші 3: #{titles.first(3).join(', ')}"
+
+# select - книги дорожче £30
+puts "\n  b) select - книги дорожче £30:"
+expensive = collection.select { |book| book.price > 30 }
+puts "     Знайдено: #{expensive.size} книг"
+
+# reject - книги БЕЗ рейтингу 5
+puts "\n  c) reject - книги без рейтингу 5:"
+not_five_star = collection.reject { |book| book.rating == 5 }
+puts "     Знайдено: #{not_five_star.size} книг"
+
+# find - перша книга з рейтингом >= 4
+puts "\n  d) find - перша книга з рейтингом >= 4:"
+good_book = collection.find { |book| book.rating >= 4 }
+puts "     Знайдено: #{good_book&.title || 'Не знайдено'}"
+
+# reduce - загальна вартість
+puts "\n  e) reduce - загальна вартість:"
+total = collection.reduce(0) { |sum, book| sum + book.price }
+puts "     Загальна вартість: £#{total.round(2)}"
+
+# all? - чи всі книги в наявності
+puts "\n  f) all? - чи всі книги в наявності:"
+all_in_stock = collection.all? { |book| book.availability == "In stock" }
+puts "     Всі в наявності: #{all_in_stock}"
+
+# any? - чи є книги дорожче £50
+puts "\n  g) any? - чи є книги дорожче £50:"
+has_expensive = collection.any? { |book| book.price > 50 }
+puts "     Є дорогі книги: #{has_expensive}"
+
+# none? - чи немає книг з ціною 0
+puts "\n  h) none? - чи немає безкоштовних книг:"
+no_free = collection.none? { |book| book.price == 0 }
+puts "     Немає безкоштовних: #{no_free}"
+
+# count - кількість книг з рейтингом 5
+puts "\n  i) count - книги з рейтингом 5:"
+five_star_count = collection.count { |book| book.rating == 5 }
+puts "     Кількість: #{five_star_count}"
+
+# sort - сортування за ціною
+puts "\n  j) sort - топ-3 найдешевші книги:"
+sorted = collection.sort
+sorted.first(3).each { |b| puts "     £#{b.price} - #{b.title}" }
+
+# uniq - унікальні книги
+puts "\n  k) uniq - унікальні книги:"
+unique = collection.uniq
+puts "     Унікальних: #{unique.size}"
+
+# Статистика
+puts "\n14. Статистика колекції:"
+puts "  Загальна вартість: £#{collection.total_price.round(2)}"
+puts "  Середня ціна: £#{collection.average_price.round(2)}"
+puts "  Середній рейтинг: #{collection.average_rating.round(2)}/5"
+puts "  Категорії: #{collection.categories_stats}"
+
+# Інформація про клас
+puts "\n15. Інформація про клас (class_info):"
+info = MyApplicationKostyk::ItemCollection.class_info
+puts "  Назва: #{info[:name]}"
+puts "  Версія: #{info[:version]}"
+puts "  Кількість екземплярів: #{info[:instances_count]}"
+
+# Збереження у різних форматах
+puts "\n16. Збереження колекції у різних форматах:"
+collection.save_to_file("output/books_collection.txt")
+puts "  ✓ Збережено у TXT: output/books_collection.txt"
+
+collection.save_to_json("output/books_collection.json")
+puts "  ✓ Збережено у JSON: output/books_collection.json"
+
+collection.save_to_csv("output/books_collection.csv")
+puts "  ✓ Збережено у CSV: output/books_collection.csv"
+
+collection.save_to_yml("output/books_yaml")
+puts "  ✓ Збережено у YAML: output/books_yaml/"
 
 puts "\n" + "=" * 60
 puts "Ініціалізація завершена успішно!"

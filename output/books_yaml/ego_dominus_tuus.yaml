@@ -1,0 +1,11 @@
+---
+book:
+  title: Ego Dominus Tuus
+  price: 10.69
+  rating: 3
+  availability: Low stock
+  category: Young Adult
+  url: http://books.toscrape.com/catalogue/ego_dominus_tuus/index.html
+  image_path: products/young_adult/ego_dominus_tuus.jpg
+  description: At dolores accusamus. Et aliquid nisi. In aut quae.
+  exported_at: '2025-11-28T09:20:50+02:00'
