@@ -1,0 +1,14 @@
+---
+book:
+  title: Penny Maybe
+  price: 33.29
+  rating: 3
+  availability: In stock (18 available)
+  category: Default
+  url: http://books.toscrape.com/catalogue/penny-maybe_965/index.html
+  image_path: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/penny_maybe.jpg
+  description: Sent to yet another foster family, Penny decides that the way to claim
+    a sense of self is to swim Lake Ontario. Although this seems impossible, she finds
+    the courage to ask her physics teacher to be her coach, and wins the support of
+    her new foster mother.
+  exported_at: '2025-11-28T11:21:57+02:00'

@@ -4,6 +4,25 @@
 
 Формат базується на [Keep a Changelog](https://keepachangelog.com/uk/1.0.0/).
 
+## [1.0.0] - 2025-11-28
+
+### Додано
+- Клас `Main` як точка входу для додатку
+- Метод `Main.run(config_params)` для запуску програми
+- Підтримка аргументів командного рядка: `--help`, `--test`, `--pages=N`, `--no-threads`, `--csv-only`, `--json-only`, `--no-db`
+- Метод `banner` для виводу інформації про програму
+- Приватні методи: `load_libraries`, `load_configuration`, `setup_configurator`, `run_engine`, `handle_error`
+- Rake задачі для парсингу: `parser:run`, `parser:test`, `parser:pages[N]`, `parser:sequential`, `parser:help`
+- Rake задачі для експорту: `data:export_csv`, `data:export_json`, `data:export_files`
+- Rake задачі для очищення: `data:clean`, `data:clean_media`, `data:clean_db`, `data:clean_all`
+- Rake задача `data:stats` для перегляду статистики
+- Rake задача `help` для виводу всіх доступних команд
+- Централізована обробка помилок з інформативними повідомленнями
+
+### Змінено
+- Переструктуровано `main.rb` як чисту точку входу
+- Оновлено `Rakefile` з новими задачами
+
 ## [0.11.0] - 2025-11-28
 
 ### Додано

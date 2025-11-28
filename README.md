@@ -124,9 +124,17 @@ RubyParser/
 - [x] Клас ArchiveSenderWorker для Sidekiq
 - [x] Відправка архіву по email через Pony
 
-### Етап 7: Фінальний етап (ПЛАНУЄТЬСЯ)
-- [ ] Rake-задачі для автоматизації
+### Етап 7: Запуск додатку (ВИКОНАНО)
+- [x] Клас Main як точка входу
+- [x] Підтримка аргументів командного рядка
+- [x] Rake задачі: parser:run, parser:test, parser:pages
+- [x] Rake задачі: data:export_csv, data:export_json, data:stats
+- [x] Rake задачі: data:clean, data:clean_all
+- [x] Обробка помилок та логування
+
+### Етап 8: Документація (ПЛАНУЄТЬСЯ)
 - [ ] Документація API
+- [ ] Приклади використання
 
 ## Сайт для парсингу
 
@@ -173,15 +181,54 @@ bundle install
 
 ## Використання
 
+### Командний рядок
+
 ```bash
-# Запуск основного парсингу
-rake parser:run
+# Запуск з параметрами за замовчуванням
+bundle exec ruby lib/main.rb
 
-# Експорт даних у CSV
-rake data:export_csv
+# Тестовий режим (1 сторінка, без БД)
+bundle exec ruby lib/main.rb --test
 
-# Експорт даних у JSON
-rake data:export_json
+# Вказати кількість сторінок
+bundle exec ruby lib/main.rb --pages=5
+
+# Без багатопоточності
+bundle exec ruby lib/main.rb --no-threads
+
+# Тільки CSV експорт
+bundle exec ruby lib/main.rb --csv-only
+
+# Без збереження в БД
+bundle exec ruby lib/main.rb --no-db
+
+# Довідка
+bundle exec ruby lib/main.rb --help
+```
+
+### Rake задачі
+
+```bash
+# Показати всі доступні задачі
+rake help
+
+# Парсинг
+rake parser:run          # Повний парсинг (2 сторінки)
+rake parser:test         # Тестовий парсинг (1 сторінка)
+rake parser:pages[5]     # Парсинг 5 сторінок
+rake parser:sequential   # Без багатопоточності
+
+# Експорт даних
+rake data:export_csv     # Тільки CSV
+rake data:export_json    # Тільки JSON
+rake data:export_files   # Без БД
+rake data:stats          # Статистика
+
+# Очищення
+rake data:clean          # Очистити output
+rake data:clean_media    # Очистити зображення
+rake data:clean_db       # Очистити SQLite
+rake data:clean_all      # Очистити все
 ```
 
 ## Основні класи
@@ -429,15 +476,15 @@ ArchiveSenderWorker.perform_async(archive_path, "email@example.com")
 
 Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-**Поточна версія: 0.11.0**
+**Поточна версія: 1.0.0**
 
 Останні зміни:
-- Клас `Engine` для управління виконанням програми
-- Методи збереження у різних форматах (CSV, JSON, YAML, SQLite, MongoDB)
-- Архівація вихідних файлів у ZIP (rubyzip)
-- Клас `ArchiveSenderWorker` для Sidekiq
-- Відправка email через Pony
-- Бібліотеки `rubyzip`, `sidekiq`, `pony`, `redis` до Gemfile
+- Клас `Main` як точка входу для додатку
+- Підтримка аргументів командного рядка (--test, --pages, --help)
+- Rake задачі для парсингу: parser:run, parser:test, parser:pages
+- Rake задачі для даних: data:export_csv, data:export_json, data:stats
+- Rake задачі для очищення: data:clean, data:clean_all
+- Централізована обробка помилок
 
 ## Автор
 

@@ -1,430 +1,213 @@
 # frozen_string_literal: true
 
-# Головний файл програми для парсингу веб-сайтів
+# ============================================
+# Ruby Web Parser - Головний файл програми
+# Точка входу для додатку
 # Автор: Стефан Костик
+# Сайт для парсингу: https://books.toscrape.com/
+# ============================================
 
-require "nokogiri"
-require "httparty"
-require "mechanize"
-
+# Завантаження базових бібліотек
 require_relative "my_application_kostyk"
 require_relative "app_config_loader"
 require_relative "logger_manager"
-require_relative "item"
-require_relative "item_collection"
 require_relative "configurator"
-require_relative "simple_website_parser"
-require_relative "database_connector"
-
-puts "=" * 60
-puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
-puts "=" * 60
-
-# Крок 1: Створення екземпляру завантажувача конфігурацій
-config_loader = MyApplicationKostyk::AppConfigLoader.new
-
-# Крок 2: Автоматичне підключення бібліотек
-puts "\n--- Підключення бібліотек ---"
-libs_path = File.join(MyApplicationKostyk.root, "lib")
-config_loader.load_libs(libs_path)
-puts "Підключено бібліотек: #{config_loader.loaded_libs.size}"
-
-# Крок 3: Завантаження конфігурацій
-puts "\n--- Завантаження конфігурацій ---"
-config_path = File.join(MyApplicationKostyk.config_path, "default_config.yaml")
-config_loader.config(config_path, MyApplicationKostyk.config_path)
-
-# Крок 4: Перевірка завантаження конфігурацій (вивід у форматі JSON)
-puts "\n--- Завантажені конфігурації (JSON) ---"
-puts config_loader.pretty_print_config_data
-
-# Крок 5: Налаштування логування
-puts "\n--- Налаштування логування ---"
-MyApplicationKostyk::LoggerManager.setup(config_loader.config_data)
-
-# Крок 6: Перевірка логування
-puts "\n--- Перевірка логування ---"
-MyApplicationKostyk::LoggerManager.log_info("Тестове інформаційне повідомлення")
-MyApplicationKostyk::LoggerManager.log_warn("Тестове попередження")
-MyApplicationKostyk::LoggerManager.log_processed_file("test_file.rb", "Файл успішно оброблено")
-
-# Тест логування помилки
-begin
-  raise StandardError, "Тестова помилка для перевірки логування"
-rescue StandardError => e
-  MyApplicationKostyk::LoggerManager.log_error("Виникла тестова помилка", e)
-end
-
-# Крок 7: Тестування класу Item
-puts "\n--- Тестування класу Item ---"
-
-# Створення книги з базовими атрибутами
-book1 = MyApplicationKostyk::Item.new(
-  title: "A Light in the Attic",
-  price: 51.77,
-  rating: 3,
-  availability: "In stock",
-  category: "Poetry",
-  url: "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
-  image_path: "products/poetry/a_light_in_the_attic.jpg"
-)
-
-puts "\n1. Метод to_s:"
-puts book1.to_s
-
-puts "\n2. Метод to_h:"
-puts book1.to_h.inspect
-
-puts "\n3. Метод inspect:"
-puts book1.inspect
-
-# Створення книги з використанням блоку
-puts "\n4. Створення з блоком:"
-book2 = MyApplicationKostyk::Item.new(title: "Sharp Objects", price: 47.82) do |item|
-  item.rating = 4
-  item.category = "Mystery"
-  item.availability = "In stock"
-  item.description = "A psychological thriller by Gillian Flynn"
-  item.image_path = "products/mystery/sharp_objects.jpg"
-end
-puts book2.inspect
-
-# Тест парсингу ціни та рейтингу
-puts "\n5. Парсинг даних:"
-puts "  Ціна '£51.77' -> #{MyApplicationKostyk::Item.parse_price('£51.77')}"
-puts "  Рейтинг 'Three' -> #{MyApplicationKostyk::Item.parse_rating('Three')}"
-
-# Тест методу update з блоком
-puts "\n6. Метод update з блоком:"
-book1.update do |item|
-  item.title = "A Light in the Attic (Updated)"
-  item.price = 55.00
-end
-puts book1.inspect
-
-# Тест методу info (alias для to_s)
-puts "\n7. Метод info (alias для to_s):"
-puts book2.info
-
-# Тест генерації фіктивних даних з Faker
-puts "\n8. Генерація фіктивних книг (Faker):"
-3.times do |i|
-  fake_book = MyApplicationKostyk::Item.generate_fake
-  puts "  #{i + 1}. #{fake_book.inspect}"
-end
-
-# Тест Comparable (порівняння за ціною)
-puts "\n9. Порівняння книг (Comparable):"
-book3 = MyApplicationKostyk::Item.new(title: "Cheap Book", price: 10.00)
-book4 = MyApplicationKostyk::Item.new(title: "Expensive Book", price: 99.99)
-
-puts "  book3 (£#{book3.price}) < book4 (£#{book4.price}): #{book3 < book4}"
-puts "  book3 (£#{book3.price}) > book4 (£#{book4.price}): #{book3 > book4}"
-puts "  book3 (£#{book3.price}) == book4 (£#{book4.price}): #{book3 == book4}"
-
-# Сортування книг за ціною
-puts "\n10. Сортування книг за ціною:"
-books = [book1, book2, book3, book4]
-sorted_books = books.sort
-sorted_books.each do |book|
-  puts "  £#{book.price} - #{book.title}"
-end
-
-# Крок 11: Тестування класу ItemCollection
-puts "\n--- Тестування класу ItemCollection ---"
-
-# Створення колекції та генерація тестових даних
-collection = MyApplicationKostyk::ItemCollection.new
-
-puts "\n11. Генерація тестових книг (generate_test_items):"
-collection.generate_test_items(10)
-puts "  Згенеровано книг: #{collection.size}"
-
-# Виклик show_all_items через method_missing
-puts "\n12. Метод show_all_items (method_missing):"
-collection.show_all_items
-
-# Тестування Enumerable методів
-puts "\n13. Тестування Enumerable методів:"
-
-# map - отримати всі назви
-puts "\n  a) map - отримати всі назви:"
-titles = collection.map(&:title)
-puts "     Перші 3: #{titles.first(3).join(', ')}"
-
-# select - книги дорожче £30
-puts "\n  b) select - книги дорожче £30:"
-expensive = collection.select { |book| book.price > 30 }
-puts "     Знайдено: #{expensive.size} книг"
-
-# reject - книги БЕЗ рейтингу 5
-puts "\n  c) reject - книги без рейтингу 5:"
-not_five_star = collection.reject { |book| book.rating == 5 }
-puts "     Знайдено: #{not_five_star.size} книг"
-
-# find - перша книга з рейтингом >= 4
-puts "\n  d) find - перша книга з рейтингом >= 4:"
-good_book = collection.find { |book| book.rating >= 4 }
-puts "     Знайдено: #{good_book&.title || 'Не знайдено'}"
-
-# reduce - загальна вартість
-puts "\n  e) reduce - загальна вартість:"
-total = collection.reduce(0) { |sum, book| sum + book.price }
-puts "     Загальна вартість: £#{total.round(2)}"
-
-# all? - чи всі книги в наявності
-puts "\n  f) all? - чи всі книги в наявності:"
-all_in_stock = collection.all? { |book| book.availability == "In stock" }
-puts "     Всі в наявності: #{all_in_stock}"
-
-# any? - чи є книги дорожче £50
-puts "\n  g) any? - чи є книги дорожче £50:"
-has_expensive = collection.any? { |book| book.price > 50 }
-puts "     Є дорогі книги: #{has_expensive}"
-
-# none? - чи немає книг з ціною 0
-puts "\n  h) none? - чи немає безкоштовних книг:"
-no_free = collection.none? { |book| book.price == 0 }
-puts "     Немає безкоштовних: #{no_free}"
-
-# count - кількість книг з рейтингом 5
-puts "\n  i) count - книги з рейтингом 5:"
-five_star_count = collection.count { |book| book.rating == 5 }
-puts "     Кількість: #{five_star_count}"
-
-# sort - сортування за ціною
-puts "\n  j) sort - топ-3 найдешевші книги:"
-sorted = collection.sort
-sorted.first(3).each { |b| puts "     £#{b.price} - #{b.title}" }
-
-# uniq - унікальні книги
-puts "\n  k) uniq - унікальні книги:"
-unique = collection.uniq
-puts "     Унікальних: #{unique.size}"
-
-# Статистика
-puts "\n14. Статистика колекції:"
-puts "  Загальна вартість: £#{collection.total_price.round(2)}"
-puts "  Середня ціна: £#{collection.average_price.round(2)}"
-puts "  Середній рейтинг: #{collection.average_rating.round(2)}/5"
-puts "  Категорії: #{collection.categories_stats}"
-
-# Інформація про клас
-puts "\n15. Інформація про клас (class_info):"
-info = MyApplicationKostyk::ItemCollection.class_info
-puts "  Назва: #{info[:name]}"
-puts "  Версія: #{info[:version]}"
-puts "  Кількість екземплярів: #{info[:instances_count]}"
-
-# Збереження у різних форматах
-puts "\n16. Збереження колекції у різних форматах:"
-collection.save_to_file("output/books_collection.txt")
-puts "  ✓ Збережено у TXT: output/books_collection.txt"
-
-collection.save_to_json("output/books_collection.json")
-puts "  ✓ Збережено у JSON: output/books_collection.json"
-
-collection.save_to_csv("output/books_collection.csv")
-puts "  ✓ Збережено у CSV: output/books_collection.csv"
-
-collection.save_to_yml("output/books_yaml")
-puts "  ✓ Збережено у YAML: output/books_yaml/"
-
-# Крок 17: Тестування класу Configurator
-puts "\n--- Тестування класу Configurator ---"
-
-# Створення конфігуратора
-configurator = MyApplicationKostyk::Configurator.new
-
-# Виведення доступних методів
-puts "\n17. Доступні конфігураційні ключі:"
-puts "  #{MyApplicationKostyk::Configurator.available_methods.join(', ')}"
-
-# Виведення поточної конфігурації
-puts "\n18. Поточна конфігурація (за замовчуванням):"
-configurator.print_config
-
-# Налаштування параметрів
-puts "\n19. Налаштування параметрів:"
-configurator.configure(
-  run_website_parser: 1,
-  run_save_to_csv: 1,
-  run_save_to_json: 1,
-  run_save_to_yaml: 1,
-  run_save_to_sqlite: 0,
-  parser_max_pages: 5,
-  verbose_mode: 1
-)
-
-# Виведення оновленої конфігурації
-puts "\n20. Оновлена конфігурація:"
-configurator.print_config
-
-# Перевірка методів
-puts "\n21. Перевірка методів:"
-puts "  enabled?(:run_website_parser): #{configurator.enabled?(:run_website_parser)}"
-puts "  enabled?(:run_save_to_sqlite): #{configurator.enabled?(:run_save_to_sqlite)}"
-puts "  get(:parser_max_pages): #{configurator.get(:parser_max_pages)}"
-
-# Тест невідомого ключа
-puts "\n22. Тест невідомого ключа:"
-configurator.configure(unknown_key: 1)
-
-# Скидання конфігурації
-puts "\n23. Скидання конфігурації:"
-configurator.reset!
-puts "  run_website_parser після скидання: #{configurator.get(:run_website_parser)}"
-
-# Крок 24: Тестування класу SimpleWebsiteParser
-puts "\n--- Тестування класу SimpleWebsiteParser ---"
-
-# Створення парсера з конфігурацією
-parser_config = config_loader.config_data
-parser = MyApplicationKostyk::SimpleWebsiteParser.new(parser_config)
-
-puts "\n24. Ініціалізація парсера:"
-puts "  Стартова сторінка: #{parser_config['web_scraping']['start_page']}"
-puts "  Затримка між запитами: #{parser_config['web_scraping']['request_delay']}с"
-
-# Тестовий парсинг (лише 1 сторінка для демонстрації)
-puts "\n25. Тестовий парсинг (1 сторінка, з багатопоточністю):"
-puts "  Запуск парсингу..."
-
-begin
-  parser.start_parse(max_pages: 1, use_threads: true)
-  
-  puts "\n26. Результати парсингу:"
-  stats = parser.stats
-  puts "  Зібрано книг: #{stats[:total_books]}"
-  puts "  Загальна вартість: £#{stats[:total_price]}"
-  puts "  Середня ціна: £#{stats[:average_price]}"
-  puts "  Категорії: #{stats[:categories].keys.first(5).join(', ')}..."
-  
-  # Виведення перших 3 книг
-  puts "\n27. Перші 3 спарсені книги:"
-  parser.item_collection.first(3).each_with_index do |book, i|
-    puts "  #{i + 1}. #{book.title}"
-    puts "     Ціна: £#{book.price}, Рейтинг: #{book.rating}/5"
-    puts "     Категорія: #{book.category}"
-  end
-  
-  # Збереження результатів
-  puts "\n28. Збереження результатів парсингу:"
-  parser.item_collection.save_to_json("output/parsed_books.json")
-  puts "  ✓ Збережено у JSON: output/parsed_books.json"
-  
-rescue StandardError => e
-  puts "  Помилка парсингу: #{e.message}"
-  MyApplicationKostyk::LoggerManager.log_error("Помилка тестового парсингу", e)
-end
-
-# Крок 29: Тестування класу DatabaseConnector
-puts "\n--- Тестування класу DatabaseConnector ---"
-
-# Тестування SQLite
-puts "\n29. Тестування підключення до SQLite:"
-begin
-  db_connector = MyApplicationKostyk::DatabaseConnector.new(config_loader.config_data)
-  puts "  Тип бази даних: #{db_connector.db_type}"
-  
-  # Підключення до бази даних
-  db_connector.connect_to_database
-  puts "  ✓ Підключено до SQLite"
-  puts "  Статус з'єднання: #{db_connector.connected? ? 'Активне' : 'Неактивне'}"
-  
-  # Створення таблиць
-  puts "\n30. Створення таблиць:"
-  db_connector.create_tables
-  puts "  ✓ Таблиці створено"
-  
-  # Збереження тестових книг
-  puts "\n31. Збереження книг у SQLite:"
-  test_collection = MyApplicationKostyk::ItemCollection.new
-  test_collection.generate_test_items(5)
-  saved_count = db_connector.save_items(test_collection)
-  puts "  ✓ Збережено #{saved_count} книг у базу даних"
-  
-  # Отримання книг з бази
-  puts "\n32. Отримання книг з SQLite:"
-  items_from_db = db_connector.get_all_items
-  puts "  Знайдено книг у базі: #{items_from_db.size}"
-  
-  if items_from_db.any?
-    puts "\n  Перші 3 книги з бази:"
-    items_from_db.first(3).each_with_index do |item, i|
-      puts "    #{i + 1}. #{item['title']} - £#{item['price']}"
-    end
-  end
-  
-  # Закриття з'єднання
-  puts "\n33. Закриття з'єднання:"
-  db_connector.close_connection
-  puts "  ✓ З'єднання закрито"
-  puts "  Статус з'єднання: #{db_connector.connected? ? 'Активне' : 'Неактивне'}"
-  
-rescue LoadError => e
-  puts "  ⚠ Бібліотека sqlite3 не встановлена: #{e.message}"
-  puts "  Виконайте: bundle install"
-rescue StandardError => e
-  puts "  Помилка: #{e.message}"
-  MyApplicationKostyk::LoggerManager.log_error("Помилка тестування SQLite", e)
-end
-
-# Тестування MongoDB (опціонально, якщо сервер доступний)
-puts "\n34. Тестування підключення до MongoDB:"
-begin
-  # Змінюємо тип бази даних на MongoDB
-  mongodb_config = config_loader.config_data.dup
-  mongodb_config["database"] = mongodb_config["database"].dup
-  mongodb_config["database"]["type"] = "mongodb"
-  
-  mongo_connector = MyApplicationKostyk::DatabaseConnector.new(mongodb_config)
-  puts "  Тип бази даних: #{mongo_connector.db_type}"
-  
-  # Спроба підключення до MongoDB
-  mongo_connector.connect_to_database
-  puts "  ✓ Підключено до MongoDB"
-  
-  # Закриття з'єднання
-  mongo_connector.close_connection
-  puts "  ✓ З'єднання закрито"
-  
-rescue LoadError => e
-  puts "  ⚠ Бібліотека mongo не встановлена: #{e.message}"
-  puts "  Виконайте: bundle install"
-rescue StandardError => e
-  puts "  ⚠ MongoDB недоступний: #{e.message}"
-  puts "  (Це нормально, якщо MongoDB сервер не запущений)"
-end
-
-# Крок 35: Тестування класу Engine
-puts "\n--- Тестування класу Engine ---"
 require_relative "engine"
 
-puts "\n35. Ініціалізація Engine:"
-engine = MyApplicationKostyk::Engine.new
-puts "  ✓ Engine створено"
+module MyApplicationKostyk
+  # Головний клас для запуску додатку
+  class Main
+    class << self
+      # Запускає додаток з параметрами конфігурації
+      # @param config_params [Hash] параметри конфігурації (опціонально)
+      def run(config_params = nil)
+        puts banner
+        puts "Версія: #{VERSION}"
+        puts "=" * 60
 
-puts "\n36. Запуск Engine з параметрами:"
-puts "  Параметри: парсинг 1 сторінки, збереження в CSV, JSON, SQLite"
+        begin
+          # Крок 1: Завантаження бібліотек
+          load_libraries
 
-begin
-  engine.run(
-    run_website_parser: 1,
-    run_save_to_csv: 1,
-    run_save_to_json: 1,
-    run_save_to_yaml: 1,
-    run_save_to_sqlite: 1,
-    run_save_to_mongodb: 0, # Вимкнено, бо MongoDB може бути недоступний
-    parser_max_pages: 1,
-    use_threads: 1
-  )
-rescue StandardError => e
-  puts "  ❌ Помилка Engine: #{e.message}"
-  MyApplicationKostyk::LoggerManager.log_error("Помилка тестування Engine", e)
+          # Крок 2: Завантаження конфігурації
+          config = load_configuration
+
+          # Крок 3: Налаштування параметрів через Configurator
+          params = setup_configurator(config_params)
+
+          # Крок 4: Запуск Engine
+          run_engine(params)
+
+          puts "\n" + "=" * 60
+          puts "✓ Програма завершила роботу успішно!"
+          puts "=" * 60
+        rescue StandardError => e
+          handle_error(e)
+          exit(1)
+        end
+      end
+
+      # Виводить банер програми
+      # @return [String] банер
+      def banner
+        <<~BANNER
+
+          ╔══════════════════════════════════════════════════════════╗
+          ║          RUBY WEB PARSER - BOOKS TO SCRAPE               ║
+          ║              Парсер книжкового магазину                  ║
+          ╚══════════════════════════════════════════════════════════╝
+
+        BANNER
+      end
+
+      private
+
+      # Завантажує всі необхідні бібліотеки
+      def load_libraries
+        puts "\n📚 Завантаження бібліотек..."
+
+        @config_loader = AppConfigLoader.new
+        libs_path = File.join(MyApplicationKostyk.root, "lib")
+        @config_loader.load_libs(libs_path)
+
+        puts "  ✓ Завантажено #{@config_loader.loaded_libs.size} бібліотек"
+        LoggerManager.log_info("[Main] Бібліотеки завантажено: #{@config_loader.loaded_libs.join(', ')}")
+      rescue StandardError => e
+        raise "Помилка завантаження бібліотек: #{e.message}"
+      end
+
+      # Завантажує конфігурацію з YAML файлів
+      # @return [Hash] завантажена конфігурація
+      def load_configuration
+        puts "\n⚙️  Завантаження конфігурації..."
+
+        config_path = File.join(MyApplicationKostyk.config_path, "default_config.yaml")
+        @config_loader.config(config_path, MyApplicationKostyk.config_path)
+
+        # Ініціалізуємо логування
+        LoggerManager.setup(@config_loader.config_data)
+
+        puts "  ✓ Конфігурацію завантажено"
+        LoggerManager.log_info("[Main] Конфігурація завантажена успішно")
+
+        @config_loader.config_data
+      rescue StandardError => e
+        raise "Помилка завантаження конфігурації: #{e.message}"
+      end
+
+      # Налаштовує Configurator з параметрами
+      # @param custom_params [Hash] користувацькі параметри
+      # @return [Hash] параметри для Engine
+      def setup_configurator(custom_params)
+        puts "\n🔧 Налаштування параметрів..."
+
+        @configurator = Configurator.new
+
+        # Параметри за замовчуванням для повного запуску
+        default_params = {
+          run_website_parser: 1,
+          run_save_to_csv: 1,
+          run_save_to_json: 1,
+          run_save_to_yaml: 1,
+          run_save_to_sqlite: 1,
+          run_save_to_mongodb: 0,
+          parser_max_pages: 2,
+          use_threads: 1,
+          verbose_mode: 1
+        }
+
+        # Якщо передано користувацькі параметри - використовуємо їх
+        params = custom_params || default_params
+        @configurator.configure(params)
+
+        puts "  ✓ Параметри налаштовано"
+        @configurator.print_config if params[:verbose_mode]&.positive?
+
+        LoggerManager.log_info("[Main] Параметри налаштовано")
+        params
+      end
+
+      # Запускає Engine з параметрами
+      # @param params [Hash] параметри для виконання
+      def run_engine(params)
+        puts "\n🚀 Запуск Engine..."
+        LoggerManager.log_info("[Main] Запуск Engine")
+
+        engine = Engine.new
+        engine.run(params)
+      end
+
+      # Обробляє помилки
+      # @param error [StandardError] помилка
+      def handle_error(error)
+        puts "\n" + "=" * 60
+        puts "❌ ПОМИЛКА: #{error.message}"
+        puts "=" * 60
+
+        if ENV["DEBUG"]
+          puts "\nДеталі помилки:"
+          puts error.backtrace.first(10).join("\n")
+        end
+
+        LoggerManager.log_error("[Main] Критична помилка", error)
+      end
+    end
+  end
 end
 
-puts "\n" + "=" * 60
-puts "Ініціалізація завершена успішно!"
-puts "Перевірте файли логів у директорії: #{MyApplicationKostyk.logs_path}"
-puts "=" * 60
+# ============================================
+# Запуск програми, якщо файл виконується напряму
+# ============================================
+if __FILE__ == $PROGRAM_NAME
+  # Парсинг аргументів командного рядка
+  params = {}
+
+  ARGV.each do |arg|
+    case arg
+    when "--help", "-h"
+      puts MyApplicationKostyk::Main.banner
+      puts "Використання: ruby main.rb [опції]"
+      puts ""
+      puts "Опції:"
+      puts "  --help, -h          Показати цю довідку"
+      puts "  --pages=N           Кількість сторінок для парсингу (за замовчуванням: 2)"
+      puts "  --no-threads        Вимкнути багатопоточність"
+      puts "  --csv-only          Зберегти тільки у CSV"
+      puts "  --json-only         Зберегти тільки у JSON"
+      puts "  --no-db             Не зберігати в базу даних"
+      puts "  --test              Тестовий режим (1 сторінка, без БД)"
+      puts ""
+      exit(0)
+    when /--pages=(\d+)/
+      params[:parser_max_pages] = ::Regexp.last_match(1).to_i
+    when "--no-threads"
+      params[:use_threads] = 0
+    when "--csv-only"
+      params[:run_save_to_csv] = 1
+      params[:run_save_to_json] = 0
+      params[:run_save_to_yaml] = 0
+    when "--json-only"
+      params[:run_save_to_json] = 1
+      params[:run_save_to_csv] = 0
+      params[:run_save_to_yaml] = 0
+    when "--no-db"
+      params[:run_save_to_sqlite] = 0
+      params[:run_save_to_mongodb] = 0
+    when "--test"
+      params = {
+        run_website_parser: 1,
+        run_save_to_csv: 1,
+        run_save_to_json: 1,
+        run_save_to_yaml: 0,
+        run_save_to_sqlite: 0,
+        run_save_to_mongodb: 0,
+        parser_max_pages: 1,
+        use_threads: 0,
+        verbose_mode: 1
+      }
+    end
+  end
+
+  # Запуск з параметрами або без
+  MyApplicationKostyk::Main.run(params.empty? ? nil : params)
+end
