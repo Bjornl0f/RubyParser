@@ -17,3 +17,29 @@ Backtrace: lib/main.rb:48:in `<main>'
 [2025-11-28 08:34:35] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
 [2025-11-28 08:34:35] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
 Backtrace: lib/main.rb:48:in `<main>'
+[2025-11-28 08:49:06] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 08:49:06] INFO: Рівень логування: info
+[2025-11-28 08:49:06] INFO: Директорія логів: logs
+[2025-11-28 08:49:06] INFO: Тестове інформаційне повідомлення
+[2025-11-28 08:49:06] WARN: Тестове попередження
+[2025-11-28 08:49:06] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 08:49:06] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:49:in `<main>'
+[2025-11-28 08:49:06] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 08:49:06] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 08:57:22] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 08:57:22] INFO: Рівень логування: info
+[2025-11-28 08:57:22] INFO: Директорія логів: logs
+[2025-11-28 08:57:22] INFO: Тестове інформаційне повідомлення
+[2025-11-28 08:57:22] WARN: Тестове попередження
+[2025-11-28 08:57:22] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 08:57:22] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:49:in `<main>'
+[2025-11-28 08:57:22] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 08:57:22] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 08:57:22] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 08:57:28] INFO: Створено Item: Postern of Fate (Mystery) - £53.57
+[2025-11-28 08:57:28] INFO: Створено Item: For a Breath I Tarry (Science) - £18.03
+[2025-11-28 08:57:28] INFO: Створено Item: Far From the Madding Crowd (Music) - £31.83
+[2025-11-28 08:57:28] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 08:57:28] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99

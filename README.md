@@ -22,6 +22,7 @@ RubyParser/
 │   ├── my_application_kostyk.rb # Модуль простору імен
 │   ├── app_config_loader.rb     # Клас для завантаження конфігурацій
 │   ├── logger_manager.rb        # Клас для управління логуванням
+│   ├── item.rb                  # Клас Item для представлення книги
 │   ├── another_file.rb          # Інший файл з кодом
 │   └── tasks/                   # Папка для Rake-задач
 │       ├── task1.rake           # Задача для парсингу
@@ -76,11 +77,19 @@ RubyParser/
 - [x] Створення класу LoggerManager для логування
 - [x] Перевірка функціоналу в main.rb
 
-### Етап 3: Розробка парсера (ПЛАНУЄТЬСЯ)
+### Етап 3: Реалізація основних класів (В ПРОЦЕСІ)
+- [x] Клас Item для представлення книги (8 атрибутів)
+- [x] Метод update для зміни через блок
+- [x] Alias info для to_s
+- [x] Метод generate_fake з Faker
+- [x] Модуль Comparable (порівняння за ціною)
+- [ ] Клас ItemCollection для колекції книг
+
+### Етап 4: Розробка парсера (ПЛАНУЄТЬСЯ)
 - [ ] Реалізація логіки парсингу
 - [ ] Обробка пагінації
 
-### Етап 4: Збереження даних (ПЛАНУЄТЬСЯ)
+### Етап 5: Збереження даних (ПЛАНУЄТЬСЯ)
 - [ ] Експорт у CSV формат
 - [ ] Експорт у JSON формат
 
@@ -140,7 +149,62 @@ rake data:export_csv
 rake data:export_json
 ```
 
+## Основні класи
+
+### Item
+Клас для представлення книги з сайту [Books to Scrape](http://books.toscrape.com/).
+Реалізує модуль `Comparable` для порівняння книг за ціною.
+
+**Атрибути (8):**
+- `title` - назва книги
+- `price` - ціна (Float)
+- `rating` - рейтинг 1-5 (Integer)
+- `availability` - наявність
+- `category` - категорія
+- `url` - посилання на сторінку
+- `image_path` - шлях до зображення
+- `description` - опис книги
+
+**Методи:**
+- `initialize(attributes, &block)` - конструктор з підтримкою блоку
+- `update(&block)` - зміна атрибутів через блок
+- `to_s` / `info` - рядкове представлення (info - alias)
+- `to_h` - хеш атрибутів
+- `inspect` - інформація про об'єкт
+- `<=>` - порівняння книг за ціною (Comparable)
+- `Item.generate_fake` - генерація книги з Faker
+- `Item.parse_price(string)` - парсинг ціни
+- `Item.parse_rating(class)` - парсинг рейтингу
+
+**Приклади:**
+```ruby
+# Створення з блоком
+book = MyApplicationKostyk::Item.new(title: "Sharp Objects", price: 47.82) do |item|
+  item.category = "Mystery"
+  item.rating = 4
+end
+
+# Оновлення через блок
+book.update do |item|
+  item.price = 50.00
+end
+
+# Генерація фіктивних даних
+fake_book = MyApplicationKostyk::Item.generate_fake
+
+# Порівняння та сортування
+books.sort  # сортує за ціною
+book1 < book2  # порівнює за ціною
+```
+
 ## Історія змін
+
+### v0.5.0 (2025-11-28)
+- Клас Item: додано метод update для зміни через блок
+- Клас Item: додано alias info для методу to_s
+- Клас Item: додано метод generate_fake з бібліотекою Faker
+- Клас Item: реалізовано модуль Comparable (порівняння за ціною)
+- Додано бібліотеку Faker до проекту
 
 ### v0.4.0 (2025-11-28)
 - Додано метод load_libs в AppConfigLoader для автопідключення бібліотек

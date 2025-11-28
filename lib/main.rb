@@ -10,6 +10,7 @@ require "mechanize"
 require_relative "my_application_kostyk"
 require_relative "app_config_loader"
 require_relative "logger_manager"
+require_relative "item"
 
 puts "=" * 60
 puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
@@ -48,6 +49,81 @@ begin
   raise StandardError, "Тестова помилка для перевірки логування"
 rescue StandardError => e
   MyApplicationKostyk::LoggerManager.log_error("Виникла тестова помилка", e)
+end
+
+# Крок 7: Тестування класу Item
+puts "\n--- Тестування класу Item ---"
+
+# Створення книги з базовими атрибутами
+book1 = MyApplicationKostyk::Item.new(
+  title: "A Light in the Attic",
+  price: 51.77,
+  rating: 3,
+  availability: "In stock",
+  category: "Poetry",
+  url: "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  image_path: "products/poetry/a_light_in_the_attic.jpg"
+)
+
+puts "\n1. Метод to_s:"
+puts book1.to_s
+
+puts "\n2. Метод to_h:"
+puts book1.to_h.inspect
+
+puts "\n3. Метод inspect:"
+puts book1.inspect
+
+# Створення книги з використанням блоку
+puts "\n4. Створення з блоком:"
+book2 = MyApplicationKostyk::Item.new(title: "Sharp Objects", price: 47.82) do |item|
+  item.rating = 4
+  item.category = "Mystery"
+  item.availability = "In stock"
+  item.description = "A psychological thriller by Gillian Flynn"
+  item.image_path = "products/mystery/sharp_objects.jpg"
+end
+puts book2.inspect
+
+# Тест парсингу ціни та рейтингу
+puts "\n5. Парсинг даних:"
+puts "  Ціна '£51.77' -> #{MyApplicationKostyk::Item.parse_price('£51.77')}"
+puts "  Рейтинг 'Three' -> #{MyApplicationKostyk::Item.parse_rating('Three')}"
+
+# Тест методу update з блоком
+puts "\n6. Метод update з блоком:"
+book1.update do |item|
+  item.title = "A Light in the Attic (Updated)"
+  item.price = 55.00
+end
+puts book1.inspect
+
+# Тест методу info (alias для to_s)
+puts "\n7. Метод info (alias для to_s):"
+puts book2.info
+
+# Тест генерації фіктивних даних з Faker
+puts "\n8. Генерація фіктивних книг (Faker):"
+3.times do |i|
+  fake_book = MyApplicationKostyk::Item.generate_fake
+  puts "  #{i + 1}. #{fake_book.inspect}"
+end
+
+# Тест Comparable (порівняння за ціною)
+puts "\n9. Порівняння книг (Comparable):"
+book3 = MyApplicationKostyk::Item.new(title: "Cheap Book", price: 10.00)
+book4 = MyApplicationKostyk::Item.new(title: "Expensive Book", price: 99.99)
+
+puts "  book3 (£#{book3.price}) < book4 (£#{book4.price}): #{book3 < book4}"
+puts "  book3 (£#{book3.price}) > book4 (£#{book4.price}): #{book3 > book4}"
+puts "  book3 (£#{book3.price}) == book4 (£#{book4.price}): #{book3 == book4}"
+
+# Сортування книг за ціною
+puts "\n10. Сортування книг за ціною:"
+books = [book1, book2, book3, book4]
+sorted_books = books.sort
+sorted_books.each do |book|
+  puts "  £#{book.price} - #{book.title}"
 end
 
 puts "\n" + "=" * 60
