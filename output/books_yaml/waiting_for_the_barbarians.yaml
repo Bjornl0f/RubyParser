@@ -1,11 +1,11 @@
 ---
 book:
   title: Waiting for the Barbarians
-  price: 22.54
-  rating: 3
-  availability: Out of stock
-  category: Poetry
+  price: 37.51
+  rating: 5
+  availability: In stock
+  category: Sequential Art
   url: http://books.toscrape.com/catalogue/waiting_for_the_barbarians/index.html
-  image_path: products/poetry/waiting_for_the_barbarians.jpg
-  description: Cum ab cumque. Dolores rerum nostrum. Vitae earum cumque.
-  exported_at: '2025-11-28T09:32:23+02:00'
+  image_path: products/sequential_art/waiting_for_the_barbarians.jpg
+  description: Ipsum suscipit alias. Aut quia voluptatem. Quaerat hic dolor.
+  exported_at: '2025-11-28T10:18:20+02:00'

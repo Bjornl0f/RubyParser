@@ -1,0 +1,11 @@
+---
+book:
+  title: Absalom, Absalom!
+  price: 15.97
+  rating: 1
+  availability: In stock
+  category: Sequential Art
+  url: http://books.toscrape.com/catalogue/absalom_absalom/index.html
+  image_path: products/sequential_art/absalom_absalom.jpg
+  description: Et quia laudantium. Quaerat fugiat qui. Dolores perferendis officia.
+  exported_at: '2025-11-28T10:17:25+02:00'

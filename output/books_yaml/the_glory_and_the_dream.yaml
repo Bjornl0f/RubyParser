@@ -1,0 +1,11 @@
+---
+book:
+  title: The Glory and the Dream
+  price: 26.76
+  rating: 1
+  availability: Out of stock
+  category: Romance
+  url: http://books.toscrape.com/catalogue/the_glory_and_the_dream/index.html
+  image_path: products/romance/the_glory_and_the_dream.jpg
+  description: Velit nemo ab. Possimus quidem quisquam. Distinctio et ab.
+  exported_at: '2025-11-28T10:18:20+02:00'

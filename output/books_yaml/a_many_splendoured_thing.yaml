@@ -1,0 +1,11 @@
+---
+book:
+  title: A Many-Splendoured Thing
+  price: 58.51
+  rating: 4
+  availability: Out of stock
+  category: Philosophy
+  url: http://books.toscrape.com/catalogue/a_many_splendoured_thing/index.html
+  image_path: products/philosophy/a_many_splendoured_thing.jpg
+  description: Repellendus ea quod. Ad omnis molestiae. Vitae perspiciatis deserunt.
+  exported_at: '2025-11-28T10:17:24+02:00'

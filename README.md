@@ -24,6 +24,7 @@ RubyParser/
 │   ├── logger_manager.rb        # Клас для управління логуванням
 │   ├── configurator.rb          # Клас Configurator для налаштувань
 │   ├── simple_website_parser.rb # Клас для парсингу сайту
+│   ├── database_connector.rb    # Клас для підключення до БД
 │   ├── item.rb                  # Клас Item для представлення книги
 │   ├── item_collection.rb       # Клас ItemCollection для колекції книг
 │   ├── item_container.rb        # Модуль ItemContainer
@@ -107,7 +108,13 @@ RubyParser/
 - [x] Збереження зображень в media_dir
 - [x] Багатопоточність (concurrent-ruby)
 
-### Етап 5: Збереження даних (ПЛАНУЄТЬСЯ)
+### Етап 5: Підключення до БД (ВИКОНАНО)
+- [x] Клас DatabaseConnector для SQLite та MongoDB
+- [x] Методи підключення та закриття з'єднання
+- [x] Збереження та отримання книг з БД
+- [x] Створення таблиць за схемою
+
+### Етап 6: Збереження даних (ПЛАНУЄТЬСЯ)
 - [ ] Експорт у CSV формат
 - [ ] Експорт у JSON формат
 
@@ -323,17 +330,51 @@ if configurator.enabled?(:run_website_parser)
 end
 ```
 
+### DatabaseConnector
+Клас для підключення до баз даних SQLite та MongoDB.
+
+**Атрибути:**
+- `db` - активне з'єднання з базою даних
+- `db_type` - тип бази даних (sqlite/mongodb)
+- `config` - конфігурація з YAML
+
+**Методи:**
+- `connect_to_database` - підключення до БД на основі типу
+- `close_connection` - закриття з'єднання
+- `connected?` - перевірка стану з'єднання
+- `create_tables` - створення таблиць (SQLite)
+- `save_item(item)` - збереження книги в БД
+- `save_items(collection)` - збереження колекції книг
+- `get_all_items` - отримання всіх книг з БД
+
+**Приклад:**
+```ruby
+# Підключення до SQLite
+db = MyApplicationKostyk::DatabaseConnector.new(config)
+db.connect_to_database
+db.create_tables
+
+# Збереження книг
+db.save_items(collection)
+
+# Отримання книг
+items = db.get_all_items
+
+# Закриття з'єднання
+db.close_connection
+```
+
 ## Історія змін
 
 Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-**Поточна версія: 0.9.0**
+**Поточна версія: 0.10.0**
 
 Останні зміни:
-- Клас `SimpleWebsiteParser` для парсингу сайту Books to Scrape
-- Багатопоточність з concurrent-ruby
-- Збереження зображень в media_dir по категоріях
-- Повне логування всіх операцій парсингу
+- Клас `DatabaseConnector` для підключення до SQLite та MongoDB
+- Методи збереження та отримання книг з бази даних
+- Створення таблиць за схемою з конфігурації
+- Бібліотеки `sqlite3` та `mongo` до Gemfile
 
 ## Автор
 

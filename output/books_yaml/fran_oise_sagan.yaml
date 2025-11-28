@@ -1,0 +1,11 @@
+---
+book:
+  title: Françoise Sagan
+  price: 48.59
+  rating: 5
+  availability: In stock
+  category: Thriller
+  url: http://books.toscrape.com/catalogue/fran_oise_sagan/index.html
+  image_path: products/thriller/fran_oise_sagan.jpg
+  description: In voluptate natus. Velit sunt provident. Impedit ut illo.
+  exported_at: '2025-11-28T10:06:10+02:00'

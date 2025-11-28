@@ -1,0 +1,11 @@
+---
+book:
+  title: The Man Within
+  price: 30.2
+  rating: 3
+  availability: Out of stock
+  category: Sequential Art
+  url: http://books.toscrape.com/catalogue/the_man_within/index.html
+  image_path: products/sequential_art/the_man_within.jpg
+  description: Est tenetur beatae. Et distinctio vero. Aut officia sapiente.
+  exported_at: '2025-11-28T10:02:14+02:00'

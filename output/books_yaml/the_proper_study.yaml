@@ -1,0 +1,11 @@
+---
+book:
+  title: The Proper Study
+  price: 52.85
+  rating: 1
+  availability: Out of stock
+  category: Religion
+  url: http://books.toscrape.com/catalogue/the_proper_study/index.html
+  image_path: products/religion/the_proper_study.jpg
+  description: Inventore laborum placeat. Atque nesciunt illo. Non ratione consequuntur.
+  exported_at: '2025-11-28T10:06:10+02:00'

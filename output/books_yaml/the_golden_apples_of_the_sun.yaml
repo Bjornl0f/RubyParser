@@ -1,11 +1,11 @@
 ---
 book:
   title: The Golden Apples of the Sun
-  price: 10.74
+  price: 50.72
   rating: 5
-  availability: Out of stock
-  category: Nonfiction
+  availability: In stock
+  category: Thriller
   url: http://books.toscrape.com/catalogue/the_golden_apples_of_the_sun/index.html
-  image_path: products/nonfiction/the_golden_apples_of_the_sun.jpg
-  description: Facere quia temporibus. Quo nesciunt qui. Laborum vel ex.
-  exported_at: '2025-11-28T09:47:39+02:00'
+  image_path: products/thriller/the_golden_apples_of_the_sun.jpg
+  description: Sint esse delectus. Necessitatibus praesentium natus. Et aliquam perferendis.
+  exported_at: '2025-11-28T10:02:14+02:00'

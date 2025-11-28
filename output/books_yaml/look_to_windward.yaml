@@ -1,0 +1,11 @@
+---
+book:
+  title: Look to Windward
+  price: 30.81
+  rating: 2
+  availability: Out of stock
+  category: History
+  url: http://books.toscrape.com/catalogue/look_to_windward/index.html
+  image_path: products/history/look_to_windward.jpg
+  description: Distinctio ut ullam. Aut pariatur quae. Autem dignissimos veniam.
+  exported_at: '2025-11-28T10:06:10+02:00'

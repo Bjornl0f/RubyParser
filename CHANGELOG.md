@@ -4,6 +4,24 @@
 
 Формат базується на [Keep a Changelog](https://keepachangelog.com/uk/1.0.0/).
 
+## [0.10.0] - 2025-11-28
+
+### Додано
+- Клас `DatabaseConnector` для підключення до баз даних
+- Підтримка SQLite та MongoDB
+- Атрибути: `db`, `db_type`, `config`
+- Метод `connect_to_database` для підключення на основі типу БД
+- Метод `close_connection` для закриття з'єднання
+- Метод `connected?` для перевірки стану з'єднання
+- Метод `create_tables` для створення таблиць SQLite за схемою
+- Метод `save_item(item)` для збереження книги в БД
+- Метод `save_items(collection)` для збереження колекції книг
+- Метод `get_all_items` для отримання всіх книг з БД
+- Приватні методи `connect_to_sqlite` та `connect_to_mongodb`
+- Обробка помилок для непідтримуваних типів БД
+- Бібліотеки `sqlite3` та `mongo` до Gemfile
+- Оновлено `database_config.yaml` з налаштуваннями для обох типів БД
+
 ## [0.9.0] - 2025-11-28
 
 ### Додано

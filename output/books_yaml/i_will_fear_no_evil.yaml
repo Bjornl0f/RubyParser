@@ -1,0 +1,11 @@
+---
+book:
+  title: I Will Fear No Evil
+  price: 26.73
+  rating: 4
+  availability: Out of stock
+  category: Biography
+  url: http://books.toscrape.com/catalogue/i_will_fear_no_evil/index.html
+  image_path: products/biography/i_will_fear_no_evil.jpg
+  description: Nulla ut nostrum. Reprehenderit amet fugit. Aut omnis blanditiis.
+  exported_at: '2025-11-28T10:47:37+02:00'

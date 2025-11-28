@@ -1,0 +1,12 @@
+---
+book:
+  title: Clouds of Witness
+  price: 10.87
+  rating: 2
+  availability: Out of stock
+  category: Crime
+  url: http://books.toscrape.com/catalogue/clouds_of_witness/index.html
+  image_path: products/crime/clouds_of_witness.jpg
+  description: Officiis doloribus reiciendis. Voluptas omnis cumque. Exercitationem
+    odio voluptatum.
+  exported_at: '2025-11-28T10:18:20+02:00'

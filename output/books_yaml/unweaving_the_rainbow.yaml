@@ -1,11 +1,11 @@
 ---
 book:
   title: Unweaving the Rainbow
-  price: 30.16
-  rating: 2
+  price: 48.08
+  rating: 5
   availability: In stock
-  category: Sports
+  category: Childrens
   url: http://books.toscrape.com/catalogue/unweaving_the_rainbow/index.html
-  image_path: products/sports/unweaving_the_rainbow.jpg
-  description: Ut fugiat ut. Voluptas adipisci quis. Eos blanditiis cupiditate.
-  exported_at: '2025-11-28T09:42:04+02:00'
+  image_path: products/childrens/unweaving_the_rainbow.jpg
+  description: Aut ut omnis. Aut ipsum ut. Corrupti cupiditate deserunt.
+  exported_at: '2025-11-28T10:27:52+02:00'

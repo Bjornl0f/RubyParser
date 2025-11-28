@@ -1,22 +1,37 @@
-# Конфігурація бази даних SQLite
-# Містить параметри для підключення до локальної бази даних
+# Конфігурація баз даних
+# Підтримує SQLite та MongoDB
 
 database:
-  # Адаптер бази даних
-  adapter: "sqlite3"
+  # Тип бази даних: sqlite або mongodb
+  type: "sqlite"
   
-  # Шлях до файлу бази даних
-  database_path: "db/books_parser.sqlite3"
+  # ============================================
+  # Налаштування SQLite
+  # ============================================
+  sqlite:
+    # Шлях до файлу бази даних
+    database_path: "db/books_parser.sqlite3"
+    
+    # Налаштування з'єднання
+    timeout: 5000
+    
+  # ============================================
+  # Налаштування MongoDB
+  # ============================================
+  mongodb:
+    # URI для підключення
+    uri: "mongodb://localhost:27017"
+    
+    # Назва бази даних
+    database_name: "books_parser"
+    
+    # Назва колекції
+    collection_name: "books"
   
-  # Назва бази даних
-  database_name: "books_parser"
-  
-  # Налаштування пулу з'єднань
-  pool: 5
-  timeout: 5000
-  
-  # Таблиці бази даних
-  tables:
+  # ============================================
+  # Схема таблиць/колекцій
+  # ============================================
+  schema:
     books:
       name: "books"
       columns:
@@ -27,7 +42,8 @@ database:
         - availability: "TEXT"
         - category: "TEXT"
         - url: "TEXT"
-        - image_url: "TEXT"
+        - image_path: "TEXT"
+        - description: "TEXT"
         - created_at: "DATETIME DEFAULT CURRENT_TIMESTAMP"
     
     categories:
@@ -37,4 +53,3 @@ database:
         - name: "TEXT NOT NULL UNIQUE"
         - url: "TEXT"
         - book_count: "INTEGER DEFAULT 0"
-

@@ -1,11 +1,11 @@
 ---
 book:
   title: Terrible Swift Sword
-  price: 53.06
-  rating: 1
+  price: 15.14
+  rating: 3
   availability: Low stock
-  category: Science
+  category: Fantasy
   url: http://books.toscrape.com/catalogue/terrible_swift_sword/index.html
-  image_path: products/science/terrible_swift_sword.jpg
-  description: Velit autem officiis. Fugiat incidunt ex. Sunt eos laboriosam.
-  exported_at: '2025-11-28T09:18:32+02:00'
+  image_path: products/fantasy/terrible_swift_sword.jpg
+  description: Perferendis illo voluptas. Quasi labore atque. Consequatur a sint.
+  exported_at: '2025-11-28T10:17:25+02:00'

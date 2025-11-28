@@ -1,0 +1,11 @@
+---
+book:
+  title: Precious Bane
+  price: 22.44
+  rating: 3
+  availability: Low stock
+  category: Science
+  url: http://books.toscrape.com/catalogue/precious_bane/index.html
+  image_path: products/science/precious_bane.jpg
+  description: Et ut rerum. Sit officia sed. Recusandae voluptate et.
+  exported_at: '2025-11-28T10:02:14+02:00'

@@ -1,0 +1,11 @@
+---
+book:
+  title: The Waste Land
+  price: 26.41
+  rating: 5
+  availability: Low stock
+  category: Travel
+  url: http://books.toscrape.com/catalogue/the_waste_land/index.html
+  image_path: products/travel/the_waste_land.jpg
+  description: Vitae eum quis. Libero reprehenderit in. Repellat deleniti omnis.
+  exported_at: '2025-11-28T10:27:52+02:00'

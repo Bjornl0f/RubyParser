@@ -1,11 +1,11 @@
 ---
 book:
   title: The Lathe of Heaven
-  price: 54.7
+  price: 27.63
   rating: 2
-  availability: In stock
-  category: Religion
+  availability: Out of stock
+  category: Poetry
   url: http://books.toscrape.com/catalogue/the_lathe_of_heaven/index.html
-  image_path: products/religion/the_lathe_of_heaven.jpg
-  description: In illum sequi. Incidunt voluptate excepturi. Suscipit neque incidunt.
-  exported_at: '2025-11-28T09:29:55+02:00'
+  image_path: products/poetry/the_lathe_of_heaven.jpg
+  description: Voluptatem aut et. Quasi illo et. Ratione esse tempore.
+  exported_at: '2025-11-28T10:02:14+02:00'

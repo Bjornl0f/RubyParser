@@ -1,0 +1,11 @@
+---
+book:
+  title: The Needle's Eye
+  price: 43.31
+  rating: 2
+  availability: In stock
+  category: Science
+  url: http://books.toscrape.com/catalogue/the_needle_s_eye/index.html
+  image_path: products/science/the_needle_s_eye.jpg
+  description: Similique hic ullam. Non nisi corrupti. Eos itaque ut.
+  exported_at: '2025-11-28T10:47:37+02:00'

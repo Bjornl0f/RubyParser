@@ -1,0 +1,11 @@
+---
+book:
+  title: Quo Vadis
+  price: 45.86
+  rating: 4
+  availability: In stock
+  category: Romance
+  url: http://books.toscrape.com/catalogue/quo_vadis/index.html
+  image_path: products/romance/quo_vadis.jpg
+  description: Occaecati facilis deserunt. Cum in pariatur. Nesciunt modi necessitatibus.
+  exported_at: '2025-11-28T10:18:20+02:00'

@@ -1,112 +1,112 @@
 {
   "metadata": {
     "source": "Books to Scrape",
-    "exported_at": "2025-11-28T09:47:39+02:00",
+    "exported_at": "2025-11-28T10:47:37+02:00",
     "total_items": 10,
-    "total_price": 354.15,
-    "average_price": 35.42,
-    "average_rating": 3.1
+    "total_price": 293.08,
+    "average_price": 29.31,
+    "average_rating": 2.9
   },
   "books": [
     {
-      "title": "Everything is Illuminated",
-      "price": 55.86,
-      "rating": 3,
-      "availability": "Low stock",
-      "category": "Nonfiction",
-      "url": "http://books.toscrape.com/catalogue/everything_is_illuminated/index.html",
-      "image_path": "products/nonfiction/everything_is_illuminated.jpg",
-      "description": "Ipsum mollitia vero. Architecto excepturi molestiae. Cupiditate quia et."
+      "title": "The Moon by Night",
+      "price": 20.64,
+      "rating": 1,
+      "availability": "Out of stock",
+      "category": "Science Fiction",
+      "url": "http://books.toscrape.com/catalogue/the_moon_by_night/index.html",
+      "image_path": "products/science_fiction/the_moon_by_night.jpg",
+      "description": "Tenetur excepturi aspernatur. Delectus consectetur dolores. Temporibus ut nihil."
     },
     {
-      "title": "The Cricket on the Hearth",
-      "price": 34.39,
+      "title": "I Know Why the Caged Bird Sings",
+      "price": 10.52,
+      "rating": 2,
+      "availability": "In stock",
+      "category": "Travel",
+      "url": "http://books.toscrape.com/catalogue/i_know_why_the_caged_bird_sings/index.html",
+      "image_path": "products/travel/i_know_why_the_caged_bird_sings.jpg",
+      "description": "Voluptate fugiat quo. Omnis assumenda animi. Earum nihil omnis."
+    },
+    {
+      "title": "Surprised by Joy",
+      "price": 44.81,
+      "rating": 1,
+      "availability": "Out of stock",
+      "category": "Science Fiction",
+      "url": "http://books.toscrape.com/catalogue/surprised_by_joy/index.html",
+      "image_path": "products/science_fiction/surprised_by_joy.jpg",
+      "description": "Necessitatibus deserunt earum. Molestiae asperiores et. Veritatis commodi est."
+    },
+    {
+      "title": "The Golden Bowl",
+      "price": 29.15,
+      "rating": 5,
+      "availability": "Low stock",
+      "category": "Romance",
+      "url": "http://books.toscrape.com/catalogue/the_golden_bowl/index.html",
+      "image_path": "products/romance/the_golden_bowl.jpg",
+      "description": "Quia reprehenderit ut. Voluptate a totam. Id ut aliquid."
+    },
+    {
+      "title": "If I Forget Thee Jerusalem",
+      "price": 26.35,
       "rating": 4,
       "availability": "In stock",
-      "category": "Fiction",
-      "url": "http://books.toscrape.com/catalogue/the_cricket_on_the_hearth/index.html",
-      "image_path": "products/fiction/the_cricket_on_the_hearth.jpg",
-      "description": "Autem distinctio dolores. Explicabo omnis aliquam. Doloremque ab sed."
+      "category": "Poetry",
+      "url": "http://books.toscrape.com/catalogue/if_i_forget_thee_jerusalem/index.html",
+      "image_path": "products/poetry/if_i_forget_thee_jerusalem.jpg",
+      "description": "Rerum quasi optio. Ipsum enim quia. Nisi eum error."
     },
     {
-      "title": "The Wind's Twelve Quarters",
-      "price": 15.06,
-      "rating": 2,
-      "availability": "Out of stock",
-      "category": "Philosophy",
-      "url": "http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html",
-      "image_path": "products/philosophy/the_wind_s_twelve_quarters.jpg",
-      "description": "Laudantium dolorem autem. Quasi dolore inventore. Eos culpa aut."
-    },
-    {
-      "title": "The Violent Bear It Away",
-      "price": 48.89,
-      "rating": 5,
-      "availability": "Out of stock",
-      "category": "Travel",
-      "url": "http://books.toscrape.com/catalogue/the_violent_bear_it_away/index.html",
-      "image_path": "products/travel/the_violent_bear_it_away.jpg",
-      "description": "Ratione expedita porro. Deserunt natus possimus. Non et cupiditate."
-    },
-    {
-      "title": "The Golden Apples of the Sun",
-      "price": 10.74,
-      "rating": 5,
-      "availability": "Out of stock",
-      "category": "Nonfiction",
-      "url": "http://books.toscrape.com/catalogue/the_golden_apples_of_the_sun/index.html",
-      "image_path": "products/nonfiction/the_golden_apples_of_the_sun.jpg",
-      "description": "Facere quia temporibus. Quo nesciunt qui. Laborum vel ex."
-    },
-    {
-      "title": "If Not Now, When?",
-      "price": 28.52,
+      "title": "His Dark Materials",
+      "price": 26.35,
       "rating": 1,
       "availability": "Low stock",
-      "category": "Music",
-      "url": "http://books.toscrape.com/catalogue/if_not_now_when/index.html",
-      "image_path": "products/music/if_not_now_when.jpg",
-      "description": "Praesentium aut voluptatem. Laborum doloremque consequuntur. Corrupti aliquam sed."
+      "category": "Philosophy",
+      "url": "http://books.toscrape.com/catalogue/his_dark_materials/index.html",
+      "image_path": "products/philosophy/his_dark_materials.jpg",
+      "description": "Eum est aut. Nam commodi magnam. Hic ut nam."
     },
     {
-      "title": "Many Waters",
-      "price": 44.56,
-      "rating": 1,
-      "availability": "In stock",
-      "category": "Childrens",
-      "url": "http://books.toscrape.com/catalogue/many_waters/index.html",
-      "image_path": "products/childrens/many_waters.jpg",
-      "description": "Nihil exercitationem dolores. Aut est et. Eum quam repellat."
-    },
-    {
-      "title": "That Good Night",
-      "price": 22.52,
+      "title": "In Dubious Battle",
+      "price": 50.92,
       "rating": 5,
       "availability": "Out of stock",
-      "category": "Philosophy",
-      "url": "http://books.toscrape.com/catalogue/that_good_night/index.html",
-      "image_path": "products/philosophy/that_good_night.jpg",
-      "description": "Tenetur voluptatem consequuntur. Amet doloribus dolor. Labore molestiae illo."
+      "category": "History",
+      "url": "http://books.toscrape.com/catalogue/in_dubious_battle/index.html",
+      "image_path": "products/history/in_dubious_battle.jpg",
+      "description": "Sapiente itaque inventore. Nam et voluptas. Omnis autem dolorum."
     },
     {
-      "title": "In a Dry Season",
-      "price": 58.76,
-      "rating": 3,
-      "availability": "In stock",
+      "title": "Mother Night",
+      "price": 14.3,
+      "rating": 4,
+      "availability": "Low stock",
       "category": "Childrens",
-      "url": "http://books.toscrape.com/catalogue/in_a_dry_season/index.html",
-      "image_path": "products/childrens/in_a_dry_season.jpg",
-      "description": "Eius nemo voluptas. Non quis explicabo. Et est earum."
+      "url": "http://books.toscrape.com/catalogue/mother_night/index.html",
+      "image_path": "products/childrens/mother_night.jpg",
+      "description": "Iusto sit sint. Consequatur nobis animi. Inventore tenetur enim."
     },
     {
-      "title": "The Millstone",
-      "price": 34.85,
+      "title": "The Needle's Eye",
+      "price": 43.31,
       "rating": 2,
       "availability": "In stock",
-      "category": "Classics",
-      "url": "http://books.toscrape.com/catalogue/the_millstone/index.html",
-      "image_path": "products/classics/the_millstone.jpg",
-      "description": "Dolorum quae neque. Consequatur quae ex. Non beatae quam."
+      "category": "Science",
+      "url": "http://books.toscrape.com/catalogue/the_needle_s_eye/index.html",
+      "image_path": "products/science/the_needle_s_eye.jpg",
+      "description": "Similique hic ullam. Non nisi corrupti. Eos itaque ut."
+    },
+    {
+      "title": "I Will Fear No Evil",
+      "price": 26.73,
+      "rating": 4,
+      "availability": "Out of stock",
+      "category": "Biography",
+      "url": "http://books.toscrape.com/catalogue/i_will_fear_no_evil/index.html",
+      "image_path": "products/biography/i_will_fear_no_evil.jpg",
+      "description": "Nulla ut nostrum. Reprehenderit amet fugit. Aut omnis blanditiis."
     }
   ]
 }

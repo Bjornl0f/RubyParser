@@ -1,0 +1,11 @@
+---
+book:
+  title: Wildfire at Midnight
+  price: 10.06
+  rating: 1
+  availability: In stock
+  category: Biography
+  url: http://books.toscrape.com/catalogue/wildfire_at_midnight/index.html
+  image_path: products/biography/wildfire_at_midnight.jpg
+  description: Sed voluptas eveniet. Ut laudantium modi. Amet voluptatem autem.
+  exported_at: '2025-11-28T10:18:20+02:00'

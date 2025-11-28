@@ -1,0 +1,11 @@
+---
+book:
+  title: I Know Why the Caged Bird Sings
+  price: 10.52
+  rating: 2
+  availability: In stock
+  category: Travel
+  url: http://books.toscrape.com/catalogue/i_know_why_the_caged_bird_sings/index.html
+  image_path: products/travel/i_know_why_the_caged_bird_sings.jpg
+  description: Voluptate fugiat quo. Omnis assumenda animi. Earum nihil omnis.
+  exported_at: '2025-11-28T10:47:37+02:00'

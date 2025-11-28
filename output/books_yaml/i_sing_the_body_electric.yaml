@@ -1,0 +1,11 @@
+---
+book:
+  title: I Sing the Body Electric
+  price: 48.37
+  rating: 2
+  availability: In stock
+  category: Poetry
+  url: http://books.toscrape.com/catalogue/i_sing_the_body_electric/index.html
+  image_path: products/poetry/i_sing_the_body_electric.jpg
+  description: Totam cum atque. Provident molestiae voluptatem. Numquam ipsum provident.
+  exported_at: '2025-11-28T10:02:14+02:00'

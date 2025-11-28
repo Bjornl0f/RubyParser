@@ -1,11 +1,11 @@
 ---
 book:
   title: Ego Dominus Tuus
-  price: 10.69
-  rating: 3
-  availability: Low stock
-  category: Young Adult
+  price: 14.59
+  rating: 4
+  availability: In stock
+  category: Historical Fiction
   url: http://books.toscrape.com/catalogue/ego_dominus_tuus/index.html
-  image_path: products/young_adult/ego_dominus_tuus.jpg
-  description: At dolores accusamus. Et aliquid nisi. In aut quae.
-  exported_at: '2025-11-28T09:20:50+02:00'
+  image_path: products/historical_fiction/ego_dominus_tuus.jpg
+  description: Rerum nesciunt illo. Praesentium qui possimus. Qui quis beatae.
+  exported_at: '2025-11-28T10:06:10+02:00'

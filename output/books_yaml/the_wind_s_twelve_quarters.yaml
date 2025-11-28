@@ -1,11 +1,11 @@
 ---
 book:
   title: The Wind's Twelve Quarters
-  price: 15.06
-  rating: 2
-  availability: Out of stock
-  category: Philosophy
+  price: 10.39
+  rating: 4
+  availability: In stock
+  category: Childrens
   url: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
-  image_path: products/philosophy/the_wind_s_twelve_quarters.jpg
-  description: Laudantium dolorem autem. Quasi dolore inventore. Eos culpa aut.
-  exported_at: '2025-11-28T09:47:39+02:00'
+  image_path: products/childrens/the_wind_s_twelve_quarters.jpg
+  description: Dignissimos eos porro. Et error sed. Architecto omnis beatae.
+  exported_at: '2025-11-28T10:02:14+02:00'

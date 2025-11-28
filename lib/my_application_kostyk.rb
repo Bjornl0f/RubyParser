@@ -3,7 +3,7 @@
 # Головний модуль додатку для парсингу веб-сайтів
 # Автор: Стефан Костик
 module MyApplicationKostyk
-  VERSION = "0.2.0"
+  VERSION = "0.10.0"
 
   # Базовий шлях до проекту
   def self.root

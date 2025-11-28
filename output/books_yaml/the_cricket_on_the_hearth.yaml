@@ -1,11 +1,11 @@
 ---
 book:
   title: The Cricket on the Hearth
-  price: 34.39
-  rating: 4
-  availability: In stock
-  category: Fiction
+  price: 15.31
+  rating: 3
+  availability: Out of stock
+  category: Historical Fiction
   url: http://books.toscrape.com/catalogue/the_cricket_on_the_hearth/index.html
-  image_path: products/fiction/the_cricket_on_the_hearth.jpg
-  description: Autem distinctio dolores. Explicabo omnis aliquam. Doloremque ab sed.
-  exported_at: '2025-11-28T09:47:39+02:00'
+  image_path: products/historical_fiction/the_cricket_on_the_hearth.jpg
+  description: A totam praesentium. Nam consequatur rem. Magni molestias reiciendis.
+  exported_at: '2025-11-28T10:18:20+02:00'

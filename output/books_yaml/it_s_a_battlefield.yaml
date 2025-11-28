@@ -1,0 +1,11 @@
+---
+book:
+  title: It's a Battlefield
+  price: 12.69
+  rating: 3
+  availability: In stock
+  category: Poetry
+  url: http://books.toscrape.com/catalogue/it_s_a_battlefield/index.html
+  image_path: products/poetry/it_s_a_battlefield.jpg
+  description: Perferendis dolores praesentium. Enim ea sit. Explicabo vero id.
+  exported_at: '2025-11-28T10:27:52+02:00'

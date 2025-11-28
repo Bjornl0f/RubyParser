@@ -1,0 +1,12 @@
+---
+book:
+  title: Surprised by Joy
+  price: 44.81
+  rating: 1
+  availability: Out of stock
+  category: Science Fiction
+  url: http://books.toscrape.com/catalogue/surprised_by_joy/index.html
+  image_path: products/science_fiction/surprised_by_joy.jpg
+  description: Necessitatibus deserunt earum. Molestiae asperiores et. Veritatis commodi
+    est.
+  exported_at: '2025-11-28T10:47:37+02:00'

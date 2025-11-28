@@ -1,0 +1,11 @@
+---
+book:
+  title: Consider the Lilies
+  price: 42.38
+  rating: 1
+  availability: Low stock
+  category: Mystery
+  url: http://books.toscrape.com/catalogue/consider_the_lilies/index.html
+  image_path: products/mystery/consider_the_lilies.jpg
+  description: Hic fuga voluptatem. Aut rem iste. Aut itaque aut.
+  exported_at: '2025-11-28T10:06:10+02:00'

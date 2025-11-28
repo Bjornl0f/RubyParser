@@ -1,0 +1,11 @@
+---
+book:
+  title: Shall not Perish
+  price: 20.1
+  rating: 4
+  availability: In stock
+  category: Religion
+  url: http://books.toscrape.com/catalogue/shall_not_perish/index.html
+  image_path: products/religion/shall_not_perish.jpg
+  description: Quis ea veritatis. Maxime necessitatibus ut. Quis voluptatum facilis.
+  exported_at: '2025-11-28T10:27:52+02:00'

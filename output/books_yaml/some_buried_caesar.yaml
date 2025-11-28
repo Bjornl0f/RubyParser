@@ -1,0 +1,11 @@
+---
+book:
+  title: Some Buried Caesar
+  price: 10.41
+  rating: 5
+  availability: In stock
+  category: Crime
+  url: http://books.toscrape.com/catalogue/some_buried_caesar/index.html
+  image_path: products/crime/some_buried_caesar.jpg
+  description: Voluptatem est porro. Ipsam enim voluptatem. Nihil et laboriosam.
+  exported_at: '2025-11-28T10:27:52+02:00'

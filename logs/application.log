@@ -549,3 +549,1053 @@ Backtrace: lib/main.rb:52:in `<main>'
 [2025-11-28 09:48:15] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
 [2025-11-28 09:48:17] INFO: Парсинг завершено. Зібрано 20 книг
 [2025-11-28 09:48:17] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:02:10] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:02:10] INFO: Рівень логування: info
+[2025-11-28 10:02:10] INFO: Директорія логів: logs
+[2025-11-28 10:02:10] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:02:10] WARN: Тестове попередження
+[2025-11-28 10:02:10] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:02:10] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:02:10] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:02:10] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:02:10] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:02:14] INFO: Створено Item: Consider Phlebas (Historical Fiction) - £47.76
+[2025-11-28 10:02:14] INFO: Створено Item: Recalled to Life (Science) - £53.33
+[2025-11-28 10:02:14] INFO: Створено Item: Shall not Perish (Sports) - £35.37
+[2025-11-28 10:02:14] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:02:14] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:02:14] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:02:14] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:02:14] INFO: Створено Item: The Man Within (Sequential Art) - £30.2
+[2025-11-28 10:02:14] INFO: Додано книгу: The Man Within
+[2025-11-28 10:02:14] INFO: Створено Item: The Golden Apples of the Sun (Thriller) - £50.72
+[2025-11-28 10:02:14] INFO: Додано книгу: The Golden Apples of the Sun
+[2025-11-28 10:02:14] INFO: Створено Item: The Lathe of Heaven (Poetry) - £27.63
+[2025-11-28 10:02:14] INFO: Додано книгу: The Lathe of Heaven
+[2025-11-28 10:02:14] INFO: Створено Item: The World, the Flesh and the Devil (Sports) - £31.15
+[2025-11-28 10:02:14] INFO: Додано книгу: The World, the Flesh and the Devil
+[2025-11-28 10:02:14] INFO: Створено Item: Precious Bane (Science) - £22.44
+[2025-11-28 10:02:14] INFO: Додано книгу: Precious Bane
+[2025-11-28 10:02:14] INFO: Створено Item: Consider Phlebas (Horror) - £14.84
+[2025-11-28 10:02:14] INFO: Додано книгу: Consider Phlebas
+[2025-11-28 10:02:14] INFO: Створено Item: The Wind's Twelve Quarters (Childrens) - £10.39
+[2025-11-28 10:02:14] INFO: Додано книгу: The Wind's Twelve Quarters
+[2025-11-28 10:02:14] INFO: Створено Item: I Will Fear No Evil (Young Adult) - £24.35
+[2025-11-28 10:02:14] INFO: Додано книгу: I Will Fear No Evil
+[2025-11-28 10:02:14] INFO: Створено Item: Death Be Not Proud (Nonfiction) - £41.34
+[2025-11-28 10:02:14] INFO: Додано книгу: Death Be Not Proud
+[2025-11-28 10:02:14] INFO: Створено Item: I Sing the Body Electric (Poetry) - £48.37
+[2025-11-28 10:02:14] INFO: Додано книгу: I Sing the Body Electric
+[2025-11-28 10:02:14] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:02:14] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:02:14] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:02:14] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:02:14] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:02:14] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:02:14] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:02:14] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:02:14] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:02:14] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:02:14] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:02:14] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:02:14] INFO: Максимум сторінок: 1
+[2025-11-28 10:02:15] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:02:15] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:02:16] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:02:16] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:02:16] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:02:16] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:02:18] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:02:18] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:02:18] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:02:18] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:02:20] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:02:20] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:02:20] INFO: Додано книгу: Soumission
+[2025-11-28 10:02:20] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:02:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:02:22] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:02:22] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:02:22] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:02:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:02:24] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:02:24] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:02:24] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:02:26] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:02:26] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:02:26] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:02:26] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:02:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:02:28] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:02:28] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:02:28] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:02:30] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:02:30] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:02:30] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:02:30] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:02:32] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:02:32] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:02:32] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:02:32] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:02:34] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:02:34] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:02:34] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:02:34] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:02:36] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:02:36] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:02:36] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:02:36] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:02:38] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:02:38] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:02:38] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:02:38] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:02:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:02:40] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:02:41] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:02:41] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:02:43] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:02:43] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:02:43] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:02:43] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:02:45] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:02:45] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:02:45] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:02:45] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:02:47] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:02:47] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:02:47] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:02:47] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:02:49] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:02:49] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:02:49] INFO: Додано книгу: Olio
+[2025-11-28 10:02:49] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:02:51] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:02:51] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:02:51] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:02:51] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:02:53] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:02:53] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:02:53] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:02:53] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:02:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:02:55] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:02:55] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:02:55] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:02:58] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:02:58] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:02:58] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:02:58] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:02:58] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:02:58] INFO: Створено Item: To a God Unknown (Biography) - £19.49
+[2025-11-28 10:02:58] INFO: Додано книгу: To a God Unknown
+[2025-11-28 10:02:58] INFO: Створено Item: I Will Fear No Evil (History) - £40.24
+[2025-11-28 10:02:58] INFO: Додано книгу: I Will Fear No Evil
+[2025-11-28 10:02:58] INFO: Створено Item: The Yellow Meads of Asphodel (Biography) - £37.81
+[2025-11-28 10:02:58] INFO: Додано книгу: The Yellow Meads of Asphodel
+[2025-11-28 10:02:58] INFO: Створено Item: Terrible Swift Sword (Historical Fiction) - £39.7
+[2025-11-28 10:02:58] INFO: Додано книгу: Terrible Swift Sword
+[2025-11-28 10:02:58] INFO: Створено Item: I Know Why the Caged Bird Sings (Historical Fiction) - £46.72
+[2025-11-28 10:02:58] INFO: Додано книгу: I Know Why the Caged Bird Sings
+[2025-11-28 10:02:58] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:02:59] INFO: [DatabaseConnector] SQLite: збережено книгу 'To a God Unknown'
+[2025-11-28 10:02:59] INFO: [DatabaseConnector] SQLite: збережено книгу 'I Will Fear No Evil'
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Yellow Meads of Asphodel'
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] SQLite: збережено книгу 'Terrible Swift Sword'
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] SQLite: збережено книгу 'I Know Why the Caged Bird Sings'
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] SQLite: отримано 5 книг
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:03:00] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:03:17] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:03:17] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:03:17] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:03:17] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:06:05] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:06:05] INFO: Рівень логування: info
+[2025-11-28 10:06:05] INFO: Директорія логів: logs
+[2025-11-28 10:06:05] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:06:05] WARN: Тестове попередження
+[2025-11-28 10:06:05] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:06:05] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:06:05] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:06:05] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:06:05] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:06:10] INFO: Створено Item: Of Mice and Men (Poetry) - £34.53
+[2025-11-28 10:06:10] INFO: Створено Item: Beneath the Bleeding (Horror) - £27.41
+[2025-11-28 10:06:10] INFO: Створено Item: The Widening Gyre (Music) - £36.66
+[2025-11-28 10:06:10] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:06:10] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:06:10] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:06:10] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:06:10] INFO: Створено Item: All the King's Men (Classics) - £32.23
+[2025-11-28 10:06:10] INFO: Додано книгу: All the King's Men
+[2025-11-28 10:06:10] INFO: Створено Item: Françoise Sagan (Thriller) - £48.59
+[2025-11-28 10:06:10] INFO: Додано книгу: Françoise Sagan
+[2025-11-28 10:06:10] INFO: Створено Item: The Other Side of Silence (Young Adult) - £40.26
+[2025-11-28 10:06:10] INFO: Додано книгу: The Other Side of Silence
+[2025-11-28 10:06:10] INFO: Створено Item: No Country for Old Men (Historical Fiction) - £31.16
+[2025-11-28 10:06:10] INFO: Додано книгу: No Country for Old Men
+[2025-11-28 10:06:10] INFO: Створено Item: Little Hands Clapping (Biography) - £59.33
+[2025-11-28 10:06:10] INFO: Додано книгу: Little Hands Clapping
+[2025-11-28 10:06:10] INFO: Створено Item: Ego Dominus Tuus (Historical Fiction) - £14.59
+[2025-11-28 10:06:10] INFO: Додано книгу: Ego Dominus Tuus
+[2025-11-28 10:06:10] INFO: Створено Item: Consider the Lilies (Mystery) - £42.38
+[2025-11-28 10:06:10] INFO: Додано книгу: Consider the Lilies
+[2025-11-28 10:06:10] INFO: Створено Item: The Heart Is a Lonely Hunter (Philosophy) - £51.74
+[2025-11-28 10:06:10] INFO: Додано книгу: The Heart Is a Lonely Hunter
+[2025-11-28 10:06:10] INFO: Створено Item: The Proper Study (Religion) - £52.85
+[2025-11-28 10:06:10] INFO: Додано книгу: The Proper Study
+[2025-11-28 10:06:10] INFO: Створено Item: Look to Windward (History) - £30.81
+[2025-11-28 10:06:10] INFO: Додано книгу: Look to Windward
+[2025-11-28 10:06:10] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:06:10] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:06:10] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:06:10] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:06:10] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:06:10] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:06:10] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:06:10] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:06:10] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:06:10] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:06:10] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:06:10] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:06:10] INFO: Максимум сторінок: 1
+[2025-11-28 10:06:10] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:06:11] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:06:12] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:06:12] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:06:12] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:06:12] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:06:13] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:06:13] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:06:13] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:06:13] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:06:15] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:06:15] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:06:15] INFO: Додано книгу: Soumission
+[2025-11-28 10:06:15] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:06:17] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:06:17] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:06:17] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:06:17] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:06:18] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:06:18] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:06:18] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:06:18] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:06:20] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:06:20] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:06:20] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:06:20] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:06:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:06:22] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:06:22] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:06:22] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:06:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:06:23] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:06:23] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:06:23] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:06:25] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:06:25] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:06:25] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:06:25] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:06:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:06:27] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:06:27] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:06:27] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:06:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:06:29] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:06:29] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:06:29] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:06:30] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:06:30] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:06:30] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:06:30] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:06:32] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:06:32] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:06:32] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:06:32] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:06:34] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:06:34] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:06:34] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:06:34] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:06:35] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:06:35] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:06:35] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:06:35] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:06:37] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:06:37] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:06:37] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:06:37] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:06:39] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:06:39] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:06:39] INFO: Додано книгу: Olio
+[2025-11-28 10:06:39] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:06:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:06:41] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:06:41] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:06:41] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:06:42] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:06:42] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:06:42] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:06:42] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:06:44] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:06:44] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:06:44] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:06:44] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:06:46] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:06:46] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:06:46] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:06:46] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:06:46] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:06:46] INFO: Створено Item: Dulce et Decorum Est (Sports) - £41.23
+[2025-11-28 10:06:46] INFO: Додано книгу: Dulce et Decorum Est
+[2025-11-28 10:06:46] INFO: Створено Item: Number the Stars (Fiction) - £48.68
+[2025-11-28 10:06:46] INFO: Додано книгу: Number the Stars
+[2025-11-28 10:06:46] INFO: Створено Item: Cabbages and Kings (Childrens) - £57.11
+[2025-11-28 10:06:46] INFO: Додано книгу: Cabbages and Kings
+[2025-11-28 10:06:46] INFO: Створено Item: The Far-Distant Oxus (Poetry) - £38.18
+[2025-11-28 10:06:46] INFO: Додано книгу: The Far-Distant Oxus
+[2025-11-28 10:06:46] INFO: Створено Item: Tender Is the Night (Science Fiction) - £46.05
+[2025-11-28 10:06:46] INFO: Додано книгу: Tender Is the Night
+[2025-11-28 10:06:46] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:06:47] INFO: [DatabaseConnector] SQLite: збережено книгу 'Dulce et Decorum Est'
+[2025-11-28 10:06:47] INFO: [DatabaseConnector] SQLite: збережено книгу 'Number the Stars'
+[2025-11-28 10:06:47] INFO: [DatabaseConnector] SQLite: збережено книгу 'Cabbages and Kings'
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Far-Distant Oxus'
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] SQLite: збережено книгу 'Tender Is the Night'
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] SQLite: отримано 10 книг
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:06:48] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:07:03] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:07:03] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:07:03] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:07:03] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:17:17] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:17:17] INFO: Рівень логування: info
+[2025-11-28 10:17:17] INFO: Директорія логів: logs
+[2025-11-28 10:17:17] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:17:17] WARN: Тестове попередження
+[2025-11-28 10:17:17] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:17:17] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:17:17] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:17:17] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:17:17] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:17:24] INFO: Створено Item: Things Fall Apart (Philosophy) - £54.07
+[2025-11-28 10:17:24] INFO: Створено Item: The Heart Is Deceitful Above All Things (Historical Fiction) - £28.43
+[2025-11-28 10:17:24] INFO: Створено Item: It's a Battlefield (Childrens) - £49.48
+[2025-11-28 10:17:24] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:17:24] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:17:24] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:17:24] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:17:24] INFO: Створено Item: A Many-Splendoured Thing (Philosophy) - £58.51
+[2025-11-28 10:17:24] INFO: Додано книгу: A Many-Splendoured Thing
+[2025-11-28 10:17:24] INFO: Створено Item: The Cricket on the Hearth (Mystery) - £49.13
+[2025-11-28 10:17:24] INFO: Додано книгу: The Cricket on the Hearth
+[2025-11-28 10:17:24] INFO: Створено Item: The Golden Bowl (Thriller) - £15.67
+[2025-11-28 10:17:24] INFO: Додано книгу: The Golden Bowl
+[2025-11-28 10:17:24] INFO: Створено Item: I Know Why the Caged Bird Sings (History) - £12.08
+[2025-11-28 10:17:24] INFO: Додано книгу: I Know Why the Caged Bird Sings
+[2025-11-28 10:17:24] INFO: Створено Item: It's a Battlefield (Thriller) - £53.88
+[2025-11-28 10:17:24] INFO: Додано книгу: It's a Battlefield
+[2025-11-28 10:17:24] INFO: Створено Item: Absalom, Absalom! (Sequential Art) - £15.97
+[2025-11-28 10:17:24] INFO: Додано книгу: Absalom, Absalom!
+[2025-11-28 10:17:24] INFO: Створено Item: Terrible Swift Sword (Fantasy) - £15.14
+[2025-11-28 10:17:24] INFO: Додано книгу: Terrible Swift Sword
+[2025-11-28 10:17:24] INFO: Створено Item: If Not Now, When? (Sequential Art) - £18.63
+[2025-11-28 10:17:24] INFO: Додано книгу: If Not Now, When?
+[2025-11-28 10:17:24] INFO: Створено Item: From Here to Eternity (Fiction) - £30.28
+[2025-11-28 10:17:24] INFO: Додано книгу: From Here to Eternity
+[2025-11-28 10:17:24] INFO: Створено Item: Surprised by Joy (Science) - £30.68
+[2025-11-28 10:17:24] INFO: Додано книгу: Surprised by Joy
+[2025-11-28 10:17:24] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:17:24] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:17:24] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:17:24] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:17:25] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:17:25] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:17:25] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:17:25] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:17:25] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:17:25] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:17:25] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:17:25] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:17:25] INFO: Максимум сторінок: 1
+[2025-11-28 10:17:25] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:17:26] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:17:26] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:17:26] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:17:26] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:17:26] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:17:26] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:17:26] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:17:26] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:17:26] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:17:26] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:17:26] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:17:26] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:17:26] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:17:26] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:17:26] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:17:26] INFO: Додано книгу: Soumission
+[2025-11-28 10:17:27] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:17:27] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:17:27] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:17:27] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:17:27] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:17:27] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:17:27] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:17:27] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:17:27] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:17:27] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:17:27] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:17:27] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:17:27] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:17:27] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:17:27] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:17:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:17:28] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:17:28] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:17:28] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:17:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:17:28] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:17:28] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:17:28] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:17:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:17:28] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:17:28] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:17:28] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:17:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:17:28] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:17:28] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:17:28] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:17:28] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:17:28] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:17:28] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:17:28] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:17:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:17:29] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:17:29] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:17:29] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:17:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:17:29] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:17:29] INFO: Додано книгу: Olio
+[2025-11-28 10:17:29] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:17:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:17:29] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:17:29] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:17:29] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:17:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:17:29] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:17:29] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:17:29] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:17:29] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:17:29] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:17:29] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:17:29] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:17:30] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:17:30] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:17:30] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:17:30] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:17:30] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:17:30] INFO: Створено Item: The Sun Also Rises (Romance) - £58.07
+[2025-11-28 10:17:30] INFO: Додано книгу: The Sun Also Rises
+[2025-11-28 10:17:30] INFO: Створено Item: The World, the Flesh and the Devil (Historical Fiction) - £10.8
+[2025-11-28 10:17:30] INFO: Додано книгу: The World, the Flesh and the Devil
+[2025-11-28 10:17:30] INFO: Створено Item: The Lathe of Heaven (Sports) - £18.52
+[2025-11-28 10:17:30] INFO: Додано книгу: The Lathe of Heaven
+[2025-11-28 10:17:30] INFO: Створено Item: Blood's a Rover (Historical Fiction) - £38.77
+[2025-11-28 10:17:30] INFO: Додано книгу: Blood's a Rover
+[2025-11-28 10:17:30] INFO: Створено Item: The House of Mirth (Historical Fiction) - £21.67
+[2025-11-28 10:17:30] INFO: Додано книгу: The House of Mirth
+[2025-11-28 10:17:30] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:17:31] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Sun Also Rises'
+[2025-11-28 10:17:31] INFO: [DatabaseConnector] SQLite: збережено книгу 'The World, the Flesh and the Devil'
+[2025-11-28 10:17:31] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Lathe of Heaven'
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] SQLite: збережено книгу 'Blood's a Rover'
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] SQLite: збережено книгу 'The House of Mirth'
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] SQLite: отримано 15 книг
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:17:32] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:17:48] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:17:48] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:17:48] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:17:48] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:18:15] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:18:15] INFO: Рівень логування: info
+[2025-11-28 10:18:15] INFO: Директорія логів: logs
+[2025-11-28 10:18:15] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:18:15] WARN: Тестове попередження
+[2025-11-28 10:18:15] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:18:15] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:18:15] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:18:15] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:18:15] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:18:20] INFO: Створено Item: Great Work of Time (Romance) - £54.3
+[2025-11-28 10:18:20] INFO: Створено Item: Great Work of Time (Nonfiction) - £44.01
+[2025-11-28 10:18:20] INFO: Створено Item: Carrion Comfort (Thriller) - £12.39
+[2025-11-28 10:18:20] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:18:20] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:18:20] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:18:20] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:18:20] INFO: Створено Item: Quo Vadis (Romance) - £45.86
+[2025-11-28 10:18:20] INFO: Додано книгу: Quo Vadis
+[2025-11-28 10:18:20] INFO: Створено Item: Waiting for the Barbarians (Sequential Art) - £37.51
+[2025-11-28 10:18:20] INFO: Додано книгу: Waiting for the Barbarians
+[2025-11-28 10:18:20] INFO: Створено Item: The Glory and the Dream (Romance) - £26.76
+[2025-11-28 10:18:20] INFO: Додано книгу: The Glory and the Dream
+[2025-11-28 10:18:20] INFO: Створено Item: Wildfire at Midnight (Biography) - £10.06
+[2025-11-28 10:18:20] INFO: Додано книгу: Wildfire at Midnight
+[2025-11-28 10:18:20] INFO: Створено Item: The Cricket on the Hearth (Historical Fiction) - £15.31
+[2025-11-28 10:18:20] INFO: Додано книгу: The Cricket on the Hearth
+[2025-11-28 10:18:20] INFO: Створено Item: Clouds of Witness (Crime) - £10.87
+[2025-11-28 10:18:20] INFO: Додано книгу: Clouds of Witness
+[2025-11-28 10:18:20] INFO: Створено Item: To Sail Beyond the Sunset (Young Adult) - £17.79
+[2025-11-28 10:18:20] INFO: Додано книгу: To Sail Beyond the Sunset
+[2025-11-28 10:18:20] INFO: Створено Item: Now Sleeps the Crimson Petal (Fantasy) - £39.5
+[2025-11-28 10:18:20] INFO: Додано книгу: Now Sleeps the Crimson Petal
+[2025-11-28 10:18:20] INFO: Створено Item: Beyond the Mexique Bay (Science) - £56.38
+[2025-11-28 10:18:20] INFO: Додано книгу: Beyond the Mexique Bay
+[2025-11-28 10:18:20] INFO: Створено Item: A Time of Gifts (Religion) - £41.74
+[2025-11-28 10:18:20] INFO: Додано книгу: A Time of Gifts
+[2025-11-28 10:18:20] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:18:20] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:18:20] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:18:20] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:18:20] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:18:20] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:18:20] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:18:20] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:18:20] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:18:20] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:18:20] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:18:20] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:18:20] INFO: Максимум сторінок: 1
+[2025-11-28 10:18:20] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:18:21] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:18:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:18:22] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:18:22] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:18:22] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:18:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:18:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:18:22] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:18:22] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:18:22] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:18:22] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:18:22] INFO: Додано книгу: Soumission
+[2025-11-28 10:18:22] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:18:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:18:22] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:18:22] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:18:22] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:18:22] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:18:22] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:18:22] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:18:22] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:18:23] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:18:23] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:18:23] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:18:23] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:18:23] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:18:23] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:18:23] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:18:23] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:18:23] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:18:23] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:18:23] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:18:23] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:18:23] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:18:23] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:18:24] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:18:24] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:18:24] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:18:24] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:18:24] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:18:24] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:18:24] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:18:24] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:18:24] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:18:24] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:18:24] INFO: Додано книгу: Olio
+[2025-11-28 10:18:24] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:18:24] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:18:24] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:18:24] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:18:24] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:18:24] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:18:24] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:18:25] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:18:25] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:18:25] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:18:25] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:18:26] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:18:26] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:18:26] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:18:26] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:18:26] INFO: Створено Item: Noli Me Tangere (Crime) - £20.0
+[2025-11-28 10:18:26] INFO: Додано книгу: Noli Me Tangere
+[2025-11-28 10:18:26] INFO: Створено Item: Postern of Fate (Philosophy) - £35.05
+[2025-11-28 10:18:26] INFO: Додано книгу: Postern of Fate
+[2025-11-28 10:18:26] INFO: Створено Item: The Moving Toyshop (Music) - £10.38
+[2025-11-28 10:18:26] INFO: Додано книгу: The Moving Toyshop
+[2025-11-28 10:18:26] INFO: Створено Item: The Man Within (Religion) - £46.33
+[2025-11-28 10:18:26] INFO: Додано книгу: The Man Within
+[2025-11-28 10:18:26] INFO: Створено Item: A Summer Bird-Cage (Biography) - £38.69
+[2025-11-28 10:18:26] INFO: Додано книгу: A Summer Bird-Cage
+[2025-11-28 10:18:26] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:18:26] INFO: [DatabaseConnector] SQLite: збережено книгу 'Noli Me Tangere'
+[2025-11-28 10:18:27] INFO: [DatabaseConnector] SQLite: збережено книгу 'Postern of Fate'
+[2025-11-28 10:18:27] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Moving Toyshop'
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Man Within'
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] SQLite: збережено книгу 'A Summer Bird-Cage'
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] SQLite: отримано 20 книг
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:18:28] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:18:44] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:18:44] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:18:44] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:18:44] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:27:46] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:27:46] INFO: Рівень логування: info
+[2025-11-28 10:27:46] INFO: Директорія логів: logs
+[2025-11-28 10:27:46] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:27:46] WARN: Тестове попередження
+[2025-11-28 10:27:46] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:27:46] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:27:46] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:27:46] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:27:46] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:27:51] INFO: Створено Item: Dying of the Light (Science Fiction) - £16.85
+[2025-11-28 10:27:51] INFO: Створено Item: To Your Scattered Bodies Go (Biography) - £29.04
+[2025-11-28 10:27:51] INFO: Створено Item: Bury My Heart at Wounded Knee (Religion) - £46.68
+[2025-11-28 10:27:51] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:27:51] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:27:51] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:27:51] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:27:51] INFO: Створено Item: The Painted Veil (Fiction) - £48.33
+[2025-11-28 10:27:51] INFO: Додано книгу: The Painted Veil
+[2025-11-28 10:27:52] INFO: Створено Item: Unweaving the Rainbow (Childrens) - £48.08
+[2025-11-28 10:27:52] INFO: Додано книгу: Unweaving the Rainbow
+[2025-11-28 10:27:52] INFO: Створено Item: Shall not Perish (Religion) - £20.1
+[2025-11-28 10:27:52] INFO: Додано книгу: Shall not Perish
+[2025-11-28 10:27:52] INFO: Створено Item: The Wealth of Nations (Historical Fiction) - £33.01
+[2025-11-28 10:27:52] INFO: Додано книгу: The Wealth of Nations
+[2025-11-28 10:27:52] INFO: Створено Item: The World, the Flesh and the Devil (Nonfiction) - £22.99
+[2025-11-28 10:27:52] INFO: Додано книгу: The World, the Flesh and the Devil
+[2025-11-28 10:27:52] INFO: Створено Item: Blithe Spirit (Horror) - £41.15
+[2025-11-28 10:27:52] INFO: Додано книгу: Blithe Spirit
+[2025-11-28 10:27:52] INFO: Створено Item: The Waste Land (Travel) - £26.41
+[2025-11-28 10:27:52] INFO: Додано книгу: The Waste Land
+[2025-11-28 10:27:52] INFO: Створено Item: Some Buried Caesar (Crime) - £10.41
+[2025-11-28 10:27:52] INFO: Додано книгу: Some Buried Caesar
+[2025-11-28 10:27:52] INFO: Створено Item: Far From the Madding Crowd (Science) - £42.27
+[2025-11-28 10:27:52] INFO: Додано книгу: Far From the Madding Crowd
+[2025-11-28 10:27:52] INFO: Створено Item: It's a Battlefield (Poetry) - £12.69
+[2025-11-28 10:27:52] INFO: Додано книгу: It's a Battlefield
+[2025-11-28 10:27:52] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:27:52] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:27:52] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:27:52] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:27:52] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:27:52] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:27:52] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:27:52] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:27:52] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:27:52] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:27:52] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:27:52] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:27:52] INFO: Максимум сторінок: 1
+[2025-11-28 10:27:53] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:27:53] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:27:54] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:27:54] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:27:54] INFO: Додано книгу: Soumission
+[2025-11-28 10:27:54] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:27:54] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:27:54] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:27:54] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:27:54] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:27:54] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:27:54] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:27:54] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:27:54] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:27:54] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:27:54] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:27:55] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:27:55] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:27:55] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:27:55] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:27:55] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:27:55] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:27:55] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:27:55] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:27:55] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:27:55] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:27:55] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:27:55] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:27:55] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:27:55] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:27:55] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:27:55] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:27:55] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:27:55] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:27:55] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:27:55] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:27:56] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:27:56] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:27:56] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:27:56] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:27:56] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:27:56] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:27:56] INFO: Додано книгу: Olio
+[2025-11-28 10:27:56] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:27:56] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:27:56] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:27:56] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:27:56] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:27:56] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:27:56] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:27:56] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:27:56] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:27:56] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:27:56] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:27:56] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:27:56] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:27:57] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:27:57] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:27:57] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:27:57] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:27:57] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:27:57] INFO: Створено Item: The Way Through the Woods (Fiction) - £10.44
+[2025-11-28 10:27:57] INFO: Додано книгу: The Way Through the Woods
+[2025-11-28 10:27:57] INFO: Створено Item: Fear and Trembling (Nonfiction) - £20.99
+[2025-11-28 10:27:57] INFO: Додано книгу: Fear and Trembling
+[2025-11-28 10:27:57] INFO: Створено Item: The Soldier's Art (Young Adult) - £38.27
+[2025-11-28 10:27:57] INFO: Додано книгу: The Soldier's Art
+[2025-11-28 10:27:57] INFO: Створено Item: Some Buried Caesar (Crime) - £19.51
+[2025-11-28 10:27:57] INFO: Додано книгу: Some Buried Caesar
+[2025-11-28 10:27:57] INFO: Створено Item: Specimen Days (Crime) - £31.38
+[2025-11-28 10:27:57] INFO: Додано книгу: Specimen Days
+[2025-11-28 10:27:57] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:27:58] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Way Through the Woods'
+[2025-11-28 10:27:58] INFO: [DatabaseConnector] SQLite: збережено книгу 'Fear and Trembling'
+[2025-11-28 10:27:58] INFO: [DatabaseConnector] SQLite: збережено книгу 'The Soldier's Art'
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] SQLite: збережено книгу 'Some Buried Caesar'
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] SQLite: збережено книгу 'Specimen Days'
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] SQLite: отримано 25 книг
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:27:59] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:28:15] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:28:15] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:28:15] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:28:15] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:47:34] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 10:47:34] INFO: Рівень логування: info
+[2025-11-28 10:47:34] INFO: Директорія логів: logs
+[2025-11-28 10:47:34] INFO: Тестове інформаційне повідомлення
+[2025-11-28 10:47:34] WARN: Тестове попередження
+[2025-11-28 10:47:34] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 10:47:34] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:53:in `<main>'
+[2025-11-28 10:47:34] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:47:34] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:47:34] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 10:47:37] INFO: Створено Item: An Evil Cradling (Science) - £54.88
+[2025-11-28 10:47:37] INFO: Створено Item: Rosemary Sutcliff (Classics) - £34.11
+[2025-11-28 10:47:37] INFO: Створено Item: Ego Dominus Tuus (History) - £40.76
+[2025-11-28 10:47:37] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 10:47:37] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 10:47:37] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:47:37] INFO: Генерація 10 тестових книг...
+[2025-11-28 10:47:37] INFO: Створено Item: The Moon by Night (Science Fiction) - £20.64
+[2025-11-28 10:47:37] INFO: Додано книгу: The Moon by Night
+[2025-11-28 10:47:37] INFO: Створено Item: I Know Why the Caged Bird Sings (Travel) - £10.52
+[2025-11-28 10:47:37] INFO: Додано книгу: I Know Why the Caged Bird Sings
+[2025-11-28 10:47:37] INFO: Створено Item: Surprised by Joy (Science Fiction) - £44.81
+[2025-11-28 10:47:37] INFO: Додано книгу: Surprised by Joy
+[2025-11-28 10:47:37] INFO: Створено Item: The Golden Bowl (Romance) - £29.15
+[2025-11-28 10:47:37] INFO: Додано книгу: The Golden Bowl
+[2025-11-28 10:47:37] INFO: Створено Item: If I Forget Thee Jerusalem (Poetry) - £26.35
+[2025-11-28 10:47:37] INFO: Додано книгу: If I Forget Thee Jerusalem
+[2025-11-28 10:47:37] INFO: Створено Item: His Dark Materials (Philosophy) - £26.35
+[2025-11-28 10:47:37] INFO: Додано книгу: His Dark Materials
+[2025-11-28 10:47:37] INFO: Створено Item: In Dubious Battle (History) - £50.92
+[2025-11-28 10:47:37] INFO: Додано книгу: In Dubious Battle
+[2025-11-28 10:47:37] INFO: Створено Item: Mother Night (Childrens) - £14.3
+[2025-11-28 10:47:37] INFO: Додано книгу: Mother Night
+[2025-11-28 10:47:37] INFO: Створено Item: The Needle's Eye (Science) - £43.31
+[2025-11-28 10:47:37] INFO: Додано книгу: The Needle's Eye
+[2025-11-28 10:47:37] INFO: Створено Item: I Will Fear No Evil (Biography) - £26.73
+[2025-11-28 10:47:37] INFO: Додано книгу: I Will Fear No Evil
+[2025-11-28 10:47:37] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 10:47:37] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 10:47:37] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 10:47:37] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 10:47:37] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 10:47:37] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 10:47:37] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 10:47:37] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 10:47:37] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 10:47:37] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:47:37] INFO: SimpleWebsiteParser ініціалізовано
+[2025-11-28 10:47:37] INFO: Початок парсингу: http://books.toscrape.com/
+[2025-11-28 10:47:37] INFO: Максимум сторінок: 1
+[2025-11-28 10:47:38] INFO: Парсинг сторінки 1: http://books.toscrape.com/
+[2025-11-28 10:47:39] INFO: Знайдено 20 книг на сторінці 1
+[2025-11-28 10:47:39] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/historical_fiction/tipping_the_velvet.jpg
+[2025-11-28 10:47:39] INFO: Створено Item: Tipping the Velvet (Historical Fiction) - £53.74
+[2025-11-28 10:47:39] INFO: Додано книгу: Tipping the Velvet
+[2025-11-28 10:47:39] INFO: Оброблено файл: Tipping the Velvet | Спарсено книгу
+[2025-11-28 10:47:39] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/a_light_in_the_attic.jpg
+[2025-11-28 10:47:39] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 10:47:39] INFO: Додано книгу: A Light in the Attic
+[2025-11-28 10:47:39] INFO: Оброблено файл: A Light in the Attic | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/fiction/soumission.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: Soumission (Fiction) - £50.1
+[2025-11-28 10:47:40] INFO: Додано книгу: Soumission
+[2025-11-28 10:47:40] INFO: Оброблено файл: Soumission | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/history/sapiens_a_brief_history_of_humankind.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: Sapiens: A Brief History of Humankind (History) - £54.23
+[2025-11-28 10:47:40] INFO: Додано книгу: Sapiens: A Brief History of Humankind
+[2025-11-28 10:47:40] INFO: Оброблено файл: Sapiens: A Brief History of Humankind | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/mystery/sharp_objects.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 10:47:40] INFO: Додано книгу: Sharp Objects
+[2025-11-28 10:47:40] INFO: Оброблено файл: Sharp Objects | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/business/the_dirty_little_secrets_of_getting_your_dream_job.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: The Dirty Little Secrets of Getting Your Dream Job (Business) - £33.34
+[2025-11-28 10:47:40] INFO: Додано книгу: The Dirty Little Secrets of Getting Your Dream Job
+[2025-11-28 10:47:40] INFO: Оброблено файл: The Dirty Little Secrets of Getting Your Dream Job | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/the_requiem_red.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: The Requiem Red (Young Adult) - £22.65
+[2025-11-28 10:47:40] INFO: Додано книгу: The Requiem Red
+[2025-11-28 10:47:40] INFO: Оброблено файл: The Requiem Red | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/the_black_maria.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: The Black Maria (Poetry) - £52.15
+[2025-11-28 10:47:40] INFO: Додано книгу: The Black Maria
+[2025-11-28 10:47:40] INFO: Оброблено файл: The Black Maria | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_coming_woman_a_novel_based_on_the_life_of_the_i.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (Default) - £17.93
+[2025-11-28 10:47:40] INFO: Додано книгу: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+[2025-11-28 10:47:40] INFO: Оброблено файл: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Спарсено книгу
+[2025-11-28 10:47:40] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/the_boys_in_the_boat_nine_americans_and_their_epic_.jpg
+[2025-11-28 10:47:40] INFO: Створено Item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (Default) - £22.6
+[2025-11-28 10:47:40] INFO: Додано книгу: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+[2025-11-28 10:47:40] INFO: Оброблено файл: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/default/starving_hearts_triangular_trade_trilogy_1.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Starving Hearts (Triangular Trade Trilogy, #1) (Default) - £13.99
+[2025-11-28 10:47:41] INFO: Додано книгу: Starving Hearts (Triangular Trade Trilogy, #1)
+[2025-11-28 10:47:41] INFO: Оброблено файл: Starving Hearts (Triangular Trade Trilogy, #1) | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/shakespeare_s_sonnets.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Shakespeare's Sonnets (Poetry) - £20.66
+[2025-11-28 10:47:41] INFO: Додано книгу: Shakespeare's Sonnets
+[2025-11-28 10:47:41] INFO: Оброблено файл: Shakespeare's Sonnets | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/young_adult/set_me_free.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Set Me Free (Young Adult) - £17.46
+[2025-11-28 10:47:41] INFO: Додано книгу: Set Me Free
+[2025-11-28 10:47:41] INFO: Оброблено файл: Set Me Free | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/sequential_art/scott_pilgrim_s_precious_little_life_scott_pilgrim_.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (Sequential Art) - £52.29
+[2025-11-28 10:47:41] INFO: Додано книгу: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+[2025-11-28 10:47:41] INFO: Оброблено файл: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/rip_it_up_and_start_again.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Rip it Up and Start Again (Music) - £35.02
+[2025-11-28 10:47:41] INFO: Додано книгу: Rip it Up and Start Again
+[2025-11-28 10:47:41] INFO: Оброблено файл: Rip it Up and Start Again | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/music/our_band_could_be_your_life_scenes_from_the_america.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (Music) - £57.25
+[2025-11-28 10:47:41] INFO: Додано книгу: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+[2025-11-28 10:47:41] INFO: Оброблено файл: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/poetry/olio.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Olio (Poetry) - £23.88
+[2025-11-28 10:47:41] INFO: Додано книгу: Olio
+[2025-11-28 10:47:41] INFO: Оброблено файл: Olio | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/science_fiction/mesaerion_the_best_science_fiction_stories_1800_184.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Mesaerion: The Best Science Fiction Stories 1800-1849 (Science Fiction) - £37.59
+[2025-11-28 10:47:41] INFO: Додано книгу: Mesaerion: The Best Science Fiction Stories 1800-1849
+[2025-11-28 10:47:41] INFO: Оброблено файл: Mesaerion: The Best Science Fiction Stories 1800-1849 | Спарсено книгу
+[2025-11-28 10:47:41] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/politics/libertarianism_for_beginners.jpg
+[2025-11-28 10:47:41] INFO: Створено Item: Libertarianism for Beginners (Politics) - £51.33
+[2025-11-28 10:47:41] INFO: Додано книгу: Libertarianism for Beginners
+[2025-11-28 10:47:41] INFO: Оброблено файл: Libertarianism for Beginners | Спарсено книгу
+[2025-11-28 10:47:42] INFO: Збережено зображення: D:/Programming/DistributedDatabasesLabs/RubyParser/media_dir/travel/it_s_only_the_himalayas.jpg
+[2025-11-28 10:47:42] INFO: Створено Item: It's Only the Himalayas (Travel) - £45.17
+[2025-11-28 10:47:42] INFO: Додано книгу: It's Only the Himalayas
+[2025-11-28 10:47:42] INFO: Оброблено файл: It's Only the Himalayas | Спарсено книгу
+[2025-11-28 10:47:43] INFO: Парсинг завершено. Зібрано 20 книг
+[2025-11-28 10:47:43] INFO: Оброблено файл: output/parsed_books.json | Збережено 20 книг у JSON
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: sqlite
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: sqlite
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] SQLite підключено: db/books_parser.sqlite3
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] Успішно підключено до бази даних sqlite
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] Створено таблицю: books
+[2025-11-28 10:47:43] INFO: [DatabaseConnector] Створено таблицю: categories
+[2025-11-28 10:47:43] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 10:47:43] INFO: Генерація 5 тестових книг...
+[2025-11-28 10:47:43] INFO: Створено Item: Unweaving the Rainbow (Science) - £57.45
+[2025-11-28 10:47:43] INFO: Додано книгу: Unweaving the Rainbow
+[2025-11-28 10:47:43] INFO: Створено Item: Recalled to Life (Sequential Art) - £23.2
+[2025-11-28 10:47:43] INFO: Додано книгу: Recalled to Life
+[2025-11-28 10:47:43] INFO: Створено Item: In Dubious Battle (Biography) - £38.79
+[2025-11-28 10:47:43] INFO: Додано книгу: In Dubious Battle
+[2025-11-28 10:47:43] INFO: Створено Item: Jacob Have I Loved (Romance) - £16.9
+[2025-11-28 10:47:43] INFO: Додано книгу: Jacob Have I Loved
+[2025-11-28 10:47:43] INFO: Створено Item: I Know Why the Caged Bird Sings (Philosophy) - £31.65
+[2025-11-28 10:47:43] INFO: Додано книгу: I Know Why the Caged Bird Sings
+[2025-11-28 10:47:43] INFO: Згенеровано 5 тестових книг. Всього в колекції: 5
+[2025-11-28 10:47:44] INFO: [DatabaseConnector] SQLite: збережено книгу 'Unweaving the Rainbow'
+[2025-11-28 10:47:44] INFO: [DatabaseConnector] SQLite: збережено книгу 'Recalled to Life'
+[2025-11-28 10:47:44] INFO: [DatabaseConnector] SQLite: збережено книгу 'In Dubious Battle'
+[2025-11-28 10:47:44] INFO: [DatabaseConnector] SQLite: збережено книгу 'Jacob Have I Loved'
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] SQLite: збережено книгу 'I Know Why the Caged Bird Sings'
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] Збережено 5 книг в базу даних
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] SQLite: отримано 30 книг
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] З'єднання з базою даних закрито
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] Ініціалізовано з типом бази даних: mongodb
+[2025-11-28 10:47:45] INFO: [DatabaseConnector] Спроба підключення до бази даних типу: mongodb
+[2025-11-28 10:47:48] INFO: [DatabaseConnector] MongoDB підключено: mongodb://localhost:27017/books_parser
+[2025-11-28 10:47:48] INFO: [DatabaseConnector] Успішно підключено до бази даних mongodb
+[2025-11-28 10:47:48] INFO: [DatabaseConnector] Закриття з'єднання з базою даних...
+[2025-11-28 10:47:48] INFO: [DatabaseConnector] З'єднання з базою даних закрито

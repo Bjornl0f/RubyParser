@@ -1,78 +1,78 @@
 ============================================================
 КОЛЕКЦІЯ КНИГ - Books to Scrape
-Дата: 2025-11-28 09:47:39
+Дата: 2025-11-28 10:47:37
 Кількість книг: 10
-Загальна вартість: £354.15
-Середня ціна: £35.42
+Загальна вартість: £293.08
+Середня ціна: £29.31
 ============================================================
 
-1. Everything is Illuminated
-   Ціна: £55.86
-   Рейтинг: 3/5
-   Категорія: Nonfiction
-   Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/everything_is_illuminated/index.html
-
-2. The Cricket on the Hearth
-   Ціна: £34.39
-   Рейтинг: 4/5
-   Категорія: Fiction
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_cricket_on_the_hearth/index.html
-
-3. The Wind's Twelve Quarters
-   Ціна: £15.06
-   Рейтинг: 2/5
-   Категорія: Philosophy
+1. The Moon by Night
+   Ціна: £20.64
+   Рейтинг: 1/5
+   Категорія: Science Fiction
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
+   URL: http://books.toscrape.com/catalogue/the_moon_by_night/index.html
 
-4. The Violent Bear It Away
-   Ціна: £48.89
-   Рейтинг: 5/5
+2. I Know Why the Caged Bird Sings
+   Ціна: £10.52
+   Рейтинг: 2/5
    Категорія: Travel
-   Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/the_violent_bear_it_away/index.html
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/i_know_why_the_caged_bird_sings/index.html
 
-5. The Golden Apples of the Sun
-   Ціна: £10.74
-   Рейтинг: 5/5
-   Категорія: Nonfiction
-   Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/the_golden_apples_of_the_sun/index.html
-
-6. If Not Now, When?
-   Ціна: £28.52
+3. Surprised by Joy
+   Ціна: £44.81
    Рейтинг: 1/5
-   Категорія: Music
+   Категорія: Science Fiction
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/surprised_by_joy/index.html
+
+4. The Golden Bowl
+   Ціна: £29.15
+   Рейтинг: 5/5
+   Категорія: Romance
    Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/if_not_now_when/index.html
+   URL: http://books.toscrape.com/catalogue/the_golden_bowl/index.html
 
-7. Many Waters
-   Ціна: £44.56
+5. If I Forget Thee Jerusalem
+   Ціна: £26.35
+   Рейтинг: 4/5
+   Категорія: Poetry
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/if_i_forget_thee_jerusalem/index.html
+
+6. His Dark Materials
+   Ціна: £26.35
    Рейтинг: 1/5
-   Категорія: Childrens
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/many_waters/index.html
-
-8. That Good Night
-   Ціна: £22.52
-   Рейтинг: 5/5
    Категорія: Philosophy
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/his_dark_materials/index.html
+
+7. In Dubious Battle
+   Ціна: £50.92
+   Рейтинг: 5/5
+   Категорія: History
    Наявність: Out of stock
-   URL: http://books.toscrape.com/catalogue/that_good_night/index.html
+   URL: http://books.toscrape.com/catalogue/in_dubious_battle/index.html
 
-9. In a Dry Season
-   Ціна: £58.76
-   Рейтинг: 3/5
+8. Mother Night
+   Ціна: £14.3
+   Рейтинг: 4/5
    Категорія: Childrens
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/in_a_dry_season/index.html
+   Наявність: Low stock
+   URL: http://books.toscrape.com/catalogue/mother_night/index.html
 
-10. The Millstone
-   Ціна: £34.85
+9. The Needle's Eye
+   Ціна: £43.31
    Рейтинг: 2/5
-   Категорія: Classics
+   Категорія: Science
    Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/the_millstone/index.html
+   URL: http://books.toscrape.com/catalogue/the_needle_s_eye/index.html
+
+10. I Will Fear No Evil
+   Ціна: £26.73
+   Рейтинг: 4/5
+   Категорія: Biography
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/i_will_fear_no_evil/index.html
 

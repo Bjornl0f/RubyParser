@@ -1,11 +1,12 @@
 ---
 book:
   title: The Moon by Night
-  price: 24.55
+  price: 20.64
   rating: 1
-  availability: Low stock
-  category: Horror
+  availability: Out of stock
+  category: Science Fiction
   url: http://books.toscrape.com/catalogue/the_moon_by_night/index.html
-  image_path: products/horror/the_moon_by_night.jpg
-  description: Quae commodi omnis. Voluptatum possimus fuga. Sed cumque temporibus.
-  exported_at: '2025-11-28T09:08:53+02:00'
+  image_path: products/science_fiction/the_moon_by_night.jpg
+  description: Tenetur excepturi aspernatur. Delectus consectetur dolores. Temporibus
+    ut nihil.
+  exported_at: '2025-11-28T10:47:37+02:00'

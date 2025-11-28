@@ -1,0 +1,11 @@
+---
+book:
+  title: The Golden Bowl
+  price: 29.15
+  rating: 5
+  availability: Low stock
+  category: Romance
+  url: http://books.toscrape.com/catalogue/the_golden_bowl/index.html
+  image_path: products/romance/the_golden_bowl.jpg
+  description: Quia reprehenderit ut. Voluptate a totam. Id ut aliquid.
+  exported_at: '2025-11-28T10:47:37+02:00'

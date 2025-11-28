@@ -1,0 +1,11 @@
+---
+book:
+  title: From Here to Eternity
+  price: 30.28
+  rating: 4
+  availability: In stock
+  category: Fiction
+  url: http://books.toscrape.com/catalogue/from_here_to_eternity/index.html
+  image_path: products/fiction/from_here_to_eternity.jpg
+  description: Tempora qui minus. Eveniet omnis eos. Quam aut fugiat.
+  exported_at: '2025-11-28T10:17:25+02:00'

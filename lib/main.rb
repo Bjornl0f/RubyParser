@@ -14,6 +14,7 @@ require_relative "item"
 require_relative "item_collection"
 require_relative "configurator"
 require_relative "simple_website_parser"
+require_relative "database_connector"
 
 puts "=" * 60
 puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
@@ -286,11 +287,11 @@ puts "  Стартова сторінка: #{parser_config['web_scraping']['star
 puts "  Затримка між запитами: #{parser_config['web_scraping']['request_delay']}с"
 
 # Тестовий парсинг (лише 1 сторінка для демонстрації)
-puts "\n25. Тестовий парсинг (1 сторінка, без потоків для стабільності):"
+puts "\n25. Тестовий парсинг (1 сторінка, з багатопоточністю):"
 puts "  Запуск парсингу..."
 
 begin
-  parser.start_parse(max_pages: 1, use_threads: false)
+  parser.start_parse(max_pages: 1, use_threads: true)
   
   puts "\n26. Результати парсингу:"
   stats = parser.stats
@@ -315,6 +316,85 @@ begin
 rescue StandardError => e
   puts "  Помилка парсингу: #{e.message}"
   MyApplicationKostyk::LoggerManager.log_error("Помилка тестового парсингу", e)
+end
+
+# Крок 29: Тестування класу DatabaseConnector
+puts "\n--- Тестування класу DatabaseConnector ---"
+
+# Тестування SQLite
+puts "\n29. Тестування підключення до SQLite:"
+begin
+  db_connector = MyApplicationKostyk::DatabaseConnector.new(config_loader.config_data)
+  puts "  Тип бази даних: #{db_connector.db_type}"
+  
+  # Підключення до бази даних
+  db_connector.connect_to_database
+  puts "  ✓ Підключено до SQLite"
+  puts "  Статус з'єднання: #{db_connector.connected? ? 'Активне' : 'Неактивне'}"
+  
+  # Створення таблиць
+  puts "\n30. Створення таблиць:"
+  db_connector.create_tables
+  puts "  ✓ Таблиці створено"
+  
+  # Збереження тестових книг
+  puts "\n31. Збереження книг у SQLite:"
+  test_collection = MyApplicationKostyk::ItemCollection.new
+  test_collection.generate_test_items(5)
+  saved_count = db_connector.save_items(test_collection)
+  puts "  ✓ Збережено #{saved_count} книг у базу даних"
+  
+  # Отримання книг з бази
+  puts "\n32. Отримання книг з SQLite:"
+  items_from_db = db_connector.get_all_items
+  puts "  Знайдено книг у базі: #{items_from_db.size}"
+  
+  if items_from_db.any?
+    puts "\n  Перші 3 книги з бази:"
+    items_from_db.first(3).each_with_index do |item, i|
+      puts "    #{i + 1}. #{item['title']} - £#{item['price']}"
+    end
+  end
+  
+  # Закриття з'єднання
+  puts "\n33. Закриття з'єднання:"
+  db_connector.close_connection
+  puts "  ✓ З'єднання закрито"
+  puts "  Статус з'єднання: #{db_connector.connected? ? 'Активне' : 'Неактивне'}"
+  
+rescue LoadError => e
+  puts "  ⚠ Бібліотека sqlite3 не встановлена: #{e.message}"
+  puts "  Виконайте: bundle install"
+rescue StandardError => e
+  puts "  Помилка: #{e.message}"
+  MyApplicationKostyk::LoggerManager.log_error("Помилка тестування SQLite", e)
+end
+
+# Тестування MongoDB (опціонально, якщо сервер доступний)
+puts "\n34. Тестування підключення до MongoDB:"
+begin
+  # Змінюємо тип бази даних на MongoDB
+  mongodb_config = config_loader.config_data.dup
+  mongodb_config["database"] = mongodb_config["database"].dup
+  mongodb_config["database"]["type"] = "mongodb"
+  
+  mongo_connector = MyApplicationKostyk::DatabaseConnector.new(mongodb_config)
+  puts "  Тип бази даних: #{mongo_connector.db_type}"
+  
+  # Спроба підключення до MongoDB
+  mongo_connector.connect_to_database
+  puts "  ✓ Підключено до MongoDB"
+  
+  # Закриття з'єднання
+  mongo_connector.close_connection
+  puts "  ✓ З'єднання закрито"
+  
+rescue LoadError => e
+  puts "  ⚠ Бібліотека mongo не встановлена: #{e.message}"
+  puts "  Виконайте: bundle install"
+rescue StandardError => e
+  puts "  ⚠ MongoDB недоступний: #{e.message}"
+  puts "  (Це нормально, якщо MongoDB сервер не запущений)"
 end
 
 puts "\n" + "=" * 60

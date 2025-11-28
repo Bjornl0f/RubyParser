@@ -1,0 +1,11 @@
+---
+book:
+  title: Consider Phlebas
+  price: 14.84
+  rating: 2
+  availability: Low stock
+  category: Horror
+  url: http://books.toscrape.com/catalogue/consider_phlebas/index.html
+  image_path: products/horror/consider_phlebas.jpg
+  description: Qui vel error. Temporibus ipsum nesciunt. Animi occaecati omnis.
+  exported_at: '2025-11-28T10:02:14+02:00'

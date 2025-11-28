@@ -1,0 +1,11 @@
+---
+book:
+  title: Beyond the Mexique Bay
+  price: 56.38
+  rating: 1
+  availability: Low stock
+  category: Science
+  url: http://books.toscrape.com/catalogue/beyond_the_mexique_bay/index.html
+  image_path: products/science/beyond_the_mexique_bay.jpg
+  description: Impedit et corrupti. Est voluptates omnis. Eligendi rerum velit.
+  exported_at: '2025-11-28T10:18:20+02:00'

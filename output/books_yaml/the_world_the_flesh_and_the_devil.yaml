@@ -1,0 +1,11 @@
+---
+book:
+  title: The World, the Flesh and the Devil
+  price: 22.99
+  rating: 1
+  availability: Out of stock
+  category: Nonfiction
+  url: http://books.toscrape.com/catalogue/the_world_the_flesh_and_the_devil/index.html
+  image_path: products/nonfiction/the_world_the_flesh_and_the_devil.jpg
+  description: Repudiandae qui tenetur. Odio sed praesentium. Vel rerum qui.
+  exported_at: '2025-11-28T10:27:52+02:00'

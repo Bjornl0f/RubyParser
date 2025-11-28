@@ -1,0 +1,11 @@
+---
+book:
+  title: If I Forget Thee Jerusalem
+  price: 26.35
+  rating: 4
+  availability: In stock
+  category: Poetry
+  url: http://books.toscrape.com/catalogue/if_i_forget_thee_jerusalem/index.html
+  image_path: products/poetry/if_i_forget_thee_jerusalem.jpg
+  description: Rerum quasi optio. Ipsum enim quia. Nisi eum error.
+  exported_at: '2025-11-28T10:47:37+02:00'

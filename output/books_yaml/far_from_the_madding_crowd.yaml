@@ -1,11 +1,12 @@
 ---
 book:
   title: Far From the Madding Crowd
-  price: 17.15
-  rating: 2
+  price: 42.27
+  rating: 4
   availability: In stock
-  category: Childrens
+  category: Science
   url: http://books.toscrape.com/catalogue/far_from_the_madding_crowd/index.html
-  image_path: products/childrens/far_from_the_madding_crowd.jpg
-  description: Laboriosam et voluptas. Qui ut voluptatibus. Unde dolore voluptas.
-  exported_at: '2025-11-28T09:42:04+02:00'
+  image_path: products/science/far_from_the_madding_crowd.jpg
+  description: Consectetur similique dolor. Facilis corrupti dolorum. Laudantium quia
+    ea.
+  exported_at: '2025-11-28T10:27:52+02:00'

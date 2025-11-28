@@ -1,0 +1,11 @@
+---
+book:
+  title: Mother Night
+  price: 14.3
+  rating: 4
+  availability: Low stock
+  category: Childrens
+  url: http://books.toscrape.com/catalogue/mother_night/index.html
+  image_path: products/childrens/mother_night.jpg
+  description: Iusto sit sint. Consequatur nobis animi. Inventore tenetur enim.
+  exported_at: '2025-11-28T10:47:37+02:00'

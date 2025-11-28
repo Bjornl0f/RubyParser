@@ -1,11 +1,11 @@
 ---
 book:
   title: No Country for Old Men
-  price: 42.23
-  rating: 2
-  availability: In stock
-  category: Young Adult
+  price: 31.16
+  rating: 3
+  availability: Out of stock
+  category: Historical Fiction
   url: http://books.toscrape.com/catalogue/no_country_for_old_men/index.html
-  image_path: products/young_adult/no_country_for_old_men.jpg
-  description: Quia rerum a. Ad officia aut. Dolores quas aut.
-  exported_at: '2025-11-28T09:32:23+02:00'
+  image_path: products/historical_fiction/no_country_for_old_men.jpg
+  description: Ex veniam quam. Quos sequi iusto. Nobis ut autem.
+  exported_at: '2025-11-28T10:06:10+02:00'
