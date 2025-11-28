@@ -1,0 +1,43 @@
+# Конфігурація веб-скрапінгу для Books to Scrape
+# Містить параметри для збору інформації про книги
+
+web_scraping:
+  # URL початкової сторінки для збору даних
+  start_page: "http://books.toscrape.com/"
+  
+  # Базовий URL каталогу
+  catalogue_url: "http://books.toscrape.com/catalogue"
+  
+  # CSS селектор для контейнера книги
+  book_container_selector: "article.product_pod"
+  
+  # CSS селектор для отримання назв книг
+  product_name_selector: "h3 a"
+  
+  # CSS селектор для отримання цін книг
+  product_price_selector: ".price_color"
+  
+  # CSS селектор для отримання рейтингу книг
+  product_rating_selector: ".star-rating"
+  
+  # CSS селектор для отримання наявності книг
+  product_availability_selector: ".availability"
+  
+  # CSS селектор для отримання зображень книг
+  product_image_selector: ".image_container img"
+  
+  # CSS селектор для отримання посилання на книгу
+  product_link_selector: "h3 a"
+  
+  # CSS селектор для пагінації (наступна сторінка)
+  next_page_selector: ".pager .next a"
+  
+  # CSS селектор для категорій
+  categories_selector: ".side_categories ul li ul li a"
+  
+  # Максимальна кількість сторінок для парсингу (0 = без обмежень)
+  max_pages: 0
+  
+  # Затримка між запитами (секунди)
+  request_delay: 1
+

@@ -1,0 +1,14 @@
+# Приклад файлу книги у форматі YAML
+categories:
+  - name: Travel
+    products:
+      - name: "A Light in the Attic"
+        price: 51.77
+        rating: 3
+        availability: "In stock"
+        description: |-
+          A Light in the Attic by Shel Silverstein
+          A collection of poems and drawings.
+        media: "products/travel/a_light_in_the_attic.jpeg"
+        url: "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+

@@ -1,0 +1,14 @@
+# Приклад файлу книги у форматі YAML
+categories:
+  - name: Historical Fiction
+    products:
+      - name: "Sapiens: A Brief History of Humankind"
+        price: 54.23
+        rating: 5
+        availability: "In stock"
+        description: |-
+          Sapiens: A Brief History of Humankind by Yuval Noah Harari
+          A book about the history of our species.
+        media: "products/historical_fiction/sapiens.jpeg"
+        url: "http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html"
+

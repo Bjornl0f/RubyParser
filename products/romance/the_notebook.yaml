@@ -1,0 +1,14 @@
+# Приклад файлу книги у форматі YAML
+categories:
+  - name: Romance
+    products:
+      - name: "The Notebook"
+        price: 33.50
+        rating: 4
+        availability: "In stock"
+        description: |-
+          The Notebook by Nicholas Sparks
+          A romantic novel about enduring love.
+        media: "products/romance/the_notebook.jpeg"
+        url: "http://books.toscrape.com/catalogue/the-notebook_999/index.html"
+

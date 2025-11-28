@@ -1,0 +1,14 @@
+# Приклад файлу книги у форматі YAML
+categories:
+  - name: Mystery
+    products:
+      - name: "Sharp Objects"
+        price: 47.82
+        rating: 4
+        availability: "In stock"
+        description: |-
+          Sharp Objects by Gillian Flynn
+          A psychological thriller novel.
+        media: "products/mystery/sharp_objects.jpeg"
+        url: "http://books.toscrape.com/catalogue/sharp-objects_997/index.html"
+

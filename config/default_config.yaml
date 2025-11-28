@@ -1,0 +1,31 @@
+# Основний конфігураційний файл додатку
+# Містить базові параметри для роботи програми
+
+application:
+  name: "Ruby Web Parser"
+  version: "0.2.0"
+  author: "Стефан Костик"
+  environment: "development"
+
+# Шляхи до директорій
+paths:
+  root: <%= File.expand_path('..', __dir__) %>
+  config: <%= File.join(File.expand_path('..', __dir__), 'config') %>
+  logs: <%= File.join(File.expand_path('..', __dir__), 'logs') %>
+  output: <%= File.join(File.expand_path('..', __dir__), 'output') %>
+  products: <%= File.join(File.expand_path('..', __dir__), 'products') %>
+
+# Налаштування HTTP-запитів
+http:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  timeout: 30
+  retry_count: 3
+  delay_between_requests: 1
+
+# Формат виводу даних
+output:
+  formats:
+    - json
+    - csv
+  pretty_print: true
+

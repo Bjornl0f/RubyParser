@@ -1,0 +1,40 @@
+# Конфігурація бази даних SQLite
+# Містить параметри для підключення до локальної бази даних
+
+database:
+  # Адаптер бази даних
+  adapter: "sqlite3"
+  
+  # Шлях до файлу бази даних
+  database_path: "db/books_parser.sqlite3"
+  
+  # Назва бази даних
+  database_name: "books_parser"
+  
+  # Налаштування пулу з'єднань
+  pool: 5
+  timeout: 5000
+  
+  # Таблиці бази даних
+  tables:
+    books:
+      name: "books"
+      columns:
+        - id: "INTEGER PRIMARY KEY AUTOINCREMENT"
+        - title: "TEXT NOT NULL"
+        - price: "REAL"
+        - rating: "INTEGER"
+        - availability: "TEXT"
+        - category: "TEXT"
+        - url: "TEXT"
+        - image_url: "TEXT"
+        - created_at: "DATETIME DEFAULT CURRENT_TIMESTAMP"
+    
+    categories:
+      name: "categories"
+      columns:
+        - id: "INTEGER PRIMARY KEY AUTOINCREMENT"
+        - name: "TEXT NOT NULL UNIQUE"
+        - url: "TEXT"
+        - book_count: "INTEGER DEFAULT 0"
+

@@ -1,0 +1,33 @@
+# Конфігурація логування
+# Містить налаштування для системи логування додатку
+
+logging:
+  # Місце розміщення папки для логів
+  log_directory: "logs"
+  
+  # Рівень логування: DEBUG, INFO, WARN, ERROR, FATAL
+  level: "INFO"
+  
+  # Назви файлів для логів
+  files:
+    # Основний лог-файл додатку
+    application: "application.log"
+    
+    # Лог-файл для помилок
+    error: "error.log"
+    
+    # Лог-файл для парсингу
+    parser: "parser.log"
+  
+  # Формат логу
+  format: "[%{timestamp}] %{level}: %{message}"
+  
+  # Максимальний розмір файлу логу (в байтах)
+  max_file_size: 10485760  # 10 MB
+  
+  # Кількість файлів ротації
+  rotation_count: 5
+  
+  # Виводити логи в консоль
+  console_output: true
+
