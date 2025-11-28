@@ -1,0 +1,11 @@
+---
+book:
+  title: Jesting Pilate
+  price: 13.56
+  rating: 1
+  availability: Low stock
+  category: Historical Fiction
+  url: http://books.toscrape.com/catalogue/jesting_pilate/index.html
+  image_path: products/historical_fiction/jesting_pilate.jpg
+  description: Ut amet nulla. Sunt expedita dolores. Est dolores a.
+  exported_at: '2025-11-28T09:29:55+02:00'

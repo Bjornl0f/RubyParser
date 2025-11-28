@@ -22,6 +22,7 @@ RubyParser/
 │   ├── my_application_kostyk.rb # Модуль простору імен
 │   ├── app_config_loader.rb     # Клас для завантаження конфігурацій
 │   ├── logger_manager.rb        # Клас для управління логуванням
+│   ├── configurator.rb          # Клас Configurator для налаштувань
 │   ├── item.rb                  # Клас Item для представлення книги
 │   ├── item_collection.rb       # Клас ItemCollection для колекції книг
 │   ├── item_container.rb        # Модуль ItemContainer
@@ -91,6 +92,7 @@ RubyParser/
 - [x] Метод generate_test_items для генерації тестових даних
 - [x] Модуль Enumerable (map, select, find, reduce, тощо)
 - [x] Методи статистики (total_price, average_price, average_rating)
+- [x] Клас Configurator для налаштування параметрів
 
 ### Етап 4: Розробка парсера (ПЛАНУЄТЬСЯ)
 - [ ] Реалізація логіки парсингу
@@ -255,17 +257,48 @@ collection.save_to_json("output/books.json")
 - `add_item`, `remove_item`, `delete_items`
 - `method_missing` для `show_all_items`
 
+### Configurator
+Клас для управління конфігураційними параметрами парсингу.
+
+**Параметри:**
+- `run_website_parser` - запуск парсингу (0/1)
+- `run_save_to_csv` - збереження в CSV (0/1)
+- `run_save_to_json` - збереження в JSON (0/1)
+- `run_save_to_yaml` - збереження в YAML (0/1)
+- `run_save_to_sqlite` - збереження в SQLite (0/1)
+- `parser_max_pages` - максимум сторінок (0 = без обмежень)
+
+**Методи:**
+- `configure(overrides)` - налаштування параметрів
+- `enabled?(key)` - перевірка чи увімкнено
+- `get(key)` / `set(key, value)` - отримання/встановлення
+- `reset!` - скидання до значень за замовчуванням
+- `Configurator.available_methods` - список доступних ключів
+
+**Приклад:**
+```ruby
+configurator = MyApplicationKostyk::Configurator.new
+configurator.configure(
+  run_website_parser: 1,
+  run_save_to_csv: 1,
+  parser_max_pages: 5
+)
+
+if configurator.enabled?(:run_website_parser)
+  # запуск парсингу
+end
+```
+
 ## Історія змін
 
 Детальна історія змін доступна у файлі [CHANGELOG.md](CHANGELOG.md).
 
-**Поточна версія: 0.7.0**
+**Поточна версія: 0.8.0**
 
 Останні зміни:
-- Додано модуль `Enumerable` до `ItemCollection`
-- Метод `generate_test_items(count)` для генерації тестових даних
-- Методи статистики: `total_price`, `average_price`, `average_rating`
-- Повне логування всіх операцій
+- Клас `Configurator` для управління конфігураційними параметрами
+- Методи: `configure`, `enabled?`, `get`, `set`, `reset!`
+- Класовий метод `available_methods` для списку ключів
 
 ## Автор
 

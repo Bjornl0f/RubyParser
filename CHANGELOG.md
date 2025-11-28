@@ -4,6 +4,18 @@
 
 Формат базується на [Keep a Changelog](https://keepachangelog.com/uk/1.0.0/).
 
+## [0.8.0] - 2025-11-28
+
+### Додано
+- Клас `Configurator` для управління конфігураційними параметрами
+- Атрибут `config` для зберігання налаштувань у вигляді хешу
+- Метод `configure(overrides)` для оновлення параметрів
+- Метод `enabled?(key)` для перевірки чи параметр увімкнено
+- Методи `get(key)` та `set(key, value)` для роботи з параметрами
+- Метод `reset!` для скидання до значень за замовчуванням
+- Класовий метод `available_methods` для списку доступних ключів
+- Конфігураційні параметри: `run_website_parser`, `run_save_to_csv`, `run_save_to_json`, `run_save_to_yaml`, `run_save_to_sqlite`, `run_save_to_mongodb`, `parser_max_pages`, `parser_delay`, `verbose_mode`
+
 ## [0.7.0] - 2025-11-28
 
 ### Додано

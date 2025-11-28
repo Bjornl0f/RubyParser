@@ -1,0 +1,11 @@
+---
+book:
+  title: Blood's a Rover
+  price: 46.45
+  rating: 1
+  availability: In stock
+  category: Poetry
+  url: http://books.toscrape.com/catalogue/blood_s_a_rover/index.html
+  image_path: products/poetry/blood_s_a_rover.jpg
+  description: Dolor dolore dolorum. Quisquam autem perspiciatis. Aut omnis numquam.
+  exported_at: '2025-11-28T09:32:23+02:00'

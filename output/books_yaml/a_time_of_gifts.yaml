@@ -1,0 +1,12 @@
+---
+book:
+  title: A Time of Gifts
+  price: 46.28
+  rating: 4
+  availability: Out of stock
+  category: History
+  url: http://books.toscrape.com/catalogue/a_time_of_gifts/index.html
+  image_path: products/history/a_time_of_gifts.jpg
+  description: Iste nesciunt pariatur. Quos consequuntur officiis. Voluptas voluptatem
+    eaque.
+  exported_at: '2025-11-28T09:32:24+02:00'

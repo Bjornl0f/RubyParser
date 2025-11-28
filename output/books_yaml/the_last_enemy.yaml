@@ -1,0 +1,12 @@
+---
+book:
+  title: The Last Enemy
+  price: 11.74
+  rating: 4
+  availability: In stock
+  category: Music
+  url: http://books.toscrape.com/catalogue/the_last_enemy/index.html
+  image_path: products/music/the_last_enemy.jpg
+  description: Necessitatibus ut quia. Animi distinctio repudiandae. Voluptates earum
+    rerum.
+  exported_at: '2025-11-28T09:32:23+02:00'

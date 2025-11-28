@@ -161,3 +161,109 @@ Backtrace: lib/main.rb:50:in `<main>'
 [2025-11-28 09:20:50] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
 [2025-11-28 09:20:50] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
 [2025-11-28 09:20:50] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 09:29:50] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 09:29:50] INFO: Рівень логування: info
+[2025-11-28 09:29:50] INFO: Директорія логів: logs
+[2025-11-28 09:29:50] INFO: Тестове інформаційне повідомлення
+[2025-11-28 09:29:50] WARN: Тестове попередження
+[2025-11-28 09:29:50] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 09:29:50] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:51:in `<main>'
+[2025-11-28 09:29:50] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 09:29:50] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 09:29:50] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 09:29:55] INFO: Створено Item: To Say Nothing of the Dog (Biography) - £55.15
+[2025-11-28 09:29:55] INFO: Створено Item: If Not Now, When? (Fantasy) - £52.02
+[2025-11-28 09:29:55] INFO: Створено Item: The Moon by Night (Sequential Art) - £41.51
+[2025-11-28 09:29:55] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 09:29:55] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:29:55] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 09:29:55] INFO: Генерація 10 тестових книг...
+[2025-11-28 09:29:55] INFO: Створено Item: The Lathe of Heaven (Religion) - £54.7
+[2025-11-28 09:29:55] INFO: Додано книгу: The Lathe of Heaven
+[2025-11-28 09:29:55] INFO: Створено Item: Where Angels Fear to Tread (Travel) - £19.3
+[2025-11-28 09:29:55] INFO: Додано книгу: Where Angels Fear to Tread
+[2025-11-28 09:29:55] INFO: Створено Item: No Longer at Ease (Thriller) - £34.23
+[2025-11-28 09:29:55] INFO: Додано книгу: No Longer at Ease
+[2025-11-28 09:29:55] INFO: Створено Item: Things Fall Apart (Childrens) - £34.56
+[2025-11-28 09:29:55] INFO: Додано книгу: Things Fall Apart
+[2025-11-28 09:29:55] INFO: Створено Item: The Golden Apples of the Sun (Historical Fiction) - £36.3
+[2025-11-28 09:29:55] INFO: Додано книгу: The Golden Apples of the Sun
+[2025-11-28 09:29:55] INFO: Створено Item: Unweaving the Rainbow (Science) - £33.72
+[2025-11-28 09:29:55] INFO: Додано книгу: Unweaving the Rainbow
+[2025-11-28 09:29:55] INFO: Створено Item: Of Mice and Men (Romance) - £52.6
+[2025-11-28 09:29:55] INFO: Додано книгу: Of Mice and Men
+[2025-11-28 09:29:55] INFO: Створено Item: Great Work of Time (Philosophy) - £26.82
+[2025-11-28 09:29:55] INFO: Додано книгу: Great Work of Time
+[2025-11-28 09:29:55] INFO: Створено Item: Jesting Pilate (Historical Fiction) - £13.56
+[2025-11-28 09:29:55] INFO: Додано книгу: Jesting Pilate
+[2025-11-28 09:29:55] INFO: Створено Item: The Cricket on the Hearth (Sequential Art) - £14.86
+[2025-11-28 09:29:55] INFO: Додано книгу: The Cricket on the Hearth
+[2025-11-28 09:29:55] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 09:29:55] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 09:29:55] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 09:29:55] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 09:29:55] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 09:29:55] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 09:29:55] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 09:29:55] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 09:29:55] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням
+[2025-11-28 09:32:20] INFO: LoggerManager ініціалізовано успішно
+[2025-11-28 09:32:20] INFO: Рівень логування: info
+[2025-11-28 09:32:20] INFO: Директорія логів: logs
+[2025-11-28 09:32:20] INFO: Тестове інформаційне повідомлення
+[2025-11-28 09:32:20] WARN: Тестове попередження
+[2025-11-28 09:32:20] INFO: Оброблено файл: test_file.rb | Файл успішно оброблено
+[2025-11-28 09:32:20] ERROR: Виникла тестова помилка | Exception: StandardError - Тестова помилка для перевірки логування
+Backtrace: lib/main.rb:51:in `<main>'
+[2025-11-28 09:32:20] INFO: Створено Item: A Light in the Attic (Poetry) - £51.77
+[2025-11-28 09:32:20] INFO: Створено Item: Sharp Objects (Mystery) - £47.82
+[2025-11-28 09:32:20] INFO: Оновлено Item: A Light in the Attic (Updated)
+[2025-11-28 09:32:23] INFO: Створено Item: Specimen Days (Childrens) - £10.0
+[2025-11-28 09:32:23] INFO: Створено Item: Nectar in a Sieve (Childrens) - £38.32
+[2025-11-28 09:32:23] INFO: Створено Item: The House of Mirth (Travel) - £18.6
+[2025-11-28 09:32:23] INFO: Створено Item: Cheap Book (Uncategorized) - £10.0
+[2025-11-28 09:32:23] INFO: Створено Item: Expensive Book (Uncategorized) - £99.99
+[2025-11-28 09:32:23] INFO: Створено ItemCollection (0 книг)
+[2025-11-28 09:32:23] INFO: Генерація 10 тестових книг...
+[2025-11-28 09:32:23] INFO: Створено Item: Waiting for the Barbarians (Poetry) - £22.54
+[2025-11-28 09:32:23] INFO: Додано книгу: Waiting for the Barbarians
+[2025-11-28 09:32:23] INFO: Створено Item: A Time of Gifts (Religion) - £28.49
+[2025-11-28 09:32:23] INFO: Додано книгу: A Time of Gifts
+[2025-11-28 09:32:23] INFO: Створено Item: Blood's a Rover (Poetry) - £46.45
+[2025-11-28 09:32:23] INFO: Додано книгу: Blood's a Rover
+[2025-11-28 09:32:23] INFO: Створено Item: The Wind's Twelve Quarters (Young Adult) - £47.91
+[2025-11-28 09:32:23] INFO: Додано книгу: The Wind's Twelve Quarters
+[2025-11-28 09:32:23] INFO: Створено Item: The Last Enemy (Music) - £11.74
+[2025-11-28 09:32:23] INFO: Додано книгу: The Last Enemy
+[2025-11-28 09:32:23] INFO: Створено Item: No Country for Old Men (Young Adult) - £42.23
+[2025-11-28 09:32:23] INFO: Додано книгу: No Country for Old Men
+[2025-11-28 09:32:23] INFO: Створено Item: Antic Hay (Crime) - £16.45
+[2025-11-28 09:32:23] INFO: Додано книгу: Antic Hay
+[2025-11-28 09:32:23] INFO: Створено Item: The Wealth of Nations (Horror) - £18.24
+[2025-11-28 09:32:23] INFO: Додано книгу: The Wealth of Nations
+[2025-11-28 09:32:23] INFO: Створено Item: A Time of Gifts (History) - £46.28
+[2025-11-28 09:32:23] INFO: Додано книгу: A Time of Gifts
+[2025-11-28 09:32:23] INFO: Створено Item: The House of Mirth (Sequential Art) - £40.65
+[2025-11-28 09:32:23] INFO: Додано книгу: The House of Mirth
+[2025-11-28 09:32:23] INFO: Згенеровано 10 тестових книг. Всього в колекції: 10
+[2025-11-28 09:32:23] INFO: Оброблено файл: output/books_collection.txt | Збережено 10 книг у TXT
+[2025-11-28 09:32:23] INFO: Оброблено файл: output/books_collection.json | Збережено 10 книг у JSON
+[2025-11-28 09:32:23] INFO: Оброблено файл: output/books_collection.csv | Збережено 10 книг у CSV
+[2025-11-28 09:32:24] INFO: Оброблено файл: output/books_yaml | Збережено 10 книг у YAML файли
+[2025-11-28 09:32:24] INFO: [Configurator] Configurator ініціалізовано зі значеннями за замовчуванням
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр run_website_parser: 0 -> 1
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр run_save_to_csv: 0 -> 1
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр run_save_to_json: 0 -> 1
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр run_save_to_yaml: 0 -> 1
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр run_save_to_sqlite: 0 -> 0
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр parser_max_pages: 0 -> 5
+[2025-11-28 09:32:24] INFO: [Configurator] Параметр verbose_mode: 0 -> 1
+[2025-11-28 09:32:24] WARN: Спроба встановити невідомий ключ: unknown_key
+[2025-11-28 09:32:24] INFO: [Configurator] Конфігурацію скинуто до значень за замовчуванням

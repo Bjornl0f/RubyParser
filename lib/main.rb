@@ -12,6 +12,7 @@ require_relative "app_config_loader"
 require_relative "logger_manager"
 require_relative "item"
 require_relative "item_collection"
+require_relative "configurator"
 
 puts "=" * 60
 puts "Ruby Web Parser - #{MyApplicationKostyk::VERSION}"
@@ -226,6 +227,51 @@ puts "  ✓ Збережено у CSV: output/books_collection.csv"
 
 collection.save_to_yml("output/books_yaml")
 puts "  ✓ Збережено у YAML: output/books_yaml/"
+
+# Крок 17: Тестування класу Configurator
+puts "\n--- Тестування класу Configurator ---"
+
+# Створення конфігуратора
+configurator = MyApplicationKostyk::Configurator.new
+
+# Виведення доступних методів
+puts "\n17. Доступні конфігураційні ключі:"
+puts "  #{MyApplicationKostyk::Configurator.available_methods.join(', ')}"
+
+# Виведення поточної конфігурації
+puts "\n18. Поточна конфігурація (за замовчуванням):"
+configurator.print_config
+
+# Налаштування параметрів
+puts "\n19. Налаштування параметрів:"
+configurator.configure(
+  run_website_parser: 1,
+  run_save_to_csv: 1,
+  run_save_to_json: 1,
+  run_save_to_yaml: 1,
+  run_save_to_sqlite: 0,
+  parser_max_pages: 5,
+  verbose_mode: 1
+)
+
+# Виведення оновленої конфігурації
+puts "\n20. Оновлена конфігурація:"
+configurator.print_config
+
+# Перевірка методів
+puts "\n21. Перевірка методів:"
+puts "  enabled?(:run_website_parser): #{configurator.enabled?(:run_website_parser)}"
+puts "  enabled?(:run_save_to_sqlite): #{configurator.enabled?(:run_save_to_sqlite)}"
+puts "  get(:parser_max_pages): #{configurator.get(:parser_max_pages)}"
+
+# Тест невідомого ключа
+puts "\n22. Тест невідомого ключа:"
+configurator.configure(unknown_key: 1)
+
+# Скидання конфігурації
+puts "\n23. Скидання конфігурації:"
+configurator.reset!
+puts "  run_website_parser після скидання: #{configurator.get(:run_website_parser)}"
 
 puts "\n" + "=" * 60
 puts "Ініціалізація завершена успішно!"

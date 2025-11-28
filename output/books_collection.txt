@@ -1,78 +1,78 @@
 ============================================================
 КОЛЕКЦІЯ КНИГ - Books to Scrape
-Дата: 2025-11-28 09:20:50
+Дата: 2025-11-28 09:32:23
 Кількість книг: 10
-Загальна вартість: £362.03
-Середня ціна: £36.2
+Загальна вартість: £320.98
+Середня ціна: £32.1
 ============================================================
 
-1. That Good Night
-   Ціна: £30.36
-   Рейтинг: 2/5
-   Категорія: Crime
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/that_good_night/index.html
-
-2. Those Barren Leaves, Thrones, Dominations
-   Ціна: £59.85
+1. Waiting for the Barbarians
+   Ціна: £22.54
    Рейтинг: 3/5
-   Категорія: Philosophy
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/those_barren_leaves_thrones_dominations/index.html
+   Категорія: Poetry
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/waiting_for_the_barbarians/index.html
 
-3. This Side of Paradise
-   Ціна: £14.63
+2. A Time of Gifts
+   Ціна: £28.49
    Рейтинг: 3/5
-   Категорія: Music
+   Категорія: Religion
    Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/this_side_of_paradise/index.html
+   URL: http://books.toscrape.com/catalogue/a_time_of_gifts/index.html
 
-4. The Heart Is Deceitful Above All Things
-   Ціна: £51.74
+3. Blood's a Rover
+   Ціна: £46.45
    Рейтинг: 1/5
-   Категорія: Classics
-   Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/the_heart_is_deceitful_above_all_things/index.html
+   Категорія: Poetry
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/blood_s_a_rover/index.html
 
-5. In a Glass Darkly
-   Ціна: £54.62
+4. The Wind's Twelve Quarters
+   Ціна: £47.91
    Рейтинг: 4/5
-   Категорія: Fantasy
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/in_a_glass_darkly/index.html
-
-6. The Skull Beneath the Skin
-   Ціна: £24.54
-   Рейтинг: 1/5
-   Категорія: Philosophy
-   Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/the_skull_beneath_the_skin/index.html
-
-7. Ah, Wilderness!
-   Ціна: £25.06
-   Рейтинг: 2/5
-   Категорія: Fantasy
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/ah_wilderness/index.html
-
-8. Rosemary Sutcliff
-   Ціна: £57.71
-   Рейтинг: 2/5
-   Категорія: Sports
-   Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/rosemary_sutcliff/index.html
-
-9. Ego Dominus Tuus
-   Ціна: £10.69
-   Рейтинг: 3/5
    Категорія: Young Adult
-   Наявність: Low stock
-   URL: http://books.toscrape.com/catalogue/ego_dominus_tuus/index.html
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html
 
-10. To Sail Beyond the Sunset
-   Ціна: £32.83
+5. The Last Enemy
+   Ціна: £11.74
    Рейтинг: 4/5
+   Категорія: Music
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_last_enemy/index.html
+
+6. No Country for Old Men
+   Ціна: £42.23
+   Рейтинг: 2/5
+   Категорія: Young Adult
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/no_country_for_old_men/index.html
+
+7. Antic Hay
+   Ціна: £16.45
+   Рейтинг: 5/5
+   Категорія: Crime
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/antic_hay/index.html
+
+8. The Wealth of Nations
+   Ціна: £18.24
+   Рейтинг: 1/5
    Категорія: Horror
    Наявність: In stock
-   URL: http://books.toscrape.com/catalogue/to_sail_beyond_the_sunset/index.html
+   URL: http://books.toscrape.com/catalogue/the_wealth_of_nations/index.html
+
+9. A Time of Gifts
+   Ціна: £46.28
+   Рейтинг: 4/5
+   Категорія: History
+   Наявність: Out of stock
+   URL: http://books.toscrape.com/catalogue/a_time_of_gifts/index.html
+
+10. The House of Mirth
+   Ціна: £40.65
+   Рейтинг: 2/5
+   Категорія: Sequential Art
+   Наявність: In stock
+   URL: http://books.toscrape.com/catalogue/the_house_of_mirth/index.html
 

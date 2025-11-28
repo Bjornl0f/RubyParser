@@ -1,0 +1,12 @@
+---
+book:
+  title: The House of Mirth
+  price: 40.65
+  rating: 2
+  availability: In stock
+  category: Sequential Art
+  url: http://books.toscrape.com/catalogue/the_house_of_mirth/index.html
+  image_path: products/sequential_art/the_house_of_mirth.jpg
+  description: Nulla corporis voluptatibus. Molestiae ducimus voluptas. Esse quas
+    et.
+  exported_at: '2025-11-28T09:32:24+02:00'

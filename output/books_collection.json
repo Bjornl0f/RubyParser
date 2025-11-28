@@ -1,112 +1,112 @@
 {
   "metadata": {
     "source": "Books to Scrape",
-    "exported_at": "2025-11-28T09:20:50+02:00",
+    "exported_at": "2025-11-28T09:32:23+02:00",
     "total_items": 10,
-    "total_price": 362.03,
-    "average_price": 36.2,
-    "average_rating": 2.5
+    "total_price": 320.98,
+    "average_price": 32.1,
+    "average_rating": 2.9
   },
   "books": [
     {
-      "title": "That Good Night",
-      "price": 30.36,
-      "rating": 2,
-      "availability": "In stock",
-      "category": "Crime",
-      "url": "http://books.toscrape.com/catalogue/that_good_night/index.html",
-      "image_path": "products/crime/that_good_night.jpg",
-      "description": "Alias fuga sint. Molestias odio repellendus. Qui quo minima."
-    },
-    {
-      "title": "Those Barren Leaves, Thrones, Dominations",
-      "price": 59.85,
+      "title": "Waiting for the Barbarians",
+      "price": 22.54,
       "rating": 3,
-      "availability": "In stock",
-      "category": "Philosophy",
-      "url": "http://books.toscrape.com/catalogue/those_barren_leaves_thrones_dominations/index.html",
-      "image_path": "products/philosophy/those_barren_leaves_thrones_dominations.jpg",
-      "description": "Cumque quaerat vel. Iusto non debitis. Fuga ipsam et."
+      "availability": "Out of stock",
+      "category": "Poetry",
+      "url": "http://books.toscrape.com/catalogue/waiting_for_the_barbarians/index.html",
+      "image_path": "products/poetry/waiting_for_the_barbarians.jpg",
+      "description": "Cum ab cumque. Dolores rerum nostrum. Vitae earum cumque."
     },
     {
-      "title": "This Side of Paradise",
-      "price": 14.63,
+      "title": "A Time of Gifts",
+      "price": 28.49,
       "rating": 3,
       "availability": "Low stock",
-      "category": "Music",
-      "url": "http://books.toscrape.com/catalogue/this_side_of_paradise/index.html",
-      "image_path": "products/music/this_side_of_paradise.jpg",
-      "description": "Cum tenetur amet. Qui praesentium vero. Deserunt ipsum quod."
+      "category": "Religion",
+      "url": "http://books.toscrape.com/catalogue/a_time_of_gifts/index.html",
+      "image_path": "products/religion/a_time_of_gifts.jpg",
+      "description": "Ducimus sed recusandae. Quis dolorum aut. Consequatur qui sed."
     },
     {
-      "title": "The Heart Is Deceitful Above All Things",
-      "price": 51.74,
+      "title": "Blood's a Rover",
+      "price": 46.45,
       "rating": 1,
-      "availability": "Low stock",
-      "category": "Classics",
-      "url": "http://books.toscrape.com/catalogue/the_heart_is_deceitful_above_all_things/index.html",
-      "image_path": "products/classics/the_heart_is_deceitful_above_all_things.jpg",
-      "description": "Velit neque nam. Corrupti assumenda quisquam. Mollitia sapiente inventore."
+      "availability": "In stock",
+      "category": "Poetry",
+      "url": "http://books.toscrape.com/catalogue/blood_s_a_rover/index.html",
+      "image_path": "products/poetry/blood_s_a_rover.jpg",
+      "description": "Dolor dolore dolorum. Quisquam autem perspiciatis. Aut omnis numquam."
     },
     {
-      "title": "In a Glass Darkly",
-      "price": 54.62,
+      "title": "The Wind's Twelve Quarters",
+      "price": 47.91,
       "rating": 4,
       "availability": "In stock",
-      "category": "Fantasy",
-      "url": "http://books.toscrape.com/catalogue/in_a_glass_darkly/index.html",
-      "image_path": "products/fantasy/in_a_glass_darkly.jpg",
-      "description": "Nemo architecto esse. Dicta ut ullam. Omnis placeat necessitatibus."
-    },
-    {
-      "title": "The Skull Beneath the Skin",
-      "price": 24.54,
-      "rating": 1,
-      "availability": "Low stock",
-      "category": "Philosophy",
-      "url": "http://books.toscrape.com/catalogue/the_skull_beneath_the_skin/index.html",
-      "image_path": "products/philosophy/the_skull_beneath_the_skin.jpg",
-      "description": "Possimus earum reiciendis. Magnam omnis itaque. Consequatur maxime repellendus."
-    },
-    {
-      "title": "Ah, Wilderness!",
-      "price": 25.06,
-      "rating": 2,
-      "availability": "In stock",
-      "category": "Fantasy",
-      "url": "http://books.toscrape.com/catalogue/ah_wilderness/index.html",
-      "image_path": "products/fantasy/ah_wilderness.jpg",
-      "description": "Est et sunt. Facere saepe et. Molestias nam laudantium."
-    },
-    {
-      "title": "Rosemary Sutcliff",
-      "price": 57.71,
-      "rating": 2,
-      "availability": "In stock",
-      "category": "Sports",
-      "url": "http://books.toscrape.com/catalogue/rosemary_sutcliff/index.html",
-      "image_path": "products/sports/rosemary_sutcliff.jpg",
-      "description": "Ipsum autem qui. Eos enim quaerat. Voluptatum voluptatem dolor."
-    },
-    {
-      "title": "Ego Dominus Tuus",
-      "price": 10.69,
-      "rating": 3,
-      "availability": "Low stock",
       "category": "Young Adult",
-      "url": "http://books.toscrape.com/catalogue/ego_dominus_tuus/index.html",
-      "image_path": "products/young_adult/ego_dominus_tuus.jpg",
-      "description": "At dolores accusamus. Et aliquid nisi. In aut quae."
+      "url": "http://books.toscrape.com/catalogue/the_wind_s_twelve_quarters/index.html",
+      "image_path": "products/young_adult/the_wind_s_twelve_quarters.jpg",
+      "description": "Vel nemo culpa. Ut libero ea. Et tempora impedit."
     },
     {
-      "title": "To Sail Beyond the Sunset",
-      "price": 32.83,
+      "title": "The Last Enemy",
+      "price": 11.74,
       "rating": 4,
+      "availability": "In stock",
+      "category": "Music",
+      "url": "http://books.toscrape.com/catalogue/the_last_enemy/index.html",
+      "image_path": "products/music/the_last_enemy.jpg",
+      "description": "Necessitatibus ut quia. Animi distinctio repudiandae. Voluptates earum rerum."
+    },
+    {
+      "title": "No Country for Old Men",
+      "price": 42.23,
+      "rating": 2,
+      "availability": "In stock",
+      "category": "Young Adult",
+      "url": "http://books.toscrape.com/catalogue/no_country_for_old_men/index.html",
+      "image_path": "products/young_adult/no_country_for_old_men.jpg",
+      "description": "Quia rerum a. Ad officia aut. Dolores quas aut."
+    },
+    {
+      "title": "Antic Hay",
+      "price": 16.45,
+      "rating": 5,
+      "availability": "Out of stock",
+      "category": "Crime",
+      "url": "http://books.toscrape.com/catalogue/antic_hay/index.html",
+      "image_path": "products/crime/antic_hay.jpg",
+      "description": "Non quibusdam temporibus. Ut sit enim. Quaerat culpa aut."
+    },
+    {
+      "title": "The Wealth of Nations",
+      "price": 18.24,
+      "rating": 1,
       "availability": "In stock",
       "category": "Horror",
-      "url": "http://books.toscrape.com/catalogue/to_sail_beyond_the_sunset/index.html",
-      "image_path": "products/horror/to_sail_beyond_the_sunset.jpg",
-      "description": "Quia maiores fugiat. Architecto sit nihil. Et expedita tempora."
+      "url": "http://books.toscrape.com/catalogue/the_wealth_of_nations/index.html",
+      "image_path": "products/horror/the_wealth_of_nations.jpg",
+      "description": "Dignissimos sed aut. Soluta illum similique. Quo nostrum nesciunt."
+    },
+    {
+      "title": "A Time of Gifts",
+      "price": 46.28,
+      "rating": 4,
+      "availability": "Out of stock",
+      "category": "History",
+      "url": "http://books.toscrape.com/catalogue/a_time_of_gifts/index.html",
+      "image_path": "products/history/a_time_of_gifts.jpg",
+      "description": "Iste nesciunt pariatur. Quos consequuntur officiis. Voluptas voluptatem eaque."
+    },
+    {
+      "title": "The House of Mirth",
+      "price": 40.65,
+      "rating": 2,
+      "availability": "In stock",
+      "category": "Sequential Art",
+      "url": "http://books.toscrape.com/catalogue/the_house_of_mirth/index.html",
+      "image_path": "products/sequential_art/the_house_of_mirth.jpg",
+      "description": "Nulla corporis voluptatibus. Molestiae ducimus voluptas. Esse quas et."
     }
   ]
 }

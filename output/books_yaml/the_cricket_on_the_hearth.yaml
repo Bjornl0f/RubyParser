@@ -1,0 +1,11 @@
+---
+book:
+  title: The Cricket on the Hearth
+  price: 14.86
+  rating: 2
+  availability: Out of stock
+  category: Sequential Art
+  url: http://books.toscrape.com/catalogue/the_cricket_on_the_hearth/index.html
+  image_path: products/sequential_art/the_cricket_on_the_hearth.jpg
+  description: Qui sunt illo. Odit ut ipsa. Quae saepe sit.
+  exported_at: '2025-11-28T09:29:55+02:00'

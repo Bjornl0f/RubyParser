@@ -1,0 +1,11 @@
+---
+book:
+  title: Things Fall Apart
+  price: 34.56
+  rating: 1
+  availability: Low stock
+  category: Childrens
+  url: http://books.toscrape.com/catalogue/things_fall_apart/index.html
+  image_path: products/childrens/things_fall_apart.jpg
+  description: Nulla voluptatem eos. Dolores et nihil. Qui fugiat facere.
+  exported_at: '2025-11-28T09:29:55+02:00'
